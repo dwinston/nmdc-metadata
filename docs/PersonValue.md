@@ -7,7 +7,7 @@ An attribute value representing a person
 URI: [nmdc:PersonValue](https://microbiomedata/meta/PersonValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Activity]<was%20generated%20by(i)%200..1-%20\[PersonValue&#124;has_raw_value:string%20%3F;orcid:string%20%3F],%20\[AttributeValue]^-\[PersonValue])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Activity]<was%20generated%20by(i)%200..1-%20[PersonValue&#124;has_raw_value:string%20%3F;orcid:string%20%3F],%20[AttributeValue]^-[PersonValue])
 
 ## Parents
 

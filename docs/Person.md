@@ -7,7 +7,7 @@ represents a person, such as a researcher
 URI: [nmdc:Person](https://microbiomedata/meta/Person)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[NamedThing]^-\[Person&#124;id:string;name(i):string%20%3F;description(i):string%20%3F;alternate_identifiers(i):string%20*])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[NamedThing]^-[Person&#124;id:string;name(i):string%20%3F;description(i):string%20%3F;alternate_identifiers(i):string%20*])
 
 ## Parents
 

@@ -7,7 +7,7 @@ A controlled term or class from an ontology
 URI: [nmdc:ControlledTermValue](https://microbiomedata/meta/ControlledTermValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Activity]<was%20generated%20by(i)%200..1-%20\[ControlledTermValue&#124;has_raw_value(i):string%20%3F],%20\[OntologyClass]<term%200..1-++\[ControlledTermValue],%20\[Biosample]++-%20env_broad_scale%201..1>\[ControlledTermValue],%20\[Biosample]++-%20env_local_scale%201..1>\[ControlledTermValue],%20\[Biosample]++-%20env_medium%201..1>\[ControlledTermValue],%20\[AttributeValue]^-\[ControlledTermValue])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Activity]<was%20generated%20by(i)%200..1-%20[ControlledTermValue&#124;has_raw_value(i):string%20%3F],%20[OntologyClass]<term%200..1-++[ControlledTermValue],%20[Biosample]++-%20env_broad_scale%201..1>[ControlledTermValue],%20[Biosample]++-%20env_local_scale%201..1>[ControlledTermValue],%20[Biosample]++-%20env_medium%201..1>[ControlledTermValue],%20[AttributeValue]^-[ControlledTermValue])
 
 ## Parents
 

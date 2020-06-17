@@ -7,7 +7,7 @@
 URI: [nmdc:EnvironmentalMaterialTerm](https://microbiomedata/meta/EnvironmentalMaterialTerm)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[OntologyClass]^-\[EnvironmentalMaterialTerm&#124;id(i):string;name(i):string%20%3F;description(i):string%20%3F;alternate_identifiers(i):string%20*])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[OntologyClass]^-[EnvironmentalMaterialTerm&#124;id(i):string;name(i):string%20%3F;description(i):string%20%3F;alternate_identifiers(i):string%20*])
 
 ## Parents
 

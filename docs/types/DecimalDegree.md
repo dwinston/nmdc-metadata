@@ -4,7 +4,7 @@
 
 A decimal degree expresses latitude or longitude as decimal fractions.
 
-URI: [https://microbiomedata/meta/core/DecimalDegree](https://microbiomedata/meta/core/DecimalDegree)
+URI: [nmdc:DecimalDegree](https://microbiomedata/meta/DecimalDegree)
 
 |  |  |  |
 | --- | --- | --- |

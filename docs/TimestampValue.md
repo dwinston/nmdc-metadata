@@ -7,7 +7,7 @@ A value that is a timestamp. The range should be ISO-8601
 URI: [nmdc:TimestampValue](https://microbiomedata/meta/TimestampValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Activity]<was%20generated%20by(i)%200..1-%20\[TimestampValue&#124;has_raw_value(i):string%20%3F],%20\[AttributeValue]^-\[TimestampValue])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Activity]<was%20generated%20by(i)%200..1-%20[TimestampValue&#124;has_raw_value(i):string%20%3F],%20[AttributeValue]^-[TimestampValue])
 
 ## Parents
 

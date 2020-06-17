@@ -7,7 +7,7 @@ The value for any value of a attribute for a sample. This object can hold both t
 URI: [nmdc:AttributeValue](https://microbiomedata/meta/AttributeValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Activity]<was%20generated%20by%200..1-%20\[AttributeValue&#124;has_raw_value:string%20%3F],%20\[AttributeValue]^-\[UrlValue],%20\[AttributeValue]^-\[TimestampValue],%20\[AttributeValue]^-\[TextValue],%20\[AttributeValue]^-\[QuantityValue],%20\[AttributeValue]^-\[PersonValue],%20\[AttributeValue]^-\[IntegerValue],%20\[AttributeValue]^-\[GeolocationValue],%20\[AttributeValue]^-\[ControlledTermValue],%20\[AttributeValue]^-\[BooleanValue])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Activity]<was%20generated%20by%200..1-%20[AttributeValue&#124;has_raw_value:string%20%3F],%20[AttributeValue]^-[UrlValue],%20[AttributeValue]^-[TimestampValue],%20[AttributeValue]^-[TextValue],%20[AttributeValue]^-[QuantityValue],%20[AttributeValue]^-[PersonValue],%20[AttributeValue]^-[IntegerValue],%20[AttributeValue]^-[GeolocationValue],%20[AttributeValue]^-[ControlledTermValue],%20[AttributeValue]^-[BooleanValue])
 
 ## Children
 

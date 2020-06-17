@@ -4,7 +4,7 @@
 
 
 
-URI: [https://microbiomedata/meta/core/Unit](https://microbiomedata/meta/core/Unit)
+URI: [nmdc:Unit](https://microbiomedata/meta/Unit)
 
 |  |  |  |
 | --- | --- | --- |

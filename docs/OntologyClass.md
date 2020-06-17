@@ -7,7 +7,7 @@
 URI: [nmdc:OntologyClass](https://microbiomedata/meta/OntologyClass)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[ControlledTermValue]++-%20term%200..1>\[OntologyClass&#124;id(i):string;name(i):string%20%3F;description(i):string%20%3F;alternate_identifiers(i):string%20*],%20\[OntologyClass]^-\[EnvironmentalMaterialTerm],%20\[NamedThing]^-\[OntologyClass])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[ControlledTermValue]++-%20term%200..1>[OntologyClass&#124;id(i):string;name(i):string%20%3F;description(i):string%20%3F;alternate_identifiers(i):string%20*],%20[OntologyClass]^-[EnvironmentalMaterialTerm],%20[NamedThing]^-[OntologyClass])
 
 ## Parents
 

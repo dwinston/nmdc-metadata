@@ -7,7 +7,7 @@ A value that is a boolean
 URI: [nmdc:BooleanValue](https://microbiomedata/meta/BooleanValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Activity]<was%20generated%20by(i)%200..1-%20\[BooleanValue&#124;has_boolean_value:boolean%20%3F;has_raw_value(i):string%20%3F],%20\[AttributeValue]^-\[BooleanValue])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Activity]<was%20generated%20by(i)%200..1-%20[BooleanValue&#124;has_boolean_value:boolean%20%3F;has_raw_value(i):string%20%3F],%20[AttributeValue]^-[BooleanValue])
 
 ## Parents
 

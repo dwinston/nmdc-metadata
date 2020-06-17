@@ -7,7 +7,7 @@ a provence-generating agent
 URI: [nmdc:Agent](https://microbiomedata/meta/Agent)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Activity]<was%20informed%20by%200..1-%20\[Agent],%20\[Agent]<acted%20on%20behalf%20of%200..1-++\[Agent])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Activity]<was%20informed%20by%200..1-%20[Agent],%20[Agent]<acted%20on%20behalf%20of%200..1-++[Agent])
 
 ## Referenced by class
 

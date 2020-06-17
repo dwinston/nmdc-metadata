@@ -7,7 +7,7 @@ A basic string value
 URI: [nmdc:TextValue](https://microbiomedata/meta/TextValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Activity]<was%20generated%20by(i)%200..1-%20\[TextValue&#124;language:language_code%20%3F;has_raw_value(i):string%20%3F],%20\[AttributeValue]^-\[TextValue])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Activity]<was%20generated%20by(i)%200..1-%20[TextValue&#124;language:language_code%20%3F;has_raw_value(i):string%20%3F],%20[AttributeValue]^-[TextValue])
 
 ## Parents
 

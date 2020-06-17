@@ -7,7 +7,7 @@ A study summarizes the overall goal of a research initiative and outlines the ke
 URI: [nmdc:Study](https://microbiomedata/meta/Study)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[PersonValue]<principal%20investigator%200..1-++\[Study&#124;id:string;name:string%20%3F;alternate_identifiers:string%20*;ecosystem:string%20%3F;ecosystem_category:string%20%3F;ecosystem_type:string%20%3F;ecosystem_subtype:string%20%3F;specific_ecosystem:string%20%3F;description(i):string%20%3F],%20\[ControlledTermValue]<experimental_factor%200..1-++\[Study],%20\[TextValue]<project_name%200..1-++\[Study],%20\[TextValue]<investigation_type%200..1-++\[Study],%20\[BooleanValue]<submitted_to_insdc%200..1-++\[Study],%20\[OmicsProcessing]-%20part%20of%200..*>\[Study],%20\[Database]++-%20study%20set%200..*>\[Study],%20\[NamedThing]^-\[Study])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[PersonValue]<principal%20investigator%200..1-++[Study&#124;id:string;name:string%20%3F;alternate_identifiers:string%20*;ecosystem:string%20%3F;ecosystem_category:string%20%3F;ecosystem_type:string%20%3F;ecosystem_subtype:string%20%3F;specific_ecosystem:string%20%3F;description(i):string%20%3F],%20[ControlledTermValue]<experimental_factor%200..1-++[Study],%20[TextValue]<project_name%200..1-++[Study],%20[TextValue]<investigation_type%200..1-++[Study],%20[BooleanValue]<submitted_to_insdc%200..1-++[Study],%20[OmicsProcessing]-%20part%20of%200..*>[Study],%20[Database]++-%20study%20set%200..*>[Study],%20[NamedThing]^-[Study])
 
 ## Parents
 

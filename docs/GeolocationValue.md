@@ -7,7 +7,7 @@ A normalized value for a location on the earth's surface
 URI: [nmdc:GeolocationValue](https://microbiomedata/meta/GeolocationValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Activity]<was%20generated%20by(i)%200..1-%20\[GeolocationValue&#124;has_raw_value:string%20%3F;latitude:decimal_degree%20%3F;longitude:decimal_degree%20%3F],%20\[Biosample]++-%20lat_lon%201..1>\[GeolocationValue],%20\[AttributeValue]^-\[GeolocationValue])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Activity]<was%20generated%20by(i)%200..1-%20[GeolocationValue&#124;has_raw_value:string%20%3F;latitude:decimal_degree%20%3F;longitude:decimal_degree%20%3F],%20[Biosample]++-%20lat_lon%201..1>[GeolocationValue],%20[AttributeValue]^-[GeolocationValue])
 
 ## Parents
 

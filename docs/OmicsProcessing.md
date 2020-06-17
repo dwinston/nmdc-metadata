@@ -7,7 +7,7 @@ The methods and processes used to generate omics data from a biosample or organi
 URI: [nmdc:OmicsProcessing](https://microbiomedata/meta/OmicsProcessing)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Biosample]<has%20input(i)%200..*-%20\[OmicsProcessing&#124;id:string;name:string%20%3F;alternate_identifiers:string%20*;description(i):string%20%3F],%20\[DataObject]<has%20output%200..*-%20\[OmicsProcessing],%20\[Study]<part%20of%200..*-%20\[OmicsProcessing],%20\[BiosampleProcessing]^-\[OmicsProcessing])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Biosample]<has%20input(i)%200..*-%20[OmicsProcessing&#124;id:string;name:string%20%3F;alternate_identifiers:string%20*;description(i):string%20%3F],%20[DataObject]<has%20output%200..*-%20[OmicsProcessing],%20[Study]<part%20of%200..*-%20[OmicsProcessing],%20[BiosampleProcessing]^-[OmicsProcessing])
 
 ## Parents
 

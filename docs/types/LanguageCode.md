@@ -4,7 +4,7 @@
 
 A language code conforming to ISO_639-1
 
-URI: [https://microbiomedata/meta/core/LanguageCode](https://microbiomedata/meta/core/LanguageCode)
+URI: [nmdc:LanguageCode](https://microbiomedata/meta/LanguageCode)
 
 |  |  |  |
 | --- | --- | --- |

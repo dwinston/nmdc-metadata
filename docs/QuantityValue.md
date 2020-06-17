@@ -7,7 +7,7 @@ A simple quantity, e.g. 2cm
 URI: [nmdc:QuantityValue](https://microbiomedata/meta/QuantityValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Activity]<was%20generated%20by(i)%200..1-%20\[QuantityValue&#124;has_raw_value:string%20%3F;has_unit:unit%20%3F;has_numeric_value:double%20%3F],%20\[Biosample]++-%20depth%200..1>\[QuantityValue],%20\[AttributeValue]^-\[QuantityValue])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Activity]<was%20generated%20by(i)%200..1-%20[QuantityValue&#124;has_raw_value:string%20%3F;has_unit:unit%20%3F;has_numeric_value:double%20%3F],%20[Biosample]++-%20depth%200..1>[QuantityValue],%20[AttributeValue]^-[QuantityValue])
 
 ## Parents
 

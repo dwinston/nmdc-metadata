@@ -7,7 +7,7 @@ A value that is an integer
 URI: [nmdc:IntegerValue](https://microbiomedata/meta/IntegerValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Activity]<was%20generated%20by(i)%200..1-%20\[IntegerValue&#124;has_numeric_value:float%20%3F;has_raw_value(i):string%20%3F],%20\[AttributeValue]^-\[IntegerValue])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Activity]<was%20generated%20by(i)%200..1-%20[IntegerValue&#124;has_numeric_value:float%20%3F;has_raw_value(i):string%20%3F],%20[AttributeValue]^-[IntegerValue])
 
 ## Parents
 

@@ -7,7 +7,7 @@ An abstract holder for any set of metadata and data. It does not need to corresp
 URI: [nmdc:Database](https://microbiomedata/meta/Database)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Activity]<activity%20set%200..*-++\[Database],%20\[DataObject]<data%20object%20set%200..*-++\[Database],%20\[Study]<study%20set%200..*-++\[Database],%20\[Biosample]<biosample%20set%200..*-++\[Database])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Activity]<activity%20set%200..*-++[Database],%20[DataObject]<data%20object%20set%200..*-++[Database],%20[Study]<study%20set%200..*-++[Database],%20[Biosample]<biosample%20set%200..*-++[Database])
 
 ## Referenced by class
 

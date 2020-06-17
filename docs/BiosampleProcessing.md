@@ -7,7 +7,7 @@ A process that takes one or more biosamples as inputs and generates one or as ou
 URI: [nmdc:BiosampleProcessing](https://microbiomedata/meta/BiosampleProcessing)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/\[Biosample]<has%20input%200..*-%20\[BiosampleProcessing&#124;id(i):string;name(i):string%20%3F;description(i):string%20%3F;alternate_identifiers(i):string%20*],%20\[BiosampleProcessing]^-\[OmicsProcessing],%20\[NamedThing]^-\[BiosampleProcessing])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Biosample]<has%20input%200..*-%20[BiosampleProcessing&#124;id(i):string;name(i):string%20%3F;description(i):string%20%3F;alternate_identifiers(i):string%20*],%20[BiosampleProcessing]^-[OmicsProcessing],%20[NamedThing]^-[BiosampleProcessing])
 
 ## Parents
 
