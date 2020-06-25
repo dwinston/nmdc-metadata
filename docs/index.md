@@ -687,6 +687,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [biosample➞name](biosample_name.md)
     * [omics processing➞name](omics_processing_name.md)
     * [study➞name](study_name.md)
+ * [omics processing set](omics_processing_set.md) - This property links a database object to the set of omics processings within it.
  * [orcid](orcid.md)
  * [part of](part_of.md) - Links a resource to another resource that either logically or physically includes it.
     * [omics processing➞part of](omics_processing_part_of.md)
