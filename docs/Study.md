@@ -7,7 +7,7 @@ A study summarizes the overall goal of a research initiative and outlines the ke
 URI: [nmdc:Study](https://microbiomedata/meta/Study)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[PersonValue]<principal%20investigator%200..1-++[Study&#124;id:string;name:string%20%3F;alternate_identifiers:string%20*;ecosystem:string%20%3F;ecosystem_category:string%20%3F;ecosystem_type:string%20%3F;ecosystem_subtype:string%20%3F;specific_ecosystem:string%20%3F;description(i):string%20%3F],%20[ControlledTermValue]<experimental_factor%200..1-++[Study],%20[TextValue]<project_name%200..1-++[Study],%20[TextValue]<investigation_type%200..1-++[Study],%20[BooleanValue]<submitted_to_insdc%200..1-++[Study],%20[OmicsProcessing]-%20part%20of%200..*>[Study],%20[Database]++-%20study%20set%200..*>[Study],%20[NamedThing]^-[Study])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[PersonValue]<principal%20investigator%200..1-++[Study&#124;id:string;name:string%20%3F;alternate_identifiers:string%20*;description(i):string%20%3F],%20[AttributeValue]<specific_ecosystem%200..1-++[Study],%20[AttributeValue]<ecosystem_subtype%200..1-++[Study],%20[AttributeValue]<ecosystem_type%200..1-++[Study],%20[AttributeValue]<ecosystem_category%200..1-++[Study],%20[AttributeValue]<ecosystem%200..1-++[Study],%20[ControlledTermValue]<experimental_factor%200..1-++[Study],%20[TextValue]<project_name%200..1-++[Study],%20[TextValue]<investigation_type%200..1-++[Study],%20[BooleanValue]<submitted_to_insdc%200..1-++[Study],%20[OmicsProcessing]-%20part%20of%200..*>[Study],%20[Database]++-%20study%20set%200..*>[Study],%20[NamedThing]^-[Study])
 
 ## Parents
 
@@ -25,16 +25,16 @@ URI: [nmdc:Study](https://microbiomedata/meta/Study)
 
  * [ecosystem](ecosystem.md)  <sub>OPT</sub>
     * Description: TODO
-    * range: [String](types/String.md)
+    * range: [AttributeValue](AttributeValue.md)
  * [ecosystem_category](ecosystem_category.md)  <sub>OPT</sub>
     * Description: TODO
-    * range: [String](types/String.md)
+    * range: [AttributeValue](AttributeValue.md)
  * [ecosystem_subtype](ecosystem_subtype.md)  <sub>OPT</sub>
     * Description: TODO
-    * range: [String](types/String.md)
+    * range: [AttributeValue](AttributeValue.md)
  * [ecosystem_type](ecosystem_type.md)  <sub>OPT</sub>
     * Description: TODO
-    * range: [String](types/String.md)
+    * range: [AttributeValue](AttributeValue.md)
  * [experimental_factor](experimental_factor.md)  <sub>OPT</sub>
     * Description: "Experimental factors are essentially the variable aspects of an experiment design which can be used to describe an experiment, or set of experiments, in an increasingly detailed manner. This field accepts ontology terms from Experimental Factor Ontology (EFO) and/or Ontology for Biomedical Investigations (OBI). For a browser of EFO (v 2.95) terms, please see http://purl.bioontology.org/ontology/EFO; for a browser of OBI (v 2018-02-12) terms please see http://purl.bioontology.org/ontology/OBI"
     * range: [ControlledTermValue](ControlledTermValue.md)
@@ -52,7 +52,7 @@ URI: [nmdc:Study](https://microbiomedata/meta/Study)
     * in subsets: (investigation)
  * [specific_ecosystem](specific_ecosystem.md)  <sub>OPT</sub>
     * Description: TODO
-    * range: [String](types/String.md)
+    * range: [AttributeValue](AttributeValue.md)
  * [study➞alternate identifiers](study_alternate_identifiers.md)  <sub>0..*</sub>
     * range: [String](types/String.md)
  * [study➞id](study_id.md)  <sub>REQ</sub>

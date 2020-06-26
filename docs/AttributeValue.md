@@ -23,6 +23,12 @@ URI: [nmdc:AttributeValue](https://microbiomedata/meta/AttributeValue)
 
 ## Referenced by class
 
+ *  **None** *[ecosystem](ecosystem.md)*  <sub>OPT</sub>  **[AttributeValue](AttributeValue.md)**
+ *  **None** *[ecosystem_category](ecosystem_category.md)*  <sub>OPT</sub>  **[AttributeValue](AttributeValue.md)**
+ *  **None** *[ecosystem_subtype](ecosystem_subtype.md)*  <sub>OPT</sub>  **[AttributeValue](AttributeValue.md)**
+ *  **None** *[ecosystem_type](ecosystem_type.md)*  <sub>OPT</sub>  **[AttributeValue](AttributeValue.md)**
+ *  **None** *[gold_path_field](gold_path_field.md)*  <sub>OPT</sub>  **[AttributeValue](AttributeValue.md)**
+ *  **None** *[specific_ecosystem](specific_ecosystem.md)*  <sub>OPT</sub>  **[AttributeValue](AttributeValue.md)**
 
 ## Attributes
 

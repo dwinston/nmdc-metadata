@@ -9,7 +9,7 @@ URI: [nmdc:specific_ecosystem](https://microbiomedata/meta/specific_ecosystem)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [AttributeValue](AttributeValue.md)
 
 ## Parents
 

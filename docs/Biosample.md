@@ -7,7 +7,7 @@ A material sample. It may be environmental (encompassing many organisms) or isol
 URI: [nmdc:Biosample](https://microbiomedata/meta/Biosample)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[QuantityValue]<elev%200..1-++[Biosample&#124;id:string;name:string%20%3F;alternate_identifiers:string%20*;ecosystem:string%20%3F;ecosystem_category:string%20%3F;ecosystem_type:string%20%3F;ecosystem_subtype:string%20%3F;specific_ecosystem:string%20%3F;description(i):string%20%3F],%20[QuantityValue]<alt%200..1-++[Biosample],%20[QuantityValue]<tot_org_carb%200..1-++[Biosample],%20[QuantityValue]<depth%200..1-++[Biosample],%20[ControlledTermValue]<env_medium%201..1-++[Biosample],%20[ControlledTermValue]<env_local_scale%201..1-++[Biosample],%20[ControlledTermValue]<env_broad_scale%201..1-++[Biosample],%20[TimestampValue]<collection_date%200..1-++[Biosample],%20[TextValue]<geo_loc_name%200..1-++[Biosample],%20[GeolocationValue]<lat_lon%201..1-++[Biosample],%20[TextValue]<env_package%200..1-++[Biosample],%20[BiosampleProcessing]-%20has%20input%200..*>[Biosample],%20[Database]++-%20biosample%20set%200..*>[Biosample],%20[NamedThing]^-[Biosample])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[QuantityValue]<elev%200..1-++[Biosample&#124;id:string;name:string%20%3F;alternate_identifiers:string%20*;description(i):string%20%3F],%20[QuantityValue]<alt%200..1-++[Biosample],%20[QuantityValue]<tot_org_carb%200..1-++[Biosample],%20[QuantityValue]<depth%200..1-++[Biosample],%20[AttributeValue]<specific_ecosystem%200..1-++[Biosample],%20[AttributeValue]<ecosystem_subtype%200..1-++[Biosample],%20[AttributeValue]<ecosystem_type%200..1-++[Biosample],%20[AttributeValue]<ecosystem_category%200..1-++[Biosample],%20[AttributeValue]<ecosystem%200..1-++[Biosample],%20[ControlledTermValue]<env_medium%201..1-++[Biosample],%20[ControlledTermValue]<env_local_scale%201..1-++[Biosample],%20[ControlledTermValue]<env_broad_scale%201..1-++[Biosample],%20[TimestampValue]<collection_date%200..1-++[Biosample],%20[TextValue]<geo_loc_name%200..1-++[Biosample],%20[GeolocationValue]<lat_lon%201..1-++[Biosample],%20[TextValue]<env_package%200..1-++[Biosample],%20[BiosampleProcessing]-%20has%20input%200..*>[Biosample],%20[Database]++-%20biosample%20set%200..*>[Biosample],%20[NamedThing]^-[Biosample])
 
 ## Parents
 
@@ -115,19 +115,19 @@ URI: [nmdc:Biosample](https://microbiomedata/meta/Biosample)
     * in subsets: (investigation)
  * [ecosystem](ecosystem.md)  <sub>OPT</sub>
     * Description: TODO
-    * range: [String](types/String.md)
+    * range: [AttributeValue](AttributeValue.md)
  * [ecosystem_category](ecosystem_category.md)  <sub>OPT</sub>
     * Description: TODO
-    * range: [String](types/String.md)
+    * range: [AttributeValue](AttributeValue.md)
  * [ecosystem_type](ecosystem_type.md)  <sub>OPT</sub>
     * Description: TODO
-    * range: [String](types/String.md)
+    * range: [AttributeValue](AttributeValue.md)
  * [ecosystem_subtype](ecosystem_subtype.md)  <sub>OPT</sub>
     * Description: TODO
-    * range: [String](types/String.md)
+    * range: [AttributeValue](AttributeValue.md)
  * [specific_ecosystem](specific_ecosystem.md)  <sub>OPT</sub>
     * Description: TODO
-    * range: [String](types/String.md)
+    * range: [AttributeValue](AttributeValue.md)
  * [principal investigator](principal_investigator.md)  <sub>OPT</sub>
     * Description: represents the PI
     * range: [PersonValue](PersonValue.md)
