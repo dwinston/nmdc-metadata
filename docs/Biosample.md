@@ -93,26 +93,6 @@ URI: [nmdc:Biosample](https://microbiomedata/meta/Biosample)
  * [study➞alternate identifiers](study_alternate_identifiers.md)  <sub>0..*</sub>
     * range: [String](types/String.md)
     * inherited from: [Study](Study.md)
- * [submitted_to_insdc](submitted_to_insdc.md)  <sub>OPT</sub>
-    * Description: "Depending on the study (large-scale e.g. done with next generation sequencing technology, or small-scale) sequences have to be submitted to SRA (Sequence Read Archive), DRA (DDBJ Read Archive) or via the classical Webin/Sequin systems to Genbank, ENA and DDBJ. Although this field is mandatory, it is meant as a self-test field, therefore it is not necessary to include this field in contextual data submitted to databases"
-    * range: [BooleanValue](BooleanValue.md)
-    * inherited from: None
-    * in subsets: (investigation)
- * [investigation_type](investigation_type.md)  <sub>OPT</sub>
-    * Description: "Nucleic Acid Sequence Report is the root element of all MIGS/MIMS compliant reports as standardized by Genomic Standards Consortium. This field is either eukaryote,bacteria,virus,plasmid,organelle, metagenome,mimarks-survey, mimarks-specimen, metatranscriptome, single amplified genome, metagenome-assembled genome, or uncultivated viral genome"
-    * range: [TextValue](TextValue.md)
-    * inherited from: None
-    * in subsets: (investigation)
- * [project_name](project_name.md)  <sub>OPT</sub>
-    * Description: Name of the project within which the sequencing was organized
-    * range: [TextValue](TextValue.md)
-    * inherited from: None
-    * in subsets: (investigation)
- * [experimental_factor](experimental_factor.md)  <sub>OPT</sub>
-    * Description: "Experimental factors are essentially the variable aspects of an experiment design which can be used to describe an experiment, or set of experiments, in an increasingly detailed manner. This field accepts ontology terms from Experimental Factor Ontology (EFO) and/or Ontology for Biomedical Investigations (OBI). For a browser of EFO (v 2.95) terms, please see http://purl.bioontology.org/ontology/EFO; for a browser of OBI (v 2018-02-12) terms please see http://purl.bioontology.org/ontology/OBI"
-    * range: [ControlledTermValue](ControlledTermValue.md)
-    * inherited from: None
-    * in subsets: (investigation)
  * [ecosystem](ecosystem.md)  <sub>OPT</sub>
     * Description: TODO
     * range: [AttributeValue](AttributeValue.md)
@@ -131,6 +111,9 @@ URI: [nmdc:Biosample](https://microbiomedata/meta/Biosample)
  * [principal investigator](principal_investigator.md)  <sub>OPT</sub>
     * Description: represents the PI
     * range: [PersonValue](PersonValue.md)
+    * inherited from: None
+ * [doi](doi.md)  <sub>OPT</sub>
+    * range: [AttributeValue](AttributeValue.md)
     * inherited from: None
 
 ### Domain for slot:

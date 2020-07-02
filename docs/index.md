@@ -166,6 +166,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [diss_org_nitro](diss_org_nitro.md) - Dissolved organic nitrogen concentration measured as; total dissolved nitrogen - NH4 - NO3 - NO2
     * [diss_oxygen](diss_oxygen.md) - Concentration of dissolved oxygen
     * [diss_oxygen_fluid](diss_oxygen_fluid.md) - Concentration of dissolved oxygen in the oil field produced fluids as it contributes to oxgen-corrosion and microbial activity (e.g. Mic).
+    * [doi](doi.md)
     * [dominant_hand](dominant_hand.md) - Dominant hand of the subject
     * [door_comp_type](door_comp_type.md) - The composite type of the door
     * [door_cond](door_cond.md) - The phsical condition of the door
@@ -211,7 +212,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [feat_pred](feat_pred.md) - "Method used to predict UViGs features such as ORFs, integration site, etc."
     * [fertilizer_regm](fertilizer_regm.md) - "Information about treatment involving the use of fertilizers; should include the name of fertilizer, amount administered, treatment regimen including how many times the treatment was repeated, how long each treatment lasted, and the start and end time of the entire treatment; can include multiple fertilizer regimens"
     * [field](field.md) - Name of the hydrocarbon field (e.g. Albacora)
-    * [file_size](file_size.md) - units should be bytes
+    * [file_size_bytes](file_size_bytes.md) - units should be bytes
     * [filter_type](filter_type.md) - A device which removes solid particulates or airborne molecular contaminants
     * [fire](fire.md) - Historical and/or physical evidence of fire
     * [fireplace_type](fireplace_type.md) - A firebox with chimney

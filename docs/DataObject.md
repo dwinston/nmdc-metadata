@@ -7,7 +7,7 @@ An object that primarily consists of symbols that represent information.   Files
 URI: [nmdc:DataObject](https://microbiomedata/meta/DataObject)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Database]++-%20data%20object%20set%200..*>[DataObject&#124;file_size:integer%20%3F;id(i):string;name(i):string%20%3F;description(i):string%20%3F;alternate_identifiers(i):string%20*],%20[OmicsProcessing]-%20has%20output%200..*>[DataObject],%20[NamedThing]^-[DataObject])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Database]++-%20data%20object%20set%200..*>[DataObject&#124;file_size_bytes:integer%20%3F;id(i):string;name(i):string%20%3F;description(i):string%20%3F;alternate_identifiers(i):string%20*],%20[OmicsProcessing]-%20has%20output%200..*>[DataObject],%20[NamedThing]^-[DataObject])
 
 ## Parents
 
@@ -23,7 +23,7 @@ URI: [nmdc:DataObject](https://microbiomedata/meta/DataObject)
 
 ### Own
 
- * [file_size](file_size.md)  <sub>OPT</sub>
+ * [file_size_bytes](file_size_bytes.md)  <sub>OPT</sub>
     * Description: units should be bytes
     * range: [Integer](types/Integer.md)
 
