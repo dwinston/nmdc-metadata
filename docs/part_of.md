@@ -35,5 +35,5 @@ URI: [nmdc:part_of](https://microbiomedata/meta/part_of)
 |  |  |  |
 | --- | --- | --- |
 | **Aliases:** | | is part of |
-| **Mappings:** | | http://purl.org/dc/terms/isPartOf |
+| **Mappings:** | | dcterms:isPartOf |
 
