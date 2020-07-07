@@ -43,3 +43,10 @@ URI: [nmdc:Activity](https://microbiomedata/meta/Activity)
 
  * [used](used.md)  <sub>OPT</sub>
     * range: [String](types/String.md)
+
+## Other properties
+
+|  |  |  |
+| --- | --- | --- |
+| **Mappings:** | | prov:Activity |
+

@@ -20,3 +20,10 @@ None ->  <sub>OPT</sub> [Agent](Agent.md)
 ## Used by
 
  * [Activity](Activity.md)
+
+## Other properties
+
+|  |  |  |
+| --- | --- | --- |
+| **Mappings:** | | prov:wasAssociatedWith |
+

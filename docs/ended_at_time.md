@@ -20,3 +20,10 @@ None ->  <sub>OPT</sub> [String](types/String.md)
 ## Used by
 
  * [Activity](Activity.md)
+
+## Other properties
+
+|  |  |  |
+| --- | --- | --- |
+| **Mappings:** | | prov:endedAtTime |
+

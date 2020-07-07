@@ -21,3 +21,10 @@ None ->  <sub>OPT</sub> [Activity](Activity.md)
 
  * [Activity](Activity.md)
  * [Agent](Agent.md)
+
+## Other properties
+
+|  |  |  |
+| --- | --- | --- |
+| **Mappings:** | | prov:wasInformedBy |
+

@@ -20,3 +20,10 @@ URI: [nmdc:used](https://microbiomedata/meta/used)
 ## Used by
 
  * [Activity](Activity.md)
+
+## Other properties
+
+|  |  |  |
+| --- | --- | --- |
+| **Mappings:** | | prov:used |
+

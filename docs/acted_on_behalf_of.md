@@ -20,3 +20,10 @@ None ->  <sub>OPT</sub> [Agent](Agent.md)
 ## Used by
 
  * [Agent](Agent.md)
+
+## Other properties
+
+|  |  |  |
+| --- | --- | --- |
+| **Mappings:** | | prov:actedOnBehalfOf |
+

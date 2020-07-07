@@ -29,3 +29,10 @@ None ->  <sub>OPT</sub> [Activity](Activity.md)
  * [TextValue](TextValue.md)
  * [TimestampValue](TimestampValue.md)
  * [UrlValue](UrlValue.md)
+
+## Other properties
+
+|  |  |  |
+| --- | --- | --- |
+| **Mappings:** | | prov:wasGeneratedBy |
+
