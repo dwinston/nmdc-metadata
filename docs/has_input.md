@@ -9,7 +9,7 @@ URI: [nmdc:has_input](https://microbiomedata/meta/has_input)
 
 ## Domain and Range
 
-[NamedThing](NamedThing.md) ->  <sub>0..*</sub> [String](types/String.md)
+None ->  <sub>0..*</sub> [String](types/String.md)
 
 ## Parents
 
@@ -20,14 +20,14 @@ URI: [nmdc:has_input](https://microbiomedata/meta/has_input)
 
 ## Used by
 
- * [Biosample](Biosample.md)
+ * [AnnotationActivity](AnnotationActivity.md)
  * [BiosampleProcessing](BiosampleProcessing.md)
- * [DataObject](DataObject.md)
- * [EnvironmentalMaterialTerm](EnvironmentalMaterialTerm.md)
- * [NamedThing](NamedThing.md)
- * [OntologyClass](OntologyClass.md)
- * [Person](Person.md)
- * [Study](Study.md)
+ * [MetabolomicsAnalysisActivity](MetabolomicsAnalysisActivity.md)
+ * [MetagenomeAlignment](MetagenomeAlignment.md)
+ * [MetagenomeAssembly](MetagenomeAssembly.md)
+ * [MetaproteomicsAnalysisActivity](MetaproteomicsAnalysisActivity.md)
+ * [ReadAnalysisActivity](ReadAnalysisActivity.md)
+ * [WorkflowExecutionActivity](WorkflowExecutionActivity.md)
 
 ## Other properties
 

@@ -7,7 +7,11 @@ a provence-generating activity
 URI: [nmdc:Activity](https://microbiomedata/meta/Activity)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Agent]<was%20associated%20with%200..1-++[Activity&#124;activity_id:string;started_at_time:string%20%3F;ended_at_time:string%20%3F;used:string%20%3F],%20[Activity]<was%20informed%20by%200..1-%20[Activity],%20[Database]++-%20activity%20set%200..*>[Activity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Agent]<was%20associated%20with%200..1-++[Activity&#124;activity_id:string;started_at_time:string%20%3F;ended_at_time:string%20%3F;used:string%20%3F],%20[Activity]<was%20informed%20by%200..1-%20[Activity],%20[Database]++-%20activity%20set%200..*>[Activity],%20[Activity]^-[WorkflowExecutionActivity])
+
+## Children
+
+ * [WorkflowExecutionActivity](WorkflowExecutionActivity.md) - Represents an instance of an execution of a particular workflow
 
 ## Referenced by class
 

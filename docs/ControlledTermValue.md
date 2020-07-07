@@ -19,6 +19,7 @@ URI: [nmdc:ControlledTermValue](https://microbiomedata/meta/ControlledTermValue)
  *  **[Biosample](Biosample.md)** *[biosample➞env_local_scale](biosample_env_local_scale.md)*  <sub>REQ</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **[Biosample](Biosample.md)** *[biosample➞env_medium](biosample_env_medium.md)*  <sub>REQ</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[chem_administration](chem_administration.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
+ *  **None** *[data object type](data_object_type.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[env_broad_scale](env_broad_scale.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[env_local_scale](env_local_scale.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[env_medium](env_medium.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
@@ -28,6 +29,7 @@ URI: [nmdc:ControlledTermValue](https://microbiomedata/meta/ControlledTermValue)
  *  **None** *[host_body_site](host_body_site.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[host_disease_stat](host_disease_stat.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[host_phenotype](host_phenotype.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
+ *  **None** *[omics type](omics_type.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[plant_growth_med](plant_growth_med.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[plant_struc](plant_struc.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[ploidy](ploidy.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**

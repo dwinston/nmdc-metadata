@@ -1,10 +1,10 @@
 
-# Type: started at time
+# Type: execution resource
 
 
+Example: NERSC-Cori
 
-
-URI: [nmdc:started_at_time](https://microbiomedata/meta/started_at_time)
+URI: [nmdc:execution_resource](https://microbiomedata/meta/execution_resource)
 
 
 ## Domain and Range
@@ -13,13 +13,13 @@ None ->  <sub>OPT</sub> [String](types/String.md)
 
 ## Parents
 
+ *  is_a: [attribute](attribute.md)
 
 ## Children
 
 
 ## Used by
 
- * [Activity](Activity.md)
  * [AnnotationActivity](AnnotationActivity.md)
  * [MetabolomicsAnalysisActivity](MetabolomicsAnalysisActivity.md)
  * [MetagenomeAlignment](MetagenomeAlignment.md)
@@ -27,10 +27,3 @@ None ->  <sub>OPT</sub> [String](types/String.md)
  * [MetaproteomicsAnalysisActivity](MetaproteomicsAnalysisActivity.md)
  * [ReadAnalysisActivity](ReadAnalysisActivity.md)
  * [WorkflowExecutionActivity](WorkflowExecutionActivity.md)
-
-## Other properties
-
-|  |  |  |
-| --- | --- | --- |
-| **Mappings:** | | prov:startedAtTime |
-

@@ -7,7 +7,7 @@ The methods and processes used to generate omics data from a biosample or organi
 URI: [nmdc:OmicsProcessing](https://microbiomedata/meta/OmicsProcessing)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Biosample]<has%20input(i)%200..*-%20[OmicsProcessing&#124;id:string;name:string%20%3F;alternate_identifiers:string%20*;description(i):string%20%3F],%20[DataObject]<has%20output%200..*-%20[OmicsProcessing],%20[Study]<part%20of%200..*-%20[OmicsProcessing],%20[Database]++-%20omics%20processing%20set%200..*>[OmicsProcessing],%20[BiosampleProcessing]^-[OmicsProcessing])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Biosample]<has%20input(i)%200..*-%20[OmicsProcessing&#124;id:string;name:string%20%3F;alternate_identifiers:string%20*;description(i):string%20%3F],%20[ControlledTermValue]<omics%20type%200..1-++[OmicsProcessing],%20[DataObject]<has%20output%200..*-%20[OmicsProcessing],%20[Study]<part%20of%200..*-%20[OmicsProcessing],%20[Database]++-%20omics%20processing%20set%200..*>[OmicsProcessing],%20[BiosampleProcessing]^-[OmicsProcessing])
 
 ## Parents
 
@@ -32,6 +32,11 @@ URI: [nmdc:OmicsProcessing](https://microbiomedata/meta/OmicsProcessing)
     * range: [String](types/String.md)
  * [omics processing➞part of](omics_processing_part_of.md)  <sub>0..*</sub>
     * range: [Study](Study.md)
+ * [omics type](omics_type.md)  <sub>OPT</sub>
+    * Description: The type of omics data
+    * range: [ControlledTermValue](ControlledTermValue.md)
+    * Example: metatranscriptome None
+    * Example: metagenome None
 
 ### Inherited from biosample processing:
 
@@ -70,3 +75,10 @@ URI: [nmdc:OmicsProcessing](https://microbiomedata/meta/OmicsProcessing)
     * range: [String](types/String.md)
  * [omics processing➞part of](omics_processing_part_of.md)  <sub>0..*</sub>
     * range: [Study](Study.md)
+
+## Other properties
+
+|  |  |  |
+| --- | --- | --- |
+| **Comments:** | | The IDs for objects coming from GOLD will have prefixes gold:GpNNNN |
+

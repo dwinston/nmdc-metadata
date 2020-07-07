@@ -10,6 +10,13 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
 ### Classes
 
  * [Activity](Activity.md) - a provence-generating activity
+    * [WorkflowExecutionActivity](WorkflowExecutionActivity.md) - Represents an instance of an execution of a particular workflow
+       * [AnnotationActivity](AnnotationActivity.md)
+       * [MetabolomicsAnalysisActivity](MetabolomicsAnalysisActivity.md)
+       * [MetagenomeAlignment](MetagenomeAlignment.md)
+       * [MetagenomeAssembly](MetagenomeAssembly.md)
+       * [MetaproteomicsAnalysisActivity](MetaproteomicsAnalysisActivity.md)
+       * [ReadAnalysisActivity](ReadAnalysisActivity.md)
  * [Agent](Agent.md) - a provence-generating agent
  * [AttributeValue](AttributeValue.md) - The value for any value of a attribute for a sample. This object can hold both the un-normalized atomic value and the structured value
     * [BooleanValue](BooleanValue.md) - A value that is a boolean
@@ -199,6 +206,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [escalator](escalator.md) - The number of escalators within the built structure
     * [estimated_size](estimated_size.md) - The estimated size of the genome prior to sequencing. Of particular importance in the sequencing of (eukaryotic) genome which could remain in draft form for a long or unspecified period.
     * [ethylbenzene](ethylbenzene.md) - Concentration of ethylbenzene in the sample
+    * [execution resource](execution_resource.md) - Example: NERSC-Cori
     * [exp_duct](exp_duct.md) - The amount of exposed ductwork in the room
     * [exp_pipe](exp_pipe.md) - The number of exposed pipes in the room
     * [experimental_factor](experimental_factor.md) - "Experimental factors are essentially the variable aspects of an experiment design which can be used to describe an experiment, or set of experiments, in an increasingly detailed manner. This field accepts ontology terms from Experimental Factor Ontology (EFO) and/or Ontology for Biomedical Investigations (OBI). For a browser of EFO (v 2.95) terms, please see http://purl.bioontology.org/ontology/EFO; for a browser of OBI (v 2018-02-12) terms please see http://purl.bioontology.org/ontology/OBI"
@@ -212,7 +220,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [feat_pred](feat_pred.md) - "Method used to predict UViGs features such as ORFs, integration site, etc."
     * [fertilizer_regm](fertilizer_regm.md) - "Information about treatment involving the use of fertilizers; should include the name of fertilizer, amount administered, treatment regimen including how many times the treatment was repeated, how long each treatment lasted, and the start and end time of the entire treatment; can include multiple fertilizer regimens"
     * [field](field.md) - Name of the hydrocarbon field (e.g. Albacora)
-    * [file_size_bytes](file_size_bytes.md) - units should be bytes
+    * [file size bytes](file_size_bytes.md) - Size of the file in bytes
     * [filter_type](filter_type.md) - A device which removes solid particulates or airborne molecular contaminants
     * [fire](fire.md) - Historical and/or physical evidence of fire
     * [fireplace_type](fireplace_type.md) - A firebox with chimney
@@ -238,6 +246,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [genetic_mod](genetic_mod.md) - "Genetic modifications of the genome of an organism, which may occur naturally by spontaneous mutation, or be introduced by some experimental means, e.g. specification of a transgene or the gene knocked-out or details of transient transfection"
     * [geo_loc_name](geo_loc_name.md) - "The geographical origin of the sample as defined by the country or sea name followed by specific region name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (v 1.512) (http://purl.bioontology.org/ontology/GAZ)"
     * [gestation_state](gestation_state.md) - Specification of the gestation state
+    * [git url](git_url.md) - Example: https://github.com/microbiomedata/mg_annotation/releases/tag/0.1
     * [glucosidase_act](glucosidase_act.md) - Measurement of glucosidase activity
     * [gold_path_field](gold_path_field.md) - This is a grouping for any of the gold path fields
        * [ecosystem](ecosystem.md) - TODO
@@ -345,6 +354,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [magnesium](magnesium.md) - Concentration of magnesium in the sample
     * [maternal_health_stat](maternal_health_stat.md) - Specification of the maternal health status
     * [max_occup](max_occup.md) - The maximum amount of people allowed in the indoor environment
+    * [md5 checksum](md5_checksum.md) - MD5 checksum of file (pre-compressed)
     * [mean_frict_vel](mean_frict_vel.md) - Measurement of mean friction velocity
     * [mean_peak_frict_vel](mean_peak_frict_vel.md) - Measurement of mean peak friction velocity
     * [mech_struc](mech_struc.md) - mechanical structure: a moving structure
@@ -660,7 +670,9 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [window_water_mold](window_water_mold.md) - Signs of the presence of mold or mildew on the window.
     * [xylene](xylene.md) - Concentration of xylene in the sample
  * [biosample set](biosample_set.md) - This property links a database object to the set of samples within it.
+ * [compression type](compression_type.md) - If provided, specifies the compression type
  * [data object set](data_object_set.md) - This property links a database object to the set of data objects within it.
+ * [data object type](data_object_type.md) - The type of data object
  * [description](description.md) - a human-readable description of a thing
  * [ended at time](ended_at_time.md)
  * [has boolean value](has_boolean_value.md) - Links a quantity value to a boolean
@@ -684,11 +696,18 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [language](language.md) - Should use ISO 639-1 code e.g. "en", "fr"
  * [latitude](latitude.md) - latitude
  * [longitude](longitude.md) - longitude
+ * [metagenome alignment parameter](metagenome_alignment_parameter.md)
+    * [num_aligned_reads](num_aligned_reads.md)
+ * [metagenome assembly parameter](metagenome_assembly_parameter.md)
+    * [ctg_L50](ctg_L50.md)
+    * [gc_std](gc_std.md)
+    * [n_scaffolds](n_scaffolds.md)
  * [name](name.md) - A human readable label for an entity
     * [biosample➞name](biosample_name.md)
     * [omics processing➞name](omics_processing_name.md)
     * [study➞name](study_name.md)
  * [omics processing set](omics_processing_set.md) - This property links a database object to the set of omics processings within it.
+ * [omics type](omics_type.md) - The type of omics data
  * [orcid](orcid.md)
  * [part of](part_of.md) - Links a resource to another resource that either logically or physically includes it.
     * [omics processing➞part of](omics_processing_part_of.md)
@@ -698,6 +717,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [used](used.md)
  * [was associated with](was_associated_with.md)
  * [was generated by](was_generated_by.md)
+    * [data object➞was generated by](data_object_was_generated_by.md)
  * [was informed by](was_informed_by.md)
 
 ### Types
@@ -721,6 +741,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
 #### Defined
 
  * [Boolean](types/Boolean.md)  (**Bool**)  - A binary (true or false) value
+ * [Bytes](types/Bytes.md)  (**int**)  - An integer value that corresponds to a size in bytes
  * [Date](types/Date.md)  (**XSDDate**)  - a date (year, month and day) in an idealized calendar
  * [Datetime](types/Datetime.md)  (**XSDDateTime**)  - The combination of a date and time
  * [DecimalDegree](types/DecimalDegree.md)  (**float**)  - A decimal degree expresses latitude or longitude as decimal fractions.

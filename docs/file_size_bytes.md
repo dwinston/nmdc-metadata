@@ -1,15 +1,15 @@
 
-# Type: file_size_bytes
+# Type: file size bytes
 
 
-units should be bytes
+Size of the file in bytes
 
 URI: [nmdc:file_size_bytes](https://microbiomedata/meta/file_size_bytes)
 
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [Integer](types/Integer.md)
+None ->  <sub>OPT</sub> [Bytes](types/Bytes.md)
 
 ## Parents
 
