@@ -711,6 +711,11 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [orcid](orcid.md)
  * [part of](part_of.md) - Links a resource to another resource that either logically or physically includes it.
     * [omics processing➞part of](omics_processing_part_of.md)
+ * [read analysis statistic](read_analysis_statistic.md)
+    * [input base count](input_base_count.md)
+    * [input read count](input_read_count.md)
+    * [output base count](output_base_count.md)
+    * [output read count](output_read_count.md)
  * [started at time](started_at_time.md)
  * [study set](study_set.md) - This property links a database object to the set of studies within it.
  * [term](term.md) - pointer to an ontology class
