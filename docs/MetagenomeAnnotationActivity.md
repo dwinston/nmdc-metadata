@@ -1,13 +1,13 @@
 
-# Type: metabolomics analysis activity
+# Type: metagenome annotation activity
 
 
 
 
-URI: [nmdc:MetabolomicsAnalysisActivity](https://microbiomedata/meta/MetabolomicsAnalysisActivity)
+URI: [nmdc:MetagenomeAnnotationActivity](https://microbiomedata/meta/MetagenomeAnnotationActivity)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Agent]<was%20associated%20with(i)%200..1-++[MetabolomicsAnalysisActivity&#124;execution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20*;has_output(i):string%20*;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],%20[Activity]<was%20informed%20by(i)%200..1-%20[MetabolomicsAnalysisActivity],%20[WorkflowExecutionActivity]^-[MetabolomicsAnalysisActivity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Agent]<was%20associated%20with(i)%200..1-++[MetagenomeAnnotationActivity&#124;execution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20*;has_output(i):string%20*;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],%20[Activity]<was%20informed%20by(i)%200..1-%20[MetagenomeAnnotationActivity],%20[WorkflowExecutionActivity]^-[MetagenomeAnnotationActivity])
 
 ## Parents
 

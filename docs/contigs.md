@@ -1,10 +1,10 @@
 
-# Type: num_aligned_reads
+# Type: contigs
 
 
 
 
-URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
+URI: [nmdc:contigs](https://microbiomedata/meta/contigs)
 
 
 ## Domain and Range

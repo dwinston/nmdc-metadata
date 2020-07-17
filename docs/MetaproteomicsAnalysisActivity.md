@@ -7,7 +7,7 @@
 URI: [nmdc:MetaproteomicsAnalysisActivity](https://microbiomedata/meta/MetaproteomicsAnalysisActivity)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Agent]<was%20associated%20with(i)%200..1-++[MetaproteomicsAnalysisActivity&#124;execution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20*;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],%20[Activity]<was%20informed%20by(i)%200..1-%20[MetaproteomicsAnalysisActivity],%20[WorkflowExecutionActivity]^-[MetaproteomicsAnalysisActivity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Agent]<was%20associated%20with(i)%200..1-++[MetaproteomicsAnalysisActivity&#124;execution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20*;has_output(i):string%20*;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],%20[Activity]<was%20informed%20by(i)%200..1-%20[MetaproteomicsAnalysisActivity],%20[WorkflowExecutionActivity]^-[MetaproteomicsAnalysisActivity])
 
 ## Parents
 
@@ -48,6 +48,30 @@ URI: [nmdc:MetaproteomicsAnalysisActivity](https://microbiomedata/meta/Metaprote
  * [biosample processing➞has input](biosample_processing_has_input.md)  <sub>0..*</sub>
     * range: [Biosample](Biosample.md)
     * inherited from: [BiosampleProcessing](BiosampleProcessing.md)
+
+### Inherited from omics processing:
+
+ * [omics processing➞id](omics_processing_id.md)  <sub>REQ</sub>
+    * range: [String](types/String.md)
+    * inherited from: [OmicsProcessing](OmicsProcessing.md)
+ * [omics processing➞name](omics_processing_name.md)  <sub>OPT</sub>
+    * range: [String](types/String.md)
+    * inherited from: [OmicsProcessing](OmicsProcessing.md)
+ * [omics processing➞alternate identifiers](omics_processing_alternate_identifiers.md)  <sub>0..*</sub>
+    * range: [String](types/String.md)
+    * inherited from: [OmicsProcessing](OmicsProcessing.md)
+ * [omics processing➞part of](omics_processing_part_of.md)  <sub>0..*</sub>
+    * range: [Study](Study.md)
+    * inherited from: [OmicsProcessing](OmicsProcessing.md)
+ * [omics processing➞has output](omics_processing_has_output.md)  <sub>0..*</sub>
+    * range: [DataObject](DataObject.md)
+    * inherited from: [OmicsProcessing](OmicsProcessing.md)
+ * [omics type](omics_type.md)  <sub>OPT</sub>
+    * Description: The type of omics data
+    * range: [ControlledTermValue](ControlledTermValue.md)
+    * Example: metatranscriptome None
+    * Example: metagenome None
+    * inherited from: None
 
 ### Inherited from workflow execution activity:
 

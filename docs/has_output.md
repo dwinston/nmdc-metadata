@@ -1,10 +1,10 @@
 
-# Type: has input
+# Type: has output
 
 
-An input to a process.
+An output biosample to a processing step
 
-URI: [nmdc:has_input](https://microbiomedata/meta/has_input)
+URI: [nmdc:has_output](https://microbiomedata/meta/has_output)
 
 
 ## Domain and Range
@@ -16,15 +16,15 @@ None ->  <sub>0..*</sub> [String](types/String.md)
 
 ## Children
 
- *  [biosample processing➞has input](biosample_processing_has_input.md)
+ *  [omics processing➞has output](omics_processing_has_output.md)
 
 ## Used by
 
- * [BiosampleProcessing](BiosampleProcessing.md)
  * [MetabolomicsAnalysisActivity](MetabolomicsAnalysisActivity.md)
  * [MetagenomeAnnotationActivity](MetagenomeAnnotationActivity.md)
  * [MetagenomeAssembly](MetagenomeAssembly.md)
  * [MetaproteomicsAnalysisActivity](MetaproteomicsAnalysisActivity.md)
+ * [OmicsProcessing](OmicsProcessing.md)
  * [ReadQCAnalysisActivity](ReadQCAnalysisActivity.md)
  * [WorkflowExecutionActivity](WorkflowExecutionActivity.md)
 
@@ -32,5 +32,5 @@ None ->  <sub>0..*</sub> [String](types/String.md)
 
 |  |  |  |
 | --- | --- | --- |
-| **Aliases:** | | input |
+| **Aliases:** | | output |
 

@@ -1,10 +1,10 @@
 
-# Type: num_aligned_reads
+# Type: ctg_max
 
 
 
 
-URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
+URI: [nmdc:ctg_max](https://microbiomedata/meta/ctg_max)
 
 
 ## Domain and Range

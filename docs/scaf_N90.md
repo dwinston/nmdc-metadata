@@ -1,10 +1,10 @@
 
-# Type: num_aligned_reads
+# Type: scaf_N90
 
 
 
 
-URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
+URI: [nmdc:scaf_N90](https://microbiomedata/meta/scaf_N90)
 
 
 ## Domain and Range

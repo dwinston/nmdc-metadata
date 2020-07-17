@@ -1,10 +1,10 @@
 
-# Type: num_aligned_reads
+# Type: asm_score
 
 
 
 
-URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
+URI: [nmdc:asm_score](https://microbiomedata/meta/asm_score)
 
 
 ## Domain and Range

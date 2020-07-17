@@ -11,12 +11,11 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
 
  * [Activity](Activity.md) - a provence-generating activity
     * [WorkflowExecutionActivity](WorkflowExecutionActivity.md) - Represents an instance of an execution of a particular workflow
-       * [AnnotationActivity](AnnotationActivity.md)
        * [MetabolomicsAnalysisActivity](MetabolomicsAnalysisActivity.md)
-       * [MetagenomeAlignment](MetagenomeAlignment.md)
+       * [MetagenomeAnnotationActivity](MetagenomeAnnotationActivity.md)
        * [MetagenomeAssembly](MetagenomeAssembly.md)
        * [MetaproteomicsAnalysisActivity](MetaproteomicsAnalysisActivity.md)
-       * [ReadAnalysisActivity](ReadAnalysisActivity.md)
+       * [ReadQCAnalysisActivity](ReadQCAnalysisActivity.md)
  * [Agent](Agent.md) - a provence-generating agent
  * [AttributeValue](AttributeValue.md) - The value for any value of a attribute for a sample. This object can hold both the un-normalized atomic value and the structured value
     * [BooleanValue](BooleanValue.md) - A value that is a boolean
@@ -696,12 +695,35 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [language](language.md) - Should use ISO 639-1 code e.g. "en", "fr"
  * [latitude](latitude.md) - latitude
  * [longitude](longitude.md) - longitude
- * [metagenome alignment parameter](metagenome_alignment_parameter.md)
-    * [num_aligned_reads](num_aligned_reads.md)
  * [metagenome assembly parameter](metagenome_assembly_parameter.md)
+    * [asm_score](asm_score.md)
+    * [contig_bp](contig_bp.md)
+    * [contigs](contigs.md)
     * [ctg_L50](ctg_L50.md)
+    * [ctg_L90](ctg_L90.md)
+    * [ctg_N50](ctg_N50.md)
+    * [ctg_N90](ctg_N90.md)
+    * [ctg_logsum](ctg_logsum.md)
+    * [ctg_max](ctg_max.md)
+    * [ctg_powsum](ctg_powsum.md)
+    * [gap_pct](gap_pct.md)
+    * [gc_avg](gc_avg.md)
     * [gc_std](gc_std.md)
     * [n_scaffolds](n_scaffolds.md)
+    * [num_aligned_reads](num_aligned_reads.md)
+    * [num_input_reads](num_input_reads.md)
+    * [scaf_L50](scaf_L50.md)
+    * [scaf_L90](scaf_L90.md)
+    * [scaf_N50](scaf_N50.md)
+    * [scaf_N90](scaf_N90.md)
+    * [scaf_bp](scaf_bp.md)
+    * [scaf_l_gt50K](scaf_l_gt50K.md)
+    * [scaf_logsum](scaf_logsum.md)
+    * [scaf_max](scaf_max.md)
+    * [scaf_n_gt50K](scaf_n_gt50K.md)
+    * [scaf_pct_gt50K](scaf_pct_gt50K.md)
+    * [scaf_powsum](scaf_powsum.md)
+    * [scaffolds](scaffolds.md)
  * [name](name.md) - A human readable label for an entity
     * [biosample➞name](biosample_name.md)
     * [omics processing➞name](omics_processing_name.md)
@@ -711,7 +733,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [orcid](orcid.md)
  * [part of](part_of.md) - Links a resource to another resource that either logically or physically includes it.
     * [omics processing➞part of](omics_processing_part_of.md)
- * [read analysis statistic](read_analysis_statistic.md)
+ * [read QC analysis statistic](read_QC_analysis_statistic.md)
     * [input base count](input_base_count.md)
     * [input read count](input_read_count.md)
     * [output base count](output_base_count.md)

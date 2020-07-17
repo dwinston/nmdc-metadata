@@ -1,10 +1,10 @@
 
-# Type: num_aligned_reads
+# Type: gap_pct
 
 
 
 
-URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
+URI: [nmdc:gap_pct](https://microbiomedata/meta/gap_pct)
 
 
 ## Domain and Range

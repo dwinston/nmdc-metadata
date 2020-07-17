@@ -1,10 +1,10 @@
 
-# Type: num_aligned_reads
+# Type: num_input_reads
 
 
 
 
-URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
+URI: [nmdc:num_input_reads](https://microbiomedata/meta/num_input_reads)
 
 
 ## Domain and Range

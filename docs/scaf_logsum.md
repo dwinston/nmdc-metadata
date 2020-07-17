@@ -1,10 +1,10 @@
 
-# Type: num_aligned_reads
+# Type: scaf_logsum
 
 
 
 
-URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
+URI: [nmdc:scaf_logsum](https://microbiomedata/meta/scaf_logsum)
 
 
 ## Domain and Range

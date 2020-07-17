@@ -1,10 +1,10 @@
 
-# Type: num_aligned_reads
+# Type: ctg_logsum
 
 
 
 
-URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
+URI: [nmdc:ctg_logsum](https://microbiomedata/meta/ctg_logsum)
 
 
 ## Domain and Range

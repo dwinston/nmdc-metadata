@@ -7,7 +7,7 @@ Represents an instance of an execution of a particular workflow
 URI: [nmdc:WorkflowExecutionActivity](https://microbiomedata/meta/WorkflowExecutionActivity)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Agent]<was%20associated%20with(i)%200..1-++[WorkflowExecutionActivity&#124;execution_resource:string%20%3F;git_url:string%20%3F;has_input:string%20*;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],%20[Activity]<was%20informed%20by(i)%200..1-%20[WorkflowExecutionActivity],%20[DataObject]++-%20was%20generated%20by%200..1>[WorkflowExecutionActivity],%20[WorkflowExecutionActivity]^-[ReadAnalysisActivity],%20[WorkflowExecutionActivity]^-[MetaproteomicsAnalysisActivity],%20[WorkflowExecutionActivity]^-[MetagenomeAssembly],%20[WorkflowExecutionActivity]^-[MetagenomeAlignment],%20[WorkflowExecutionActivity]^-[MetabolomicsAnalysisActivity],%20[WorkflowExecutionActivity]^-[AnnotationActivity],%20[Activity]^-[WorkflowExecutionActivity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Agent]<was%20associated%20with(i)%200..1-++[WorkflowExecutionActivity&#124;execution_resource:string%20%3F;git_url:string%20%3F;has_input:string%20*;has_output:string%20*;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],%20[Activity]<was%20informed%20by(i)%200..1-%20[WorkflowExecutionActivity],%20[DataObject]++-%20was%20generated%20by%200..1>[WorkflowExecutionActivity],%20[WorkflowExecutionActivity]^-[ReadQCAnalysisActivity],%20[WorkflowExecutionActivity]^-[MetaproteomicsAnalysisActivity],%20[WorkflowExecutionActivity]^-[MetagenomeAssembly],%20[WorkflowExecutionActivity]^-[MetagenomeAnnotationActivity],%20[WorkflowExecutionActivity]^-[MetabolomicsAnalysisActivity],%20[Activity]^-[WorkflowExecutionActivity])
 
 ## Parents
 
@@ -15,12 +15,11 @@ URI: [nmdc:WorkflowExecutionActivity](https://microbiomedata/meta/WorkflowExecut
 
 ## Children
 
- * [AnnotationActivity](AnnotationActivity.md)
  * [MetabolomicsAnalysisActivity](MetabolomicsAnalysisActivity.md)
- * [MetagenomeAlignment](MetagenomeAlignment.md)
+ * [MetagenomeAnnotationActivity](MetagenomeAnnotationActivity.md)
  * [MetagenomeAssembly](MetagenomeAssembly.md)
  * [MetaproteomicsAnalysisActivity](MetaproteomicsAnalysisActivity.md)
- * [ReadAnalysisActivity](ReadAnalysisActivity.md)
+ * [ReadQCAnalysisActivity](ReadQCAnalysisActivity.md)
 
 ## Referenced by class
 
@@ -70,3 +69,27 @@ URI: [nmdc:WorkflowExecutionActivity](https://microbiomedata/meta/WorkflowExecut
  * [biosample processing➞has input](biosample_processing_has_input.md)  <sub>0..*</sub>
     * range: [Biosample](Biosample.md)
     * inherited from: [BiosampleProcessing](BiosampleProcessing.md)
+
+### Inherited from omics processing:
+
+ * [omics processing➞id](omics_processing_id.md)  <sub>REQ</sub>
+    * range: [String](types/String.md)
+    * inherited from: [OmicsProcessing](OmicsProcessing.md)
+ * [omics processing➞name](omics_processing_name.md)  <sub>OPT</sub>
+    * range: [String](types/String.md)
+    * inherited from: [OmicsProcessing](OmicsProcessing.md)
+ * [omics processing➞alternate identifiers](omics_processing_alternate_identifiers.md)  <sub>0..*</sub>
+    * range: [String](types/String.md)
+    * inherited from: [OmicsProcessing](OmicsProcessing.md)
+ * [omics processing➞part of](omics_processing_part_of.md)  <sub>0..*</sub>
+    * range: [Study](Study.md)
+    * inherited from: [OmicsProcessing](OmicsProcessing.md)
+ * [omics processing➞has output](omics_processing_has_output.md)  <sub>0..*</sub>
+    * range: [DataObject](DataObject.md)
+    * inherited from: [OmicsProcessing](OmicsProcessing.md)
+ * [omics type](omics_type.md)  <sub>OPT</sub>
+    * Description: The type of omics data
+    * range: [ControlledTermValue](ControlledTermValue.md)
+    * Example: metatranscriptome None
+    * Example: metagenome None
+    * inherited from: None

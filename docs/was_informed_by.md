@@ -21,12 +21,11 @@ None ->  <sub>OPT</sub> [Activity](Activity.md)
 
  * [Activity](Activity.md)
  * [Agent](Agent.md)
- * [AnnotationActivity](AnnotationActivity.md)
  * [MetabolomicsAnalysisActivity](MetabolomicsAnalysisActivity.md)
- * [MetagenomeAlignment](MetagenomeAlignment.md)
+ * [MetagenomeAnnotationActivity](MetagenomeAnnotationActivity.md)
  * [MetagenomeAssembly](MetagenomeAssembly.md)
  * [MetaproteomicsAnalysisActivity](MetaproteomicsAnalysisActivity.md)
- * [ReadAnalysisActivity](ReadAnalysisActivity.md)
+ * [ReadQCAnalysisActivity](ReadQCAnalysisActivity.md)
  * [WorkflowExecutionActivity](WorkflowExecutionActivity.md)
 
 ## Other properties

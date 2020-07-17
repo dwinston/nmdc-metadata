@@ -1,10 +1,10 @@
 
-# Type: num_aligned_reads
+# Type: scaf_powsum
 
 
 
 
-URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
+URI: [nmdc:scaf_powsum](https://microbiomedata/meta/scaf_powsum)
 
 
 ## Domain and Range

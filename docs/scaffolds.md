@@ -1,10 +1,10 @@
 
-# Type: num_aligned_reads
+# Type: scaffolds
 
 
 
 
-URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
+URI: [nmdc:scaffolds](https://microbiomedata/meta/scaffolds)
 
 
 ## Domain and Range

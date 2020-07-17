@@ -1,10 +1,10 @@
 
-# Type: num_aligned_reads
+# Type: ctg_L90
 
 
 
 
-URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
+URI: [nmdc:ctg_L90](https://microbiomedata/meta/ctg_L90)
 
 
 ## Domain and Range

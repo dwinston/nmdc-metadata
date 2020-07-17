@@ -20,12 +20,11 @@ None ->  <sub>OPT</sub> [Agent](Agent.md)
 ## Used by
 
  * [Activity](Activity.md)
- * [AnnotationActivity](AnnotationActivity.md)
  * [MetabolomicsAnalysisActivity](MetabolomicsAnalysisActivity.md)
- * [MetagenomeAlignment](MetagenomeAlignment.md)
+ * [MetagenomeAnnotationActivity](MetagenomeAnnotationActivity.md)
  * [MetagenomeAssembly](MetagenomeAssembly.md)
  * [MetaproteomicsAnalysisActivity](MetaproteomicsAnalysisActivity.md)
- * [ReadAnalysisActivity](ReadAnalysisActivity.md)
+ * [ReadQCAnalysisActivity](ReadQCAnalysisActivity.md)
  * [WorkflowExecutionActivity](WorkflowExecutionActivity.md)
 
 ## Other properties

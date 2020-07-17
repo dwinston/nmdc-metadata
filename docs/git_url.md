@@ -20,10 +20,9 @@ None ->  <sub>OPT</sub> [String](types/String.md)
 
 ## Used by
 
- * [AnnotationActivity](AnnotationActivity.md)
  * [MetabolomicsAnalysisActivity](MetabolomicsAnalysisActivity.md)
- * [MetagenomeAlignment](MetagenomeAlignment.md)
+ * [MetagenomeAnnotationActivity](MetagenomeAnnotationActivity.md)
  * [MetagenomeAssembly](MetagenomeAssembly.md)
  * [MetaproteomicsAnalysisActivity](MetaproteomicsAnalysisActivity.md)
- * [ReadAnalysisActivity](ReadAnalysisActivity.md)
+ * [ReadQCAnalysisActivity](ReadQCAnalysisActivity.md)
  * [WorkflowExecutionActivity](WorkflowExecutionActivity.md)

@@ -1,10 +1,10 @@
 
-# Type: num_aligned_reads
+# Type: gc_avg
 
 
 
 
-URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
+URI: [nmdc:gc_avg](https://microbiomedata/meta/gc_avg)
 
 
 ## Domain and Range
