@@ -7,7 +7,7 @@ a provence-generating activity
 URI: [nmdc:Activity](https://microbiomedata/meta/Activity)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Agent]<was%20associated%20with%200..1-++[Activity&#124;activity_id:string;started_at_time:string%20%3F;ended_at_time:string%20%3F;used:string%20%3F],%20[Activity]<was%20informed%20by%200..1-%20[Activity],%20[Database]++-%20activity%20set%200..*>[Activity],%20[Activity]^-[WorkflowExecutionActivity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[Database],[Agent],[Agent]<was%20associated%20with%200..1-++[Activity&#124;activity_id:string;started_at_time:string%20%3F;ended_at_time:string%20%3F;used:string%20%3F],[Activity]<was%20informed%20by%200..1-%20[Activity],[Database]++-%20activity%20set%200..*>[Activity],[DataObject]-%20was%20generated%20by(i)%200..1>[Activity],[AttributeValue]-%20was%20generated%20by%200..1>[Activity],[Activity]^-[WorkflowExecutionActivity],[DataObject],[AttributeValue])
 
 ## Children
 
@@ -34,19 +34,8 @@ URI: [nmdc:Activity](https://microbiomedata/meta/Activity)
     * range: [String](types/String.md)
  * [was associated with](was_associated_with.md)  <sub>OPT</sub>
     * range: [Agent](Agent.md)
-
-### Inherited from agent:
-
- * [acted on behalf of](acted_on_behalf_of.md)  <sub>OPT</sub>
-    * range: [Agent](Agent.md)
-    * inherited from: None
  * [was informed by](was_informed_by.md)  <sub>OPT</sub>
     * range: [Activity](Activity.md)
-
-### Domain for slot:
-
- * [used](used.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
 
 ## Other properties
 

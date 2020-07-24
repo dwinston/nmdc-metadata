@@ -4,7 +4,7 @@
 
 An integer
 
-URI: [https://microbiomedata/meta/biolinkml:types/Integer](https://microbiomedata/meta/biolinkml:types/Integer)
+URI: [https://w3id.org/biolink/biolinkml/types/Integer](https://w3id.org/biolink/biolinkml/types/Integer)
 
 |  |  |  |
 | --- | --- | --- |

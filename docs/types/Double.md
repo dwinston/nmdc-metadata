@@ -4,7 +4,7 @@
 
 A real number that conforms to the xsd:double specification
 
-URI: [https://microbiomedata/meta/biolinkml:types/Double](https://microbiomedata/meta/biolinkml:types/Double)
+URI: [https://w3id.org/biolink/biolinkml/types/Double](https://w3id.org/biolink/biolinkml/types/Double)
 
 |  |  |  |
 | --- | --- | --- |

@@ -4,7 +4,7 @@
 
 a date (year, month and day) in an idealized calendar
 
-URI: [https://microbiomedata/meta/biolinkml:types/Date](https://microbiomedata/meta/biolinkml:types/Date)
+URI: [https://w3id.org/biolink/biolinkml/types/Date](https://w3id.org/biolink/biolinkml/types/Date)
 
 |  |  |  |
 | --- | --- | --- |

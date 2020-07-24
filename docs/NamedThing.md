@@ -7,7 +7,7 @@ a databased entity or concept/class
 URI: [nmdc:NamedThing](https://microbiomedata/meta/NamedThing)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[NamedThing&#124;id:string;name:string%20%3F;description:string%20%3F;alternate_identifiers:string%20*]^-[Study],%20[NamedThing]^-[Person],%20[NamedThing]^-[OntologyClass],%20[NamedThing]^-[DataObject],%20[NamedThing]^-[BiosampleProcessing],%20[NamedThing]^-[Biosample])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Study],[Person],[OntologyClass],[NamedThing&#124;id:string;name:string%20%3F;description:string%20%3F;alternate_identifiers:string%20*]^-[Study],[NamedThing]^-[Person],[NamedThing]^-[OntologyClass],[NamedThing]^-[DataObject],[NamedThing]^-[BiosampleProcessing],[NamedThing]^-[Biosample],[DataObject],[BiosampleProcessing],[Biosample])
 
 ## Children
 
@@ -37,10 +37,4 @@ URI: [nmdc:NamedThing](https://microbiomedata/meta/NamedThing)
     * range: [String](types/String.md)
  * [name](name.md)  <sub>OPT</sub>
     * Description: A human readable label for an entity
-    * range: [String](types/String.md)
-
-### Domain for slot:
-
- * [part of](part_of.md)  <sub>0..*</sub>
-    * Description: Links a resource to another resource that either logically or physically includes it.
     * range: [String](types/String.md)

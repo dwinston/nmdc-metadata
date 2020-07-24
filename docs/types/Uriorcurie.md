@@ -4,7 +4,7 @@
 
 a URI or a CURIE
 
-URI: [https://microbiomedata/meta/biolinkml:types/Uriorcurie](https://microbiomedata/meta/biolinkml:types/Uriorcurie)
+URI: [https://w3id.org/biolink/biolinkml/types/Uriorcurie](https://w3id.org/biolink/biolinkml/types/Uriorcurie)
 
 |  |  |  |
 | --- | --- | --- |

@@ -4,7 +4,7 @@
 
 A character string
 
-URI: [https://microbiomedata/meta/biolinkml:types/String](https://microbiomedata/meta/biolinkml:types/String)
+URI: [https://w3id.org/biolink/biolinkml/types/String](https://w3id.org/biolink/biolinkml/types/String)
 
 |  |  |  |
 | --- | --- | --- |

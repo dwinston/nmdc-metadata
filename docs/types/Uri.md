@@ -4,7 +4,7 @@
 
 a complete URI
 
-URI: [https://microbiomedata/meta/biolinkml:types/Uri](https://microbiomedata/meta/biolinkml:types/Uri)
+URI: [https://w3id.org/biolink/biolinkml/types/Uri](https://w3id.org/biolink/biolinkml/types/Uri)
 
 |  |  |  |
 | --- | --- | --- |

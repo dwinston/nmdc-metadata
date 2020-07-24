@@ -4,7 +4,7 @@
 
 The combination of a date and time
 
-URI: [https://microbiomedata/meta/biolinkml:types/Datetime](https://microbiomedata/meta/biolinkml:types/Datetime)
+URI: [https://w3id.org/biolink/biolinkml/types/Datetime](https://w3id.org/biolink/biolinkml/types/Datetime)
 
 |  |  |  |
 | --- | --- | --- |
