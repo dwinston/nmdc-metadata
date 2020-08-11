@@ -22,6 +22,7 @@ URI: [nmdc:Person](https://microbiomedata/meta/Person)
 ### Own
 
  * [person➞id](person_id.md)  <sub>REQ</sub>
+    * Description: Should be an ORCID. Specify in CURIE format. E.g ORCID:0000-1111-...
     * range: [String](types/String.md)
 
 ### Inherited from named thing:

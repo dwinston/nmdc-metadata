@@ -2,7 +2,7 @@
 # Type: omics processing_id
 
 
-
+The primary identifier for the omics processing. E.g. GOLD:GpNNNN
 
 URI: [nmdc:omics_processing_id](https://microbiomedata/meta/omics_processing_id)
 

@@ -43,20 +43,27 @@ URI: [nmdc:Biosample](https://microbiomedata/meta/Biosample)
     * Description: Mean annual temperature
     * range: [QuantityValue](QuantityValue.md)
  * [biosample➞alternate identifiers](biosample_alternate_identifiers.md)  <sub>0..*</sub>
+    * Description: The same biosample may have distinct identifiers in different databases (e.g. GOLD and EMSL)
     * range: [String](types/String.md)
  * [biosample➞depth](biosample_depth.md)  <sub>OPT</sub>
     * range: [QuantityValue](QuantityValue.md)
  * [biosample➞env_broad_scale](biosample_env_broad_scale.md)  <sub>REQ</sub>
+    * Description: formerly known as 'biome'
     * range: [ControlledTermValue](ControlledTermValue.md)
  * [biosample➞env_local_scale](biosample_env_local_scale.md)  <sub>REQ</sub>
+    * Description: formerly known as 'feature'
     * range: [ControlledTermValue](ControlledTermValue.md)
  * [biosample➞env_medium](biosample_env_medium.md)  <sub>REQ</sub>
+    * Description: formerly known as 'material'
     * range: [ControlledTermValue](ControlledTermValue.md)
  * [biosample➞id](biosample_id.md)  <sub>REQ</sub>
+    * Description: The primary identifier for the biosample. Example: GOLD:Gb0205609
     * range: [String](types/String.md)
  * [biosample➞lat_lon](biosample_lat_lon.md)  <sub>REQ</sub>
+    * Description: This is currently a required field but it's not clear if this should be required for human hosts
     * range: [GeolocationValue](GeolocationValue.md)
  * [biosample➞name](biosample_name.md)  <sub>OPT</sub>
+    * Description: A human readable name or description of the biosample
     * range: [String](types/String.md)
  * [chlorophyll](chlorophyll.md)  <sub>OPT</sub>
     * Description: Concentration of chlorophyll

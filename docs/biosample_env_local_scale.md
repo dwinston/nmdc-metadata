@@ -2,7 +2,7 @@
 # Type: biosample_env_local_scale
 
 
-
+formerly known as 'feature'
 
 URI: [nmdc:biosample_env_local_scale](https://microbiomedata/meta/biosample_env_local_scale)
 

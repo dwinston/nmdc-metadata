@@ -2,7 +2,7 @@
 # Type: biosample_id
 
 
-
+The primary identifier for the biosample. Example: GOLD:Gb0205609
 
 URI: [nmdc:biosample_id](https://microbiomedata/meta/biosample_id)
 

@@ -2,7 +2,7 @@
 # Type: person_id
 
 
-
+Should be an ORCID. Specify in CURIE format. E.g ORCID:0000-1111-...
 
 URI: [nmdc:person_id](https://microbiomedata/meta/person_id)
 

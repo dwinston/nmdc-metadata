@@ -23,12 +23,15 @@ URI: [nmdc:OmicsProcessing](https://microbiomedata/meta/OmicsProcessing)
 ### Own
 
  * [omics processing➞alternate identifiers](omics_processing_alternate_identifiers.md)  <sub>0..*</sub>
+    * Description: The same omics processing may have distinct identifiers in different databases (e.g. GOLD and EMSL, as well as NCBI)
     * range: [String](types/String.md)
  * [omics processing➞has output](omics_processing_has_output.md)  <sub>0..*</sub>
     * range: [DataObject](DataObject.md)
  * [omics processing➞id](omics_processing_id.md)  <sub>REQ</sub>
+    * Description: The primary identifier for the omics processing. E.g. GOLD:GpNNNN
     * range: [String](types/String.md)
  * [omics processing➞name](omics_processing_name.md)  <sub>OPT</sub>
+    * Description: A human readable name or description of the omics processing.
     * range: [String](types/String.md)
  * [omics processing➞part of](omics_processing_part_of.md)  <sub>0..*</sub>
     * range: [Study](Study.md)

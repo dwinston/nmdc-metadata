@@ -7,7 +7,7 @@ An attribute value representing a person
 URI: [nmdc:PersonValue](https://microbiomedata/meta/PersonValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Study]++-%20principal%20investigator%200..1>[PersonValue&#124;has_raw_value:string%20%3F;orcid:string%20%3F],[AttributeValue]^-[PersonValue],[Study],[AttributeValue],[Activity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Study]++-%20principal%20investigator%200..1>[PersonValue&#124;orcid:string%20%3F;has_raw_value:string%20%3F],[AttributeValue]^-[PersonValue],[Study],[AttributeValue],[Activity])
 
 ## Parents
 
@@ -25,6 +25,7 @@ URI: [nmdc:PersonValue](https://microbiomedata/meta/PersonValue)
  * [orcid](orcid.md)  <sub>OPT</sub>
     * range: [String](types/String.md)
  * [person value➞has raw value](person_value_has_raw_value.md)  <sub>OPT</sub>
+    * Description: the full name of the Investgator in format FIRST LAST
     * range: [String](types/String.md)
 
 ### Inherited from attribute value:

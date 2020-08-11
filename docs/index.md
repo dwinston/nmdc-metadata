@@ -47,9 +47,9 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [activity id](activity_id.md)
  * [activity set](activity_set.md) - This property links a database object to the set of prov activities.
  * [alternate identifiers](alternate_identifiers.md) - Non-primary identifiers
-    * [biosample➞alternate identifiers](biosample_alternate_identifiers.md)
-    * [omics processing➞alternate identifiers](omics_processing_alternate_identifiers.md)
-    * [study➞alternate identifiers](study_alternate_identifiers.md)
+    * [biosample➞alternate identifiers](biosample_alternate_identifiers.md) - The same biosample may have distinct identifiers in different databases (e.g. GOLD and EMSL)
+    * [omics processing➞alternate identifiers](omics_processing_alternate_identifiers.md) - The same omics processing may have distinct identifiers in different databases (e.g. GOLD and EMSL, as well as NCBI)
+    * [study➞alternate identifiers](study_alternate_identifiers.md) - The same study may have distinct identifiers in different databases (e.g. GOLD and EMSL)
  * [attribute](attribute.md) - A attribute of a biosample. Examples: depth, habitat, material. For NMDC, attributes SHOULD be mapped to terms within a MIxS template
     * [_16s_recover](_16s_recover.md) - Can a 16S gene be recovered from the submitted SAG or MAG?
     * [_16s_recover_software](_16s_recover_software.md) - Tools used for 16S rRNA gene extraction
@@ -196,11 +196,11 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [emulsions](emulsions.md) - "Amount or concentration of substances such as paints, adhesives, mayonnaise, hair colorants, emulsified oils, etc.; can include multiple emulsion types"
     * [encoded_traits](encoded_traits.md) - "Should include key traits like antibiotic resistance or xenobiotic degradation phenotypes for plasmids, converting genes for phage"
     * [env_broad_scale](env_broad_scale.md) - "In this field, report which major environmental system your sample or specimen came from. The systems identified should have a coarse spatial grain, to provide the general environmental context of where the sampling was done (e.g. were you in the desert or a rainforest?). We recommend using subclasses of ENVOUs biome class: http://purl.obolibrary.org/obo/ENVO_00000428. Format (one term): termLabel [termID], Format (multiple terms): termLabel [termID]|termLabel [termID]|termLabel [termID]. Example: Annotating a water sample from the photic zone in middle of the Atlantic Ocean, consider: oceanic epipelagic zone biome [ENVO:01000033]. Example: Annotating a sample from the Amazon rainforest consider: tropical moist broadleaf forest biome [ENVO:01000228]. If needed, request new terms on the ENVO tracker, identified here: http://www.obofoundry.org/ontology/envo.html"
-       * [biosample➞env_broad_scale](biosample_env_broad_scale.md)
+       * [biosample➞env_broad_scale](biosample_env_broad_scale.md) - formerly known as 'biome'
     * [env_local_scale](env_local_scale.md) - "In this field, report the entity or entities which are in your sample or specimenUs local vicinity and which you believe have significant causal influences on your sample or specimen. Please use terms that are present in ENVO and which are of smaller spatial grain than your entry for env_broad_scale. Format (one term): termLabel [termID]; Format (multiple terms): termLabel [termID]|termLabel [termID]|termLabel [termID]. Example: Annotating a pooled sample taken from various vegetation layers in a forest consider: canopy [ENVO:00000047]|herb and fern layer [ENVO:01000337]|litter layer [ENVO:01000338]|understory [01000335]|shrub layer [ENVO:01000336]. If needed, request new terms on the ENVO tracker, identified here: http://www.obofoundry.org/ontology/envo.html"
-       * [biosample➞env_local_scale](biosample_env_local_scale.md)
+       * [biosample➞env_local_scale](biosample_env_local_scale.md) - formerly known as 'feature'
     * [env_medium](env_medium.md) - "In this field, report which environmental material or materials (pipe separated) immediately surrounded your sample or specimen prior to sampling, using one or more subclasses of ENVOUs environmental material class: http://purl.obolibrary.org/obo/ENVO_00010483. Format (one term): termLabel [termID]; Format (multiple terms): termLabel [termID]|termLabel [termID]|termLabel [termID]. Example: Annotating a fish swimming in the upper 100 m of the Atlantic Ocean, consider: ocean water [ENVO:00002151]. Example: Annotating a duck on a pond consider: pond water [ENVO:00002228]|air ENVO_00002005. If needed, request new terms on the ENVO tracker, identified here: http://www.obofoundry.org/ontology/envo.html"
-       * [biosample➞env_medium](biosample_env_medium.md)
+       * [biosample➞env_medium](biosample_env_medium.md) - formerly known as 'material'
     * [env_package](env_package.md) - "MIxS extension for reporting of measurements and observations obtained from one or more of the environments where the sample was obtained. All environmental packages listed here are further defined in separate subtables. By giving the name of the environmental package, a selection of fields can be made from the subtables and can be reported"
     * [escalator](escalator.md) - The number of escalators within the built structure
     * [estimated_size](estimated_size.md) - The estimated size of the genome prior to sequencing. Of particular importance in the sequencing of (eukaryotic) genome which could remain in draft form for a long or unspecified period.
@@ -333,7 +333,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [kidney_disord](kidney_disord.md) - History of kidney disorders; can include multiple disorders
     * [last_clean](last_clean.md) - "The last time the floor was cleaned (swept, mopped, vacuumed)"
     * [lat_lon](lat_lon.md) - The geographical origin of the sample as defined by latitude and longitude. The values should be reported in decimal degrees and in WGS84 system
-       * [biosample➞lat_lon](biosample_lat_lon.md)
+       * [biosample➞lat_lon](biosample_lat_lon.md) - This is currently a required field but it's not clear if this should be required for human hosts
     * [lib_layout](lib_layout.md) - "Specify whether to expect single, paired, or other configuration of reads"
     * [lib_reads_seqd](lib_reads_seqd.md) - Total number of clones sequenced from the library
     * [lib_screen](lib_screen.md) - Specific enrichment or screening methods applied before and/or after creating libraries
@@ -678,20 +678,20 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [has input](has_input.md) - An input to a process.
     * [biosample processing➞has input](biosample_processing_has_input.md)
  * [has numeric value](has_numeric_value.md) - Links a quantity value to a number
-    * [quantity value➞has numeric value](quantity_value_has_numeric_value.md)
+    * [quantity value➞has numeric value](quantity_value_has_numeric_value.md) - The number part of the quantity
  * [has output](has_output.md) - An output biosample to a processing step
     * [omics processing➞has output](omics_processing_has_output.md)
  * [has raw value](has_raw_value.md) - The value that was specified for an annotation in raw form, i.e. a string. E.g. "2 cm" or "2-4 cm"
-    * [geolocation value➞has raw value](geolocation_value_has_raw_value.md)
-    * [person value➞has raw value](person_value_has_raw_value.md)
-    * [quantity value➞has raw value](quantity_value_has_raw_value.md)
+    * [geolocation value➞has raw value](geolocation_value_has_raw_value.md) - The raw value for a  geolocation should follow {lat} {long}
+    * [person value➞has raw value](person_value_has_raw_value.md) - the full name of the Investgator in format FIRST LAST
+    * [quantity value➞has raw value](quantity_value_has_raw_value.md) - Unnormalized atomic string representation, should in syntax {number} {unit}
  * [has unit](has_unit.md) - Links a quantity value to a unit
-    * [quantity value➞has unit](quantity_value_has_unit.md)
+    * [quantity value➞has unit](quantity_value_has_unit.md) - The unit of the quantity
  * [id](id.md) - A unique identifier for a thing. Must be either a CURIE shorthand for a URI or a complete URI
-    * [biosample➞id](biosample_id.md)
-    * [omics processing➞id](omics_processing_id.md)
-    * [person➞id](person_id.md)
-    * [study➞id](study_id.md)
+    * [biosample➞id](biosample_id.md) - The primary identifier for the biosample. Example: GOLD:Gb0205609
+    * [omics processing➞id](omics_processing_id.md) - The primary identifier for the omics processing. E.g. GOLD:GpNNNN
+    * [person➞id](person_id.md) - Should be an ORCID. Specify in CURIE format. E.g ORCID:0000-1111-...
+    * [study➞id](study_id.md) - The primary identifier for the study.
  * [language](language.md) - Should use ISO 639-1 code e.g. "en", "fr"
  * [latitude](latitude.md) - latitude
  * [longitude](longitude.md) - longitude
@@ -725,9 +725,9 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [scaf_powsum](scaf_powsum.md)
     * [scaffolds](scaffolds.md)
  * [name](name.md) - A human readable label for an entity
-    * [biosample➞name](biosample_name.md)
-    * [omics processing➞name](omics_processing_name.md)
-    * [study➞name](study_name.md)
+    * [biosample➞name](biosample_name.md) - A human readable name or description of the biosample
+    * [omics processing➞name](omics_processing_name.md) - A human readable name or description of the omics processing.
+    * [study➞name](study_name.md) - A human readable name or description of the study.
  * [omics processing set](omics_processing_set.md) - This property links a database object to the set of omics processings within it.
  * [omics type](omics_type.md) - The type of omics data
  * [orcid](orcid.md)
@@ -744,7 +744,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [used](used.md)
  * [was associated with](was_associated_with.md)
  * [was generated by](was_generated_by.md)
-    * [data object➞was generated by](data_object_was_generated_by.md)
+    * [data object➞was generated by](data_object_was_generated_by.md) - the activity that generated the file
  * [was informed by](was_informed_by.md)
 
 ### Types

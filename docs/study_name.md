@@ -2,7 +2,7 @@
 # Type: study_name
 
 
-
+A human readable name or description of the study.
 
 URI: [nmdc:study_name](https://microbiomedata/meta/study_name)
 

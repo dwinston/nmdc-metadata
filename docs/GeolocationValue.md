@@ -7,7 +7,7 @@ A normalized value for a location on the earth's surface
 URI: [nmdc:GeolocationValue](https://microbiomedata/meta/GeolocationValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Biosample]++-%20lat_lon%201..1>[GeolocationValue&#124;has_raw_value:string%20%3F;latitude:decimal_degree%20%3F;longitude:decimal_degree%20%3F],[Biosample]++-%20lat_lon(i)%200..1>[GeolocationValue],[AttributeValue]^-[GeolocationValue],[Biosample],[AttributeValue],[Activity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Biosample]++-%20lat_lon%201..1>[GeolocationValue&#124;latitude:decimal_degree%20%3F;longitude:decimal_degree%20%3F;has_raw_value:string%20%3F],[Biosample]++-%20lat_lon(i)%200..1>[GeolocationValue],[AttributeValue]^-[GeolocationValue],[Biosample],[AttributeValue],[Activity])
 
 ## Parents
 
@@ -24,6 +24,7 @@ URI: [nmdc:GeolocationValue](https://microbiomedata/meta/GeolocationValue)
 ### Own
 
  * [geolocation value➞has raw value](geolocation_value_has_raw_value.md)  <sub>OPT</sub>
+    * Description: The raw value for a  geolocation should follow {lat} {long}
     * range: [String](types/String.md)
  * [latitude](latitude.md)  <sub>OPT</sub>
     * Description: latitude

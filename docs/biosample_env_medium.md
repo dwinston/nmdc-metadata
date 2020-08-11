@@ -2,7 +2,7 @@
 # Type: biosample_env_medium
 
 
-
+formerly known as 'material'
 
 URI: [nmdc:biosample_env_medium](https://microbiomedata/meta/biosample_env_medium)
 

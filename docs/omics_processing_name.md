@@ -2,7 +2,7 @@
 # Type: omics processing_name
 
 
-
+A human readable name or description of the omics processing.
 
 URI: [nmdc:omics_processing_name](https://microbiomedata/meta/omics_processing_name)
 

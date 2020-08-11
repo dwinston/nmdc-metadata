@@ -2,7 +2,7 @@
 # Type: biosample_name
 
 
-
+A human readable name or description of the biosample
 
 URI: [nmdc:biosample_name](https://microbiomedata/meta/biosample_name)
 

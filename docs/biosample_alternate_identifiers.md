@@ -2,7 +2,7 @@
 # Type: biosample_alternate identifiers
 
 
-
+The same biosample may have distinct identifiers in different databases (e.g. GOLD and EMSL)
 
 URI: [nmdc:biosample_alternate_identifiers](https://microbiomedata/meta/biosample_alternate_identifiers)
 

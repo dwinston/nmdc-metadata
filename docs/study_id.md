@@ -2,7 +2,7 @@
 # Type: study_id
 
 
-
+The primary identifier for the study.
 
 URI: [nmdc:study_id](https://microbiomedata/meta/study_id)
 

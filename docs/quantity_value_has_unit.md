@@ -2,7 +2,7 @@
 # Type: quantity value_has unit
 
 
-
+The unit of the quantity
 
 URI: [nmdc:quantity_value_has_unit](https://microbiomedata/meta/quantity_value_has_unit)
 

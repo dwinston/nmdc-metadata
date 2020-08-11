@@ -2,7 +2,7 @@
 # Type: omics processing_alternate identifiers
 
 
-
+The same omics processing may have distinct identifiers in different databases (e.g. GOLD and EMSL, as well as NCBI)
 
 URI: [nmdc:omics_processing_alternate_identifiers](https://microbiomedata/meta/omics_processing_alternate_identifiers)
 

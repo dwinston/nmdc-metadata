@@ -2,7 +2,7 @@
 # Type: study_alternate identifiers
 
 
-
+The same study may have distinct identifiers in different databases (e.g. GOLD and EMSL)
 
 URI: [nmdc:study_alternate_identifiers](https://microbiomedata/meta/study_alternate_identifiers)
 

@@ -7,7 +7,7 @@ A simple quantity, e.g. 2cm
 URI: [nmdc:QuantityValue](https://microbiomedata/meta/QuantityValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Biosample]++-%20agrochem_addition%200..1>[QuantityValue&#124;has_raw_value:string%20%3F;has_unit:unit%20%3F;has_numeric_value:double%20%3F],[Biosample]++-%20al_sat%200..1>[QuantityValue],[Biosample]++-%20alt%200..1>[QuantityValue],[Biosample]++-%20annual_precpt%200..1>[QuantityValue],[Biosample]++-%20annual_temp%200..1>[QuantityValue],[Biosample]++-%20depth%200..1>[QuantityValue],[Biosample]++-%20chlorophyll%200..1>[QuantityValue],[Biosample]++-%20depth(i)%200..1>[QuantityValue],[Biosample]++-%20diss_oxygen%200..1>[QuantityValue],[Biosample]++-%20elev%200..1>[QuantityValue],[Biosample]++-%20heavy_metals%200..1>[QuantityValue],[Biosample]++-%20microbial_biomass%200..1>[QuantityValue],[Biosample]++-%20misc_param%200..1>[QuantityValue],[Biosample]++-%20nitrate%200..1>[QuantityValue],[Biosample]++-%20salinity%200..1>[QuantityValue],[Biosample]++-%20samp_vol_we_dna_ext%200..1>[QuantityValue],[Biosample]++-%20season_precpt%200..1>[QuantityValue],[Biosample]++-%20season_temp%200..1>[QuantityValue],[Biosample]++-%20sieving%200..1>[QuantityValue],[Biosample]++-%20slope_aspect%200..1>[QuantityValue],[Biosample]++-%20slope_gradient%200..1>[QuantityValue],[Biosample]++-%20texture%200..1>[QuantityValue],[Biosample]++-%20tot_nitro_content%200..1>[QuantityValue],[Biosample]++-%20tot_org_carb%200..1>[QuantityValue],[Biosample]++-%20water_content%200..1>[QuantityValue],[AttributeValue]^-[QuantityValue],[Biosample],[AttributeValue],[Activity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Biosample]++-%20agrochem_addition%200..1>[QuantityValue&#124;has_unit:unit%20%3F;has_numeric_value:double%20%3F;has_raw_value:string%20%3F],[Biosample]++-%20al_sat%200..1>[QuantityValue],[Biosample]++-%20alt%200..1>[QuantityValue],[Biosample]++-%20annual_precpt%200..1>[QuantityValue],[Biosample]++-%20annual_temp%200..1>[QuantityValue],[Biosample]++-%20depth%200..1>[QuantityValue],[Biosample]++-%20chlorophyll%200..1>[QuantityValue],[Biosample]++-%20depth(i)%200..1>[QuantityValue],[Biosample]++-%20diss_oxygen%200..1>[QuantityValue],[Biosample]++-%20elev%200..1>[QuantityValue],[Biosample]++-%20heavy_metals%200..1>[QuantityValue],[Biosample]++-%20microbial_biomass%200..1>[QuantityValue],[Biosample]++-%20misc_param%200..1>[QuantityValue],[Biosample]++-%20nitrate%200..1>[QuantityValue],[Biosample]++-%20salinity%200..1>[QuantityValue],[Biosample]++-%20samp_vol_we_dna_ext%200..1>[QuantityValue],[Biosample]++-%20season_precpt%200..1>[QuantityValue],[Biosample]++-%20season_temp%200..1>[QuantityValue],[Biosample]++-%20sieving%200..1>[QuantityValue],[Biosample]++-%20slope_aspect%200..1>[QuantityValue],[Biosample]++-%20slope_gradient%200..1>[QuantityValue],[Biosample]++-%20texture%200..1>[QuantityValue],[Biosample]++-%20tot_nitro_content%200..1>[QuantityValue],[Biosample]++-%20tot_org_carb%200..1>[QuantityValue],[Biosample]++-%20water_content%200..1>[QuantityValue],[AttributeValue]^-[QuantityValue],[Biosample],[AttributeValue],[Activity])
 
 ## Parents
 
@@ -266,10 +266,13 @@ URI: [nmdc:QuantityValue](https://microbiomedata/meta/QuantityValue)
 ### Own
 
  * [quantity value➞has numeric value](quantity_value_has_numeric_value.md)  <sub>OPT</sub>
+    * Description: The number part of the quantity
     * range: [Double](types/Double.md)
  * [quantity value➞has raw value](quantity_value_has_raw_value.md)  <sub>OPT</sub>
+    * Description: Unnormalized atomic string representation, should in syntax {number} {unit}
     * range: [String](types/String.md)
  * [quantity value➞has unit](quantity_value_has_unit.md)  <sub>OPT</sub>
+    * Description: The unit of the quantity
     * range: [Unit](types/Unit.md)
 
 ### Inherited from attribute value:

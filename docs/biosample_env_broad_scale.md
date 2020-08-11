@@ -2,7 +2,7 @@
 # Type: biosample_env_broad_scale
 
 
-
+formerly known as 'biome'
 
 URI: [nmdc:biosample_env_broad_scale](https://microbiomedata/meta/biosample_env_broad_scale)
 

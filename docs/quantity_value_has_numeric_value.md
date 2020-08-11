@@ -2,7 +2,7 @@
 # Type: quantity value_has numeric value
 
 
-
+The number part of the quantity
 
 URI: [nmdc:quantity_value_has_numeric_value](https://microbiomedata/meta/quantity_value_has_numeric_value)
 

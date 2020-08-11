@@ -44,10 +44,13 @@ URI: [nmdc:Study](https://microbiomedata/meta/Study)
     * Description: TODO
     * range: [AttributeValue](AttributeValue.md)
  * [study➞alternate identifiers](study_alternate_identifiers.md)  <sub>0..*</sub>
+    * Description: The same study may have distinct identifiers in different databases (e.g. GOLD and EMSL)
     * range: [String](types/String.md)
  * [study➞id](study_id.md)  <sub>REQ</sub>
+    * Description: The primary identifier for the study.
     * range: [String](types/String.md)
  * [study➞name](study_name.md)  <sub>OPT</sub>
+    * Description: A human readable name or description of the study.
     * range: [String](types/String.md)
 
 ### Inherited from named thing:
