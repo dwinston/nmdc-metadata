@@ -1,5 +1,5 @@
 
-# Nmdc Schema schema
+# Nmdc schema
 
 
 Schema for National Microbiome Data Collaborative (NMDC). This schem is organized into 3 separate modules:
