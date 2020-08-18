@@ -263,4 +263,5 @@ URI: [nmdc:Biosample](https://microbiomedata/meta/Biosample)
 | --- | --- | --- |
 | **Aliases:** | | sample |
 |  | | material sample |
+| **In Subsets:** | | sample subset |
 

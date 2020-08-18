@@ -42,3 +42,10 @@ URI: [nmdc:MetabolomicsAnalysisActivity](https://microbiomedata/meta/Metabolomic
     * range: [Agent](Agent.md)
  * [was informed by](was_informed_by.md)  <sub>OPT</sub>
     * range: [Activity](Activity.md)
+
+## Other properties
+
+|  |  |  |
+| --- | --- | --- |
+| **In Subsets:** | | workflow subset |
+

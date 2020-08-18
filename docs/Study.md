@@ -67,4 +67,5 @@ URI: [nmdc:Study](https://microbiomedata/meta/Study)
 |  | | research proposal |
 |  | | research study |
 |  | | investigation |
+| **In Subsets:** | | sample subset |
 

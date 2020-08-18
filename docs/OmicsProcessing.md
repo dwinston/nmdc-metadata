@@ -54,4 +54,5 @@ URI: [nmdc:OmicsProcessing](https://microbiomedata/meta/OmicsProcessing)
 |  |  |  |
 | --- | --- | --- |
 | **Comments:** | | The IDs for objects coming from GOLD will have prefixes gold:GpNNNN |
+| **In Subsets:** | | sample subset |
 

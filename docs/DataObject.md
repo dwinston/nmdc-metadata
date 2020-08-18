@@ -55,3 +55,10 @@ URI: [nmdc:DataObject](https://microbiomedata/meta/DataObject)
  * [name](name.md)  <sub>OPT</sub>
     * Description: A human readable label for an entity
     * range: [String](types/String.md)
+
+## Other properties
+
+|  |  |  |
+| --- | --- | --- |
+| **In Subsets:** | | data object subset |
+
