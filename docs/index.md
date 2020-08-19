@@ -711,7 +711,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [ctg_powsum](ctg_powsum.md)
     * [gap_pct](gap_pct.md)
     * [gc_avg](gc_avg.md)
-    * [gc_std](gc_std.md)
+    * [gc_std](gc_std.md) - Standard deviation of GC content of all contigs.
     * [n_scaffolds](n_scaffolds.md)
     * [num_aligned_reads](num_aligned_reads.md)
     * [num_input_reads](num_input_reads.md)

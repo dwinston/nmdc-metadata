@@ -15,7 +15,7 @@ URI: [nmdc:MetagenomeAssembly](https://microbiomedata/meta/MetagenomeAssembly)
 
 ---
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[WorkflowExecutionActivity]%5E-[MetagenomeAssembly%7Casm_score:string%20%3F;scaffolds:string%20%3F;scaf_logsum:string%20%3F;scaf_powsum:string%20%3F;scaf_max:string%20%3F;scaf_bp:string%20%3F;scaf_N50:string%20%3F;scaf_N90:string%20%3F;scaf_L50:string%20%3F;scaf_L90:string%20%3F;scaf_n_gt50K:string%20%3F;scaf_l_gt50K:string%20%3F;scaf_pct_gt50K:string%20%3F;contigs:string%20%3F;contig_bp:string%20%3F;ctg_N50:string%20%3F;ctg_L50:string%20%3F;ctg_N90:string%20%3F;ctg_L90:string%20%3F;ctg_logsum:string%20%3F;ctg_powsum:string%20%3F;ctg_max:string%20%3F;gap_pct:string%20%3F;gc_std:string%20%3F;gc_avg:string%20%3F;num_input_reads:string%20%3F;num_aligned_reads:string%20%3F;execution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20%2A;has_output(i):string%20%2A;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],[Agent],[Activity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[WorkflowExecutionActivity]%5E-[MetagenomeAssembly%7Casm_score:string%20%3F;scaffolds:string%20%3F;scaf_logsum:string%20%3F;scaf_powsum:string%20%3F;scaf_max:string%20%3F;scaf_bp:string%20%3F;scaf_N50:string%20%3F;scaf_N90:string%20%3F;scaf_L50:string%20%3F;scaf_L90:string%20%3F;scaf_n_gt50K:string%20%3F;scaf_l_gt50K:string%20%3F;scaf_pct_gt50K:string%20%3F;contigs:string%20%3F;contig_bp:string%20%3F;ctg_N50:string%20%3F;ctg_L50:string%20%3F;ctg_N90:string%20%3F;ctg_L90:string%20%3F;ctg_logsum:string%20%3F;ctg_powsum:string%20%3F;ctg_max:string%20%3F;gap_pct:string%20%3F;gc_std:float%20%3F;gc_avg:string%20%3F;num_input_reads:string%20%3F;num_aligned_reads:string%20%3F;execution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20%2A;has_output(i):string%20%2A;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],[Agent],[Activity])
 
 ---
 
@@ -54,7 +54,8 @@ URI: [nmdc:MetagenomeAssembly](https://microbiomedata/meta/MetagenomeAssembly)
  * [gc_avg](gc_avg.md)  <sub>OPT</sub>
     * range: [String](types/String.md)
  * [gc_std](gc_std.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Standard deviation of GC content of all contigs.
+    * range: [Float](types/Float.md)
  * [num_aligned_reads](num_aligned_reads.md)  <sub>OPT</sub>
     * range: [String](types/String.md)
  * [num_input_reads](num_input_reads.md)  <sub>OPT</sub>
