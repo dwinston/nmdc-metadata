@@ -2,7 +2,7 @@ title: NMDC Metadata schema
 email: deepak.unni3@gmail.com
 description: A schema for managing metadata in [National Microbiome Data Collaborative](https://microbiomedata.org/)
 
-remote_theme: deepakunni3/just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 aux_links:
   "GitHub":
@@ -11,4 +11,4 @@ aux_links:
 search_enabled: true
 heading_anchors: true
 
-exclude: ["examples/", "GOLD-level-analysis/", "GOLD-path-translation/", "identify/", "mapping-files/", "metadata-translation/", "MIxS-ontology-translation/", "scripts/"]
+exclude: ["examples/", "GOLD-level-analysis/", "GOLD-path-translation/", "identify/", "mapping-files/", "metadata-translation/", "MIxS-ontology-translation/", "scripts/", "update-docs.md"]
