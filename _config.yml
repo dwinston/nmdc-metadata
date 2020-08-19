@@ -11,7 +11,4 @@ aux_links:
 search_enabled: true
 heading_anchors: true
 
-include:
-  - docs
-  - schema
-  - README.md
+exclude: ["examples/", "GOLD-level-analysis/", "GOLD-path-translation/", "identify/", "mapping-files/", "metadata-translation/", "MIxS-ontology-translation/", "scripts/"]
