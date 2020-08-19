@@ -1,10 +1,16 @@
+---
+parent: Types
+title: https://microbiomedata/meta/biolinkml:types/String
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: string
+# Type: https://microbiomedata/meta/biolinkml:types/String
 
 
 A character string
 
-URI: [metatype:String](https://w3id.org/biolink/biolinkml/meta/types/String)
+URI: [https://microbiomedata/meta/biolinkml:types/String](https://microbiomedata/meta/biolinkml:types/String)
 
 |  |  |  |
 | --- | --- | --- |

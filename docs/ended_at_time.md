@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:ended_at_time
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: ended at time
+# Type: ended_at_time
 
 
 
 
 URI: [nmdc:ended_at_time](https://microbiomedata/meta/ended_at_time)
-
 
 ## Domain and Range
 

@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:used
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: used
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:used](https://microbiomedata/meta/used)
-
 
 ## Domain and Range
 

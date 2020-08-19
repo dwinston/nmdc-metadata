@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:asm_score
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: asm_score
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:asm_score](https://microbiomedata/meta/asm_score)
-
 
 ## Domain and Range
 

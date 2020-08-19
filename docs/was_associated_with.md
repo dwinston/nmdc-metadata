@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:was_associated_with
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: was associated with
+# Type: was_associated_with
 
 
 
 
 URI: [nmdc:was_associated_with](https://microbiomedata/meta/was_associated_with)
-
 
 ## Domain and Range
 

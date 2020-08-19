@@ -1,5 +1,11 @@
+---
+parent: Types
+title: nmdc:Unit
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: unit
+# Type: Unit
 
 
 
@@ -9,11 +15,3 @@ URI: [nmdc:Unit](https://microbiomedata/meta/Unit)
 |  |  |  |
 | --- | --- | --- |
 | Root (builtin) type | | **str** |
-
-## Other properties
-
-|  |  |  |
-| --- | --- | --- |
-| **Mappings:** | | qud:Unit |
-|  | | UO:0000000 |
-

@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:name
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: name
 
@@ -5,7 +11,6 @@
 A human readable label for an entity
 
 URI: [nmdc:name](https://microbiomedata/meta/name)
-
 
 ## Domain and Range
 

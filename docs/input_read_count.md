@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:input_read_count
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: input read count
+# Type: input_read_count
 
 
 
 
 URI: [nmdc:input_read_count](https://microbiomedata/meta/input_read_count)
-
 
 ## Domain and Range
 

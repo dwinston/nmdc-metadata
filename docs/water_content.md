@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:water_content
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: water_content
 
@@ -5,7 +11,6 @@
 Water content measurement
 
 URI: [nmdc:water_content](https://microbiomedata/meta/water_content)
-
 
 ## Domain and Range
 

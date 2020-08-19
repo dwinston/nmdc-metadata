@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:contigs
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: contigs
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:contigs](https://microbiomedata/meta/contigs)
-
 
 ## Domain and Range
 

@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:has_input
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: has input
+# Type: has_input
 
 
 An input to a process.
 
 URI: [nmdc:has_input](https://microbiomedata/meta/has_input)
-
 
 ## Domain and Range
 

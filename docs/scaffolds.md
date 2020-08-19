@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:scaffolds
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: scaffolds
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:scaffolds](https://microbiomedata/meta/scaffolds)
-
 
 ## Domain and Range
 

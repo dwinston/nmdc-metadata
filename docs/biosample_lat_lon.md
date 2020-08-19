@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:biosample_lat_lon
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: biosample_lat_lon
 
@@ -5,7 +11,6 @@
 This is currently a required field but it's not clear if this should be required for human hosts
 
 URI: [nmdc:biosample_lat_lon](https://microbiomedata/meta/biosample_lat_lon)
-
 
 ## Domain and Range
 

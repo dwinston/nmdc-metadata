@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:ecosystem_type
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: ecosystem_type
 
@@ -5,7 +11,6 @@
 TODO
 
 URI: [nmdc:ecosystem_type](https://microbiomedata/meta/ecosystem_type)
-
 
 ## Domain and Range
 

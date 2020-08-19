@@ -1,10 +1,16 @@
+---
+parent: Types
+title: https://microbiomedata/meta/biolinkml:types/Uri
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: uri
+# Type: https://microbiomedata/meta/biolinkml:types/Uri
 
 
 a complete URI
 
-URI: [metatype:Uri](https://w3id.org/biolink/biolinkml/meta/types/Uri)
+URI: [https://microbiomedata/meta/biolinkml:types/Uri](https://microbiomedata/meta/biolinkml:types/Uri)
 
 |  |  |  |
 | --- | --- | --- |

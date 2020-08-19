@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:biosample_processing_has_input
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: biosample processing_has input
+# Type: biosample_processing_has_input
 
 
 
 
 URI: [nmdc:biosample_processing_has_input](https://microbiomedata/meta/biosample_processing_has_input)
-
 
 ## Domain and Range
 

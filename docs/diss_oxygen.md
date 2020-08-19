@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:diss_oxygen
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: diss_oxygen
 
@@ -5,7 +11,6 @@
 Concentration of dissolved oxygen
 
 URI: [nmdc:diss_oxygen](https://microbiomedata/meta/diss_oxygen)
-
 
 ## Domain and Range
 

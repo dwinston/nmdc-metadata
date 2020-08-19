@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:activity_id
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: activity id
+# Type: activity_id
 
 
 
 
 URI: [nmdc:activity_id](https://microbiomedata/meta/activity_id)
-
 
 ## Domain and Range
 

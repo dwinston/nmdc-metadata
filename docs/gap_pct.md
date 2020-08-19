@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:gap_pct
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: gap_pct
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:gap_pct](https://microbiomedata/meta/gap_pct)
-
 
 ## Domain and Range
 

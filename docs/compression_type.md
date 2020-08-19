@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:compression_type
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: compression type
+# Type: compression_type
 
 
 If provided, specifies the compression type
 
 URI: [nmdc:compression_type](https://microbiomedata/meta/compression_type)
-
 
 ## Domain and Range
 

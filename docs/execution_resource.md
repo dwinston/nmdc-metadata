@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:execution_resource
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: execution resource
+# Type: execution_resource
 
 
 Example: NERSC-Cori
 
 URI: [nmdc:execution_resource](https://microbiomedata/meta/execution_resource)
-
 
 ## Domain and Range
 

@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:omics_processing_part_of
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: omics processing_part of
+# Type: omics_processing_part_of
 
 
 
 
 URI: [nmdc:omics_processing_part_of](https://microbiomedata/meta/omics_processing_part_of)
-
 
 ## Domain and Range
 

@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:al_sat
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: al_sat
 
@@ -5,7 +11,6 @@
 Aluminum saturation (esp. For tropical soils)
 
 URI: [nmdc:al_sat](https://microbiomedata/meta/al_sat)
-
 
 ## Domain and Range
 

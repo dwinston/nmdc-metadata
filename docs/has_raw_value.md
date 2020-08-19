@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:has_raw_value
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: has raw value
+# Type: has_raw_value
 
 
 The value that was specified for an annotation in raw form, i.e. a string. E.g. "2 cm" or "2-4 cm"
 
 URI: [nmdc:has_raw_value](https://microbiomedata/meta/has_raw_value)
-
 
 ## Domain and Range
 

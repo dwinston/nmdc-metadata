@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:ph_meth
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: ph_meth
 
@@ -5,7 +11,6 @@
 Reference or method used in determining ph
 
 URI: [nmdc:ph_meth](https://microbiomedata/meta/ph_meth)
-
 
 ## Domain and Range
 

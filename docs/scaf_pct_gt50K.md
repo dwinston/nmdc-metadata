@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:scaf_pct_gt50K
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: scaf_pct_gt50K
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:scaf_pct_gt50K](https://microbiomedata/meta/scaf_pct_gt50K)
-
 
 ## Domain and Range
 

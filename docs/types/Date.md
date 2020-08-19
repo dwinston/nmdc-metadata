@@ -1,10 +1,16 @@
+---
+parent: Types
+title: https://microbiomedata/meta/biolinkml:types/Date
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: date
+# Type: https://microbiomedata/meta/biolinkml:types/Date
 
 
 a date (year, month and day) in an idealized calendar
 
-URI: [metatype:Date](https://w3id.org/biolink/biolinkml/meta/types/Date)
+URI: [https://microbiomedata/meta/biolinkml:types/Date](https://microbiomedata/meta/biolinkml:types/Date)
 
 |  |  |  |
 | --- | --- | --- |

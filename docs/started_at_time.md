@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:started_at_time
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: started at time
+# Type: started_at_time
 
 
 
 
 URI: [nmdc:started_at_time](https://microbiomedata/meta/started_at_time)
-
 
 ## Domain and Range
 

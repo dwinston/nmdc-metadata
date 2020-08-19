@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:id
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: id
 
@@ -5,7 +11,6 @@
 A unique identifier for a thing. Must be either a CURIE shorthand for a URI or a complete URI
 
 URI: [nmdc:id](https://microbiomedata/meta/id)
-
 
 ## Domain and Range
 

@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:ctg_powsum
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: ctg_powsum
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:ctg_powsum](https://microbiomedata/meta/ctg_powsum)
-
 
 ## Domain and Range
 

@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:biosample_env_medium
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: biosample_env_medium
 
@@ -5,7 +11,6 @@
 formerly known as 'material'
 
 URI: [nmdc:biosample_env_medium](https://microbiomedata/meta/biosample_env_medium)
-
 
 ## Domain and Range
 

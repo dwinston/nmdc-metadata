@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:omics_type
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: omics type
+# Type: omics_type
 
 
 The type of omics data
 
 URI: [nmdc:omics_type](https://microbiomedata/meta/omics_type)
-
 
 ## Domain and Range
 

@@ -1,10 +1,16 @@
+---
+parent: Types
+title: https://microbiomedata/meta/biolinkml:types/Datetime
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: datetime
+# Type: https://microbiomedata/meta/biolinkml:types/Datetime
 
 
 The combination of a date and time
 
-URI: [metatype:Datetime](https://w3id.org/biolink/biolinkml/meta/types/Datetime)
+URI: [https://microbiomedata/meta/biolinkml:types/Datetime](https://microbiomedata/meta/biolinkml:types/Datetime)
 
 |  |  |  |
 | --- | --- | --- |

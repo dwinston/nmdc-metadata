@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:output_read_count
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: output read count
+# Type: output_read_count
 
 
 
 
 URI: [nmdc:output_read_count](https://microbiomedata/meta/output_read_count)
-
 
 ## Domain and Range
 

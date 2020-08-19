@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:has_boolean_value
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: has boolean value
+# Type: has_boolean_value
 
 
 Links a quantity value to a boolean
 
 URI: [nmdc:has_boolean_value](https://microbiomedata/meta/has_boolean_value)
-
 
 ## Domain and Range
 

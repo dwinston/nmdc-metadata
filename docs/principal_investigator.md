@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:principal_investigator
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: principal investigator
+# Type: principal_investigator
 
 
 represents the PI
 
 URI: [nmdc:principal_investigator](https://microbiomedata/meta/principal_investigator)
-
 
 ## Domain and Range
 

@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:chlorophyll
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: chlorophyll
 
@@ -5,7 +11,6 @@
 Concentration of chlorophyll
 
 URI: [nmdc:chlorophyll](https://microbiomedata/meta/chlorophyll)
-
 
 ## Domain and Range
 

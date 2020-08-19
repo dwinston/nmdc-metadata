@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:samp_vol_we_dna_ext
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: samp_vol_we_dna_ext
 
@@ -5,7 +11,6 @@
 "Volume (ml), weight (g) of processed sample, or surface area swabbed from sample for DNA extraction"
 
 URI: [nmdc:samp_vol_we_dna_ext](https://microbiomedata/meta/samp_vol_we_dna_ext)
-
 
 ## Domain and Range
 

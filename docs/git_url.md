@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:git_url
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: git url
+# Type: git_url
 
 
 Example: https://github.com/microbiomedata/mg_annotation/releases/tag/0.1
 
 URI: [nmdc:git_url](https://microbiomedata/meta/git_url)
-
 
 ## Domain and Range
 

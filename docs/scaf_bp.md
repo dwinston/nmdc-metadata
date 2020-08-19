@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:scaf_bp
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: scaf_bp
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:scaf_bp](https://microbiomedata/meta/scaf_bp)
-
 
 ## Domain and Range
 

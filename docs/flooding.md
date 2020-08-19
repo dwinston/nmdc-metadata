@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:flooding
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: flooding
 
@@ -5,7 +11,6 @@
 Historical and/or physical evidence of flooding
 
 URI: [nmdc:flooding](https://microbiomedata/meta/flooding)
-
 
 ## Domain and Range
 

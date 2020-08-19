@@ -1,6 +1,9 @@
-
-# Nmdc schema
-
+---
+title: Browse the NMDC Schema
+has_children: true
+nav_order: 2
+layout: default
+---
 
 Schema for National Microbiome Data Collaborative (NMDC). This schem is organized into 3 separate modules:
   

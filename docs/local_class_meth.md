@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:local_class_meth
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: local_class_meth
 
@@ -5,7 +11,6 @@
 Reference or method used in determining the local soil classification
 
 URI: [nmdc:local_class_meth](https://microbiomedata/meta/local_class_meth)
-
 
 ## Domain and Range
 

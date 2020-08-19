@@ -1,5 +1,11 @@
+---
+parent: Classes
+title: nmdc:BooleanValue
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: boolean value
+# Type: BooleanValue
 
 
 A value that is a boolean
@@ -7,7 +13,12 @@ A value that is a boolean
 URI: [nmdc:BooleanValue](https://microbiomedata/meta/BooleanValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[AttributeValue]^-[BooleanValue&#124;has_boolean_value:boolean%20%3F;has_raw_value(i):string%20%3F],[AttributeValue],[Activity])
+---
+
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[AttributeValue]%5E-[BooleanValue%7Chas_boolean_value:boolean%20%3F;has_raw_value(i):string%20%3F],[AttributeValue],[Activity])
+
+---
+
 
 ## Parents
 

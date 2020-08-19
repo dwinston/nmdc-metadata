@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:activity_set
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: activity set
+# Type: activity_set
 
 
 This property links a database object to the set of prov activities.
 
 URI: [nmdc:activity_set](https://microbiomedata/meta/activity_set)
-
 
 ## Domain and Range
 

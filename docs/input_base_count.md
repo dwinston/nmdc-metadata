@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:input_base_count
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: input base count
+# Type: input_base_count
 
 
 
 
 URI: [nmdc:input_base_count](https://microbiomedata/meta/input_base_count)
-
 
 ## Domain and Range
 

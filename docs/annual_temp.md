@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:annual_temp
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: annual_temp
 
@@ -5,7 +11,6 @@
 Mean annual temperature
 
 URI: [nmdc:annual_temp](https://microbiomedata/meta/annual_temp)
-
 
 ## Domain and Range
 

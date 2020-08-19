@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:omics_processing_id
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: omics processing_id
+# Type: omics_processing_id
 
 
 The primary identifier for the omics processing. E.g. GOLD:GpNNNN
 
 URI: [nmdc:omics_processing_id](https://microbiomedata/meta/omics_processing_id)
-
 
 ## Domain and Range
 

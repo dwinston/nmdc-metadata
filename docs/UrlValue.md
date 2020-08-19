@@ -1,5 +1,11 @@
+---
+parent: Classes
+title: nmdc:UrlValue
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: url value
+# Type: UrlValue
 
 
 A value that is a string that conforms to URL syntax
@@ -7,7 +13,12 @@ A value that is a string that conforms to URL syntax
 URI: [nmdc:UrlValue](https://microbiomedata/meta/UrlValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[AttributeValue]^-[UrlValue&#124;has_raw_value(i):string%20%3F],[AttributeValue],[Activity])
+---
+
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[AttributeValue]%5E-[UrlValue%7Chas_raw_value(i):string%20%3F],[AttributeValue],[Activity])
+
+---
+
 
 ## Parents
 

@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:has_output
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: has output
+# Type: has_output
 
 
 An output biosample to a processing step
 
 URI: [nmdc:has_output](https://microbiomedata/meta/has_output)
-
 
 ## Domain and Range
 

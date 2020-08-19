@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:quantity_value_has_numeric_value
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: quantity value_has numeric value
+# Type: quantity_value_has_numeric_value
 
 
 The number part of the quantity
 
 URI: [nmdc:quantity_value_has_numeric_value](https://microbiomedata/meta/quantity_value_has_numeric_value)
-
 
 ## Domain and Range
 

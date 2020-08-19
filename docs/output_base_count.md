@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:output_base_count
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: output base count
+# Type: output_base_count
 
 
 
 
 URI: [nmdc:output_base_count](https://microbiomedata/meta/output_base_count)
-
 
 ## Domain and Range
 

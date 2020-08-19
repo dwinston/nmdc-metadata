@@ -1,10 +1,16 @@
+---
+parent: Types
+title: https://microbiomedata/meta/biolinkml:types/Float
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: float
+# Type: https://microbiomedata/meta/biolinkml:types/Float
 
 
 A real number that conforms to the xsd:float specification
 
-URI: [metatype:Float](https://w3id.org/biolink/biolinkml/meta/types/Float)
+URI: [https://microbiomedata/meta/biolinkml:types/Float](https://microbiomedata/meta/biolinkml:types/Float)
 
 |  |  |  |
 | --- | --- | --- |

@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:tot_org_c_meth
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: tot_org_c_meth
 
@@ -5,7 +11,6 @@
 Reference or method used in determining total organic carbon
 
 URI: [nmdc:tot_org_c_meth](https://microbiomedata/meta/tot_org_c_meth)
-
 
 ## Domain and Range
 

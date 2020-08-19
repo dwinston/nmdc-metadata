@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:biosample_depth
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: biosample_depth
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:biosample_depth](https://microbiomedata/meta/biosample_depth)
-
 
 ## Domain and Range
 

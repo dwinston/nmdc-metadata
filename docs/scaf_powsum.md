@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:scaf_powsum
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: scaf_powsum
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:scaf_powsum](https://microbiomedata/meta/scaf_powsum)
-
 
 ## Domain and Range
 

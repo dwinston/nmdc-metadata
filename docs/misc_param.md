@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:misc_param
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: misc_param
 
@@ -5,7 +11,6 @@
 "Any other measurement performed or parameter collected, that is not listed here"
 
 URI: [nmdc:misc_param](https://microbiomedata/meta/misc_param)
-
 
 ## Domain and Range
 

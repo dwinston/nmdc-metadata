@@ -1,5 +1,11 @@
+---
+parent: Classes
+title: nmdc:TextValue
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: text value
+# Type: TextValue
 
 
 A basic string value
@@ -7,7 +13,12 @@ A basic string value
 URI: [nmdc:TextValue](https://microbiomedata/meta/TextValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Biosample]++-%20al_sat_meth%200..1>[TextValue&#124;language:language_code%20%3F;has_raw_value(i):string%20%3F],[Biosample]++-%20crop_rotation%200..1>[TextValue],[Biosample]++-%20cur_land_use%200..1>[TextValue],[Biosample]++-%20cur_vegetation%200..1>[TextValue],[Biosample]++-%20cur_vegetation_meth%200..1>[TextValue],[Biosample]++-%20drainage_class%200..1>[TextValue],[Biosample]++-%20env_package%200..1>[TextValue],[Biosample]++-%20fao_class%200..1>[TextValue],[Biosample]++-%20geo_loc_name%200..1>[TextValue],[Biosample]++-%20heavy_metals_meth%200..1>[TextValue],[Biosample]++-%20horizon%200..1>[TextValue],[Biosample]++-%20horizon_meth%200..1>[TextValue],[Biosample]++-%20link_addit_analys%200..1>[TextValue],[Biosample]++-%20link_class_info%200..1>[TextValue],[Biosample]++-%20link_climate_info%200..1>[TextValue],[Biosample]++-%20local_class%200..1>[TextValue],[Biosample]++-%20local_class_meth%200..1>[TextValue],[Biosample]++-%20microbial_biomass_meth%200..1>[TextValue],[Biosample]++-%20ph_meth%200..1>[TextValue],[Biosample]++-%20pool_dna_extracts%200..1>[TextValue],[Biosample]++-%20previous_land_use%200..1>[TextValue],[Biosample]++-%20previous_land_use_meth%200..1>[TextValue],[Biosample]++-%20profile_position%200..1>[TextValue],[Biosample]++-%20salinity_meth%200..1>[TextValue],[Biosample]++-%20soil_type%200..1>[TextValue],[Biosample]++-%20soil_type_meth%200..1>[TextValue],[Biosample]++-%20store_cond%200..1>[TextValue],[Biosample]++-%20texture_meth%200..1>[TextValue],[Biosample]++-%20tillage%200..1>[TextValue],[Biosample]++-%20tot_nitro_content_meth%200..1>[TextValue],[Biosample]++-%20tot_org_c_meth%200..1>[TextValue],[Biosample]++-%20water_content_soil_meth%200..1>[TextValue],[AttributeValue]^-[TextValue],[Biosample],[AttributeValue],[Activity])
+---
+
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Biosample]++-%20al_sat_meth%200..1%3E[TextValue%7Clanguage:language_code%20%3F;has_raw_value(i):string%20%3F],[Biosample]++-%20crop_rotation%200..1%3E[TextValue],[Biosample]++-%20cur_land_use%200..1%3E[TextValue],[Biosample]++-%20cur_vegetation%200..1%3E[TextValue],[Biosample]++-%20cur_vegetation_meth%200..1%3E[TextValue],[Biosample]++-%20drainage_class%200..1%3E[TextValue],[Biosample]++-%20env_package%200..1%3E[TextValue],[Biosample]++-%20fao_class%200..1%3E[TextValue],[Biosample]++-%20geo_loc_name%200..1%3E[TextValue],[Biosample]++-%20heavy_metals_meth%200..1%3E[TextValue],[Biosample]++-%20horizon%200..1%3E[TextValue],[Biosample]++-%20horizon_meth%200..1%3E[TextValue],[Biosample]++-%20link_addit_analys%200..1%3E[TextValue],[Biosample]++-%20link_class_info%200..1%3E[TextValue],[Biosample]++-%20link_climate_info%200..1%3E[TextValue],[Biosample]++-%20local_class%200..1%3E[TextValue],[Biosample]++-%20local_class_meth%200..1%3E[TextValue],[Biosample]++-%20microbial_biomass_meth%200..1%3E[TextValue],[Biosample]++-%20ph_meth%200..1%3E[TextValue],[Biosample]++-%20pool_dna_extracts%200..1%3E[TextValue],[Biosample]++-%20previous_land_use%200..1%3E[TextValue],[Biosample]++-%20previous_land_use_meth%200..1%3E[TextValue],[Biosample]++-%20profile_position%200..1%3E[TextValue],[Biosample]++-%20salinity_meth%200..1%3E[TextValue],[Biosample]++-%20soil_type%200..1%3E[TextValue],[Biosample]++-%20soil_type_meth%200..1%3E[TextValue],[Biosample]++-%20store_cond%200..1%3E[TextValue],[Biosample]++-%20texture_meth%200..1%3E[TextValue],[Biosample]++-%20tillage%200..1%3E[TextValue],[Biosample]++-%20tot_nitro_content_meth%200..1%3E[TextValue],[Biosample]++-%20tot_org_c_meth%200..1%3E[TextValue],[Biosample]++-%20water_content_soil_meth%200..1%3E[TextValue],[AttributeValue]%5E-[TextValue],[Biosample],[AttributeValue],[Activity])
+
+---
+
 
 ## Parents
 

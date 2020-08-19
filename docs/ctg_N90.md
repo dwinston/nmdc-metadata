@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:ctg_N90
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: ctg_N90
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:ctg_N90](https://microbiomedata/meta/ctg_N90)
-
 
 ## Domain and Range
 

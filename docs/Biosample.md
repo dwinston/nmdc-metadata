@@ -1,5 +1,11 @@
+---
+parent: Classes
+title: nmdc:Biosample
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: biosample
+# Type: Biosample
 
 
 A material sample. It may be environmental (encompassing many organisms) or isolate or tissue.   An environmental sample containing genetic material from multiple individuals is commonly referred to as a biosample.
@@ -7,7 +13,16 @@ A material sample. It may be environmental (encompassing many organisms) or isol
 URI: [nmdc:Biosample](https://microbiomedata/meta/Biosample)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[TimestampValue],[TextValue],[QuantityValue],[NamedThing],[GeolocationValue],[Database],[ControlledTermValue],[BiosampleProcessing],[QuantityValue]<misc_param%200..1-++[Biosample&#124;id:string;name:string%20%3F;alternate_identifiers:string%20*;description(i):string%20%3F],[TextValue]<al_sat_meth%200..1-++[Biosample],[QuantityValue]<al_sat%200..1-++[Biosample],[TextValue]<heavy_metals_meth%200..1-++[Biosample],[QuantityValue]<heavy_metals%200..1-++[Biosample],[TextValue]<salinity_meth%200..1-++[Biosample],[TextValue]<link_addit_analys%200..1-++[Biosample],[TextValue]<microbial_biomass_meth%200..1-++[Biosample],[QuantityValue]<microbial_biomass%200..1-++[Biosample],[TextValue]<tot_nitro_content_meth%200..1-++[Biosample],[QuantityValue]<tot_nitro_content%200..1-++[Biosample],[TextValue]<tot_org_c_meth%200..1-++[Biosample],[TextValue]<ph_meth%200..1-++[Biosample],[TextValue]<texture_meth%200..1-++[Biosample],[QuantityValue]<texture%200..1-++[Biosample],[TextValue]<drainage_class%200..1-++[Biosample],[TextValue]<profile_position%200..1-++[Biosample],[QuantityValue]<slope_aspect%200..1-++[Biosample],[QuantityValue]<slope_gradient%200..1-++[Biosample],[TextValue]<soil_type_meth%200..1-++[Biosample],[TextValue]<soil_type%200..1-++[Biosample],[TextValue]<local_class_meth%200..1-++[Biosample],[TextValue]<local_class%200..1-++[Biosample],[TextValue]<fao_class%200..1-++[Biosample],[TextValue]<link_class_info%200..1-++[Biosample],[QuantityValue]<annual_precpt%200..1-++[Biosample],[QuantityValue]<season_precpt%200..1-++[Biosample],[QuantityValue]<annual_temp%200..1-++[Biosample],[QuantityValue]<season_temp%200..1-++[Biosample],[TextValue]<link_climate_info%200..1-++[Biosample],[TextValue]<store_cond%200..1-++[Biosample],[TextValue]<pool_dna_extracts%200..1-++[Biosample],[QuantityValue]<samp_vol_we_dna_ext%200..1-++[Biosample],[TextValue]<water_content_soil_meth%200..1-++[Biosample],[QuantityValue]<water_content%200..1-++[Biosample],[QuantityValue]<sieving%200..1-++[Biosample],[TextValue]<horizon_meth%200..1-++[Biosample],[TextValue]<horizon%200..1-++[Biosample],[TimestampValue]<extreme_event%200..1-++[Biosample],[TimestampValue]<flooding%200..1-++[Biosample],[TimestampValue]<fire%200..1-++[Biosample],[TextValue]<tillage%200..1-++[Biosample],[QuantityValue]<agrochem_addition%200..1-++[Biosample],[TextValue]<crop_rotation%200..1-++[Biosample],[TextValue]<previous_land_use_meth%200..1-++[Biosample],[TextValue]<previous_land_use%200..1-++[Biosample],[TextValue]<cur_vegetation_meth%200..1-++[Biosample],[TextValue]<cur_vegetation%200..1-++[Biosample],[TextValue]<cur_land_use%200..1-++[Biosample],[QuantityValue]<chlorophyll%200..1-++[Biosample],[QuantityValue]<nitrate%200..1-++[Biosample],[QuantityValue]<diss_oxygen%200..1-++[Biosample],[QuantityValue]<salinity%200..1-++[Biosample],[QuantityValue]<elev%200..1-++[Biosample],[QuantityValue]<alt%200..1-++[Biosample],[QuantityValue]<tot_org_carb%200..1-++[Biosample],[QuantityValue]<depth%200..1-++[Biosample],[AttributeValue]<specific_ecosystem%200..1-++[Biosample],[AttributeValue]<ecosystem_subtype%200..1-++[Biosample],[AttributeValue]<ecosystem_type%200..1-++[Biosample],[AttributeValue]<ecosystem_category%200..1-++[Biosample],[AttributeValue]<ecosystem%200..1-++[Biosample],[ControlledTermValue]<env_medium%201..1-++[Biosample],[ControlledTermValue]<env_local_scale%201..1-++[Biosample],[ControlledTermValue]<env_broad_scale%201..1-++[Biosample],[TimestampValue]<collection_date%200..1-++[Biosample],[TextValue]<geo_loc_name%200..1-++[Biosample],[GeolocationValue]<lat_lon%201..1-++[Biosample],[TextValue]<env_package%200..1-++[Biosample],[BiosampleProcessing]-%20has%20input%200..*>[Biosample],[Database]++-%20biosample%20set%200..*>[Biosample],[NamedThing]^-[Biosample],[AttributeValue])
+---
+
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[TimestampValue],[TextValue],[QuantityValue],[NamedThing],[GeolocationValue],[Database],[ControlledTermValue],[BiosampleProcessing],[QuantityValue]%3Cmisc_param%200..1-++[Biosample%7Cid:string;name:string%20%3F;alternate_identifiers:string%20%2A;description(i):string%20%3F],[TextValue]%3Cal_sat_meth%200..1-++[Biosample],[QuantityValue]%3Cal_sat%200..1-++[Biosample],[TextValue]%3Cheavy_metals_meth%200..1-++[Biosample],[QuantityValue]%3Cheavy_metals%200..1-++[Biosample],[TextValue]%3Csalinity_meth%200..1-++[Biosample],[TextValue]%3Clink_addit_analys%200..1-++[Biosample],[TextValue]%3Cmicrobial_biomass_meth%200..1-++[Biosample],[QuantityValue]%3Cmicrobial_biomass%200..1-++[Biosample],[TextValue]%3Ctot_nitro_content_meth%200..1-++[Biosample],[QuantityValue]%3Ctot_nitro_content%200..1-++[Biosample],[TextValue]%3Ctot_org_c_meth%200..1-++[Biosample],[TextValue]%3Cph_meth%200..1-++[Biosample],[TextValue]%3Ctexture_meth%200..1-++[Biosample],[QuantityValue]%3Ctexture%200..1-++[Biosample],[TextValue]%3Cdrainage_class%200..1-++[Biosample],[TextValue]%3Cprofile_position%200..1-++[Biosample],[QuantityValue]%3Cslope_aspect%200..1-++[Biosample],[QuantityValue]%3Cslope_gradient%200..1-++[Biosample],[TextValue]%3Csoil_type_meth%200..1-++[Biosample],[TextValue]%3Csoil_type%200..1-++[Biosample],[TextValue]%3Clocal_class_meth%200..1-++[Biosample],[TextValue]%3Clocal_class%200..1-++[Biosample],[TextValue]%3Cfao_class%200..1-++[Biosample],[TextValue]%3Clink_class_info%200..1-++[Biosample],[QuantityValue]%3Cannual_precpt%200..1-++[Biosample],[QuantityValue]%3Cseason_precpt%200..1-++[Biosample],[QuantityValue]%3Cannual_temp%200..1-++[Biosample],[QuantityValue]%3Cseason_temp%200..1-++[Biosample],[TextValue]%3Clink_climate_info%200..1-++[Biosample],[TextValue]%3Cstore_cond%200..1-++[Biosample],[TextValue]%3Cpool_dna_extracts%200..1-++[Biosample],[QuantityValue]%3Csamp_vol_we_dna_ext%200..1-++[Biosample],[TextValue]%3Cwater_content_soil_meth%200..1-++[Biosample],[QuantityValue]%3Cwater_content%200..1-++[Biosample],[QuantityValue]%3Csieving%200..1-++[Biosample],[TextValue]%3Chorizon_meth%200..1-++[Biosample],[TextValue]%3Chorizon%200..1-++[Biosample],[TimestampValue]%3Cextreme_event%200..1-++[Biosample],[TimestampValue]%3Cflooding%200..1-++[Biosample],[TimestampValue]%3Cfire%200..1-++[Biosample],[TextValue]%3Ctillage%200..1-++[Biosample],[QuantityValue]%3Cagrochem_addition%200..1-++[Biosample],[TextValue]%3Ccrop_rotation%200..1-++[Biosample],[TextValue]%3Cprevious_land_use_meth%200..1-++[Biosample],[TextValue]%3Cprevious_land_use%200..1-++[Biosample],[TextValue]%3Ccur_vegetation_meth%200..1-++[Biosample],[TextValue]%3Ccur_vegetation%200..1-++[Biosample],[TextValue]%3Ccur_land_use%200..1-++[Biosample],[QuantityValue]%3Cchlorophyll%200..1-++[Biosample],[QuantityValue]%3Cnitrate%200..1-++[Biosample],[QuantityValue]%3Cdiss_oxygen%200..1-++[Biosample],[QuantityValue]%3Csalinity%200..1-++[Biosample],[QuantityValue]%3Celev%200..1-++[Biosample],[QuantityValue]%3Calt%200..1-++[Biosample],[QuantityValue]%3Ctot_org_carb%200..1-++[Biosample],[QuantityValue]%3Cdepth%200..1-++[Biosample],[AttributeValue]%3Cspecific_ecosystem%200..1-++[Biosample],[AttributeValue]%3Cecosystem_subtype%200..1-++[Biosample],[AttributeValue]%3Cecosystem_type%200..1-++[Biosample],[AttributeValue]%3Cecosystem_category%200..1-++[Biosample],[AttributeValue]%3Cecosystem%200..1-++[Biosample],[ControlledTermValue]%3Cenv_medium%201..1-++[Biosample],[ControlledTermValue]%3Cenv_local_scale%201..1-++[Biosample],[ControlledTermValue]%3Cenv_broad_scale%201..1-++[Biosample],[TimestampValue]%3Ccollection_date%200..1-++[Biosample],[TextValue]%3Cgeo_loc_name%200..1-++[Biosample],[GeolocationValue]%3Clat_lon%201..1-++[Biosample],[TextValue]%3Cenv_package%200..1-++[Biosample],[BiosampleProcessing]-%20has%20input%200..%2A%3E[Biosample],[Database]++-%20biosample%20set%200..%2A%3E[Biosample],[NamedThing]%5E-[Biosample],[AttributeValue])
+
+---
+
+
+## Identifier prefixes
+
+ * GOLD
 
 ## Parents
 
@@ -90,18 +105,6 @@ URI: [nmdc:Biosample](https://microbiomedata/meta/Biosample)
  * [drainage_class](drainage_class.md)  <sub>OPT</sub>
     * Description: Drainage classification from a standard system such as the USDA system
     * range: [TextValue](TextValue.md)
- * [ecosystem](ecosystem.md)  <sub>OPT</sub>
-    * Description: TODO
-    * range: [AttributeValue](AttributeValue.md)
- * [ecosystem_category](ecosystem_category.md)  <sub>OPT</sub>
-    * Description: TODO
-    * range: [AttributeValue](AttributeValue.md)
- * [ecosystem_subtype](ecosystem_subtype.md)  <sub>OPT</sub>
-    * Description: TODO
-    * range: [AttributeValue](AttributeValue.md)
- * [ecosystem_type](ecosystem_type.md)  <sub>OPT</sub>
-    * Description: TODO
-    * range: [AttributeValue](AttributeValue.md)
  * [elev](elev.md)  <sub>OPT</sub>
     * Description: "Elevation of the sampling site is its height above a fixed reference point, most commonly the mean sea level. Elevation is mainly used when referring to points on the earth's surface, while altitude is used for points above the surface, such as an aircraft in flight or a spacecraft in orbit"
     * range: [QuantityValue](QuantityValue.md)
@@ -214,9 +217,6 @@ URI: [nmdc:Biosample](https://microbiomedata/meta/Biosample)
  * [soil_type_meth](soil_type_meth.md)  <sub>OPT</sub>
     * Description: Reference or method used in determining soil series name or other lower-level classification
     * range: [TextValue](TextValue.md)
- * [specific_ecosystem](specific_ecosystem.md)  <sub>OPT</sub>
-    * Description: TODO
-    * range: [AttributeValue](AttributeValue.md)
  * [store_cond](store_cond.md)  <sub>OPT</sub>
     * Description: Explain how and for how long the soil sample was stored before DNA extraction
     * range: [TextValue](TextValue.md)
@@ -253,8 +253,75 @@ URI: [nmdc:Biosample](https://microbiomedata/meta/Biosample)
 
 ### Inherited from named thing:
 
+ * [id](id.md)  <sub>REQ</sub>
+    * Description: A unique identifier for a thing. Must be either a CURIE shorthand for a URI or a complete URI
+    * range: [String](types/String.md)
+ * [name](name.md)  <sub>OPT</sub>
+    * Description: A human readable label for an entity
+    * range: [String](types/String.md)
  * [description](description.md)  <sub>OPT</sub>
     * Description: a human-readable description of a thing
+    * range: [String](types/String.md)
+ * [alternate identifiers](alternate_identifiers.md)  <sub>0..*</sub>
+    * Description: Non-primary identifiers
+    * range: [String](types/String.md)
+
+### Inherited from study:
+
+ * [ecosystem](ecosystem.md)  <sub>OPT</sub>
+    * Description: TODO
+    * range: [AttributeValue](AttributeValue.md)
+ * [ecosystem_category](ecosystem_category.md)  <sub>OPT</sub>
+    * Description: TODO
+    * range: [AttributeValue](AttributeValue.md)
+ * [ecosystem_type](ecosystem_type.md)  <sub>OPT</sub>
+    * Description: TODO
+    * range: [AttributeValue](AttributeValue.md)
+ * [ecosystem_subtype](ecosystem_subtype.md)  <sub>OPT</sub>
+    * Description: TODO
+    * range: [AttributeValue](AttributeValue.md)
+ * [specific_ecosystem](specific_ecosystem.md)  <sub>OPT</sub>
+    * Description: TODO
+    * range: [AttributeValue](AttributeValue.md)
+ * [principal investigator](principal_investigator.md)  <sub>OPT</sub>
+    * Description: represents the PI
+    * range: [PersonValue](PersonValue.md)
+ * [doi](doi.md)  <sub>OPT</sub>
+    * range: [AttributeValue](AttributeValue.md)
+ * [study➞id](study_id.md)  <sub>REQ</sub>
+    * Description: The primary identifier for the study.
+    * range: [String](types/String.md)
+ * [study➞name](study_name.md)  <sub>OPT</sub>
+    * Description: A human readable name or description of the study.
+    * range: [String](types/String.md)
+ * [study➞alternate identifiers](study_alternate_identifiers.md)  <sub>0..*</sub>
+    * Description: The same study may have distinct identifiers in different databases (e.g. GOLD and EMSL)
+    * range: [String](types/String.md)
+
+### Domain for slot:
+
+ * [biosample➞alternate identifiers](biosample_alternate_identifiers.md)  <sub>0..*</sub>
+    * Description: The same biosample may have distinct identifiers in different databases (e.g. GOLD and EMSL)
+    * range: [String](types/String.md)
+ * [biosample➞depth](biosample_depth.md)  <sub>OPT</sub>
+    * range: [QuantityValue](QuantityValue.md)
+ * [biosample➞env_broad_scale](biosample_env_broad_scale.md)  <sub>REQ</sub>
+    * Description: formerly known as 'biome'
+    * range: [ControlledTermValue](ControlledTermValue.md)
+ * [biosample➞env_local_scale](biosample_env_local_scale.md)  <sub>REQ</sub>
+    * Description: formerly known as 'feature'
+    * range: [ControlledTermValue](ControlledTermValue.md)
+ * [biosample➞env_medium](biosample_env_medium.md)  <sub>REQ</sub>
+    * Description: formerly known as 'material'
+    * range: [ControlledTermValue](ControlledTermValue.md)
+ * [biosample➞id](biosample_id.md)  <sub>REQ</sub>
+    * Description: The primary identifier for the biosample. Example: GOLD:Gb0205609
+    * range: [String](types/String.md)
+ * [biosample➞lat_lon](biosample_lat_lon.md)  <sub>REQ</sub>
+    * Description: This is currently a required field but it's not clear if this should be required for human hosts
+    * range: [GeolocationValue](GeolocationValue.md)
+ * [biosample➞name](biosample_name.md)  <sub>OPT</sub>
+    * Description: A human readable name or description of the biosample
     * range: [String](types/String.md)
 
 ## Other properties

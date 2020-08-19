@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:omics_processing_alternate_identifiers
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: omics processing_alternate identifiers
+# Type: omics_processing_alternate_identifiers
 
 
 The same omics processing may have distinct identifiers in different databases (e.g. GOLD and EMSL, as well as NCBI)
 
 URI: [nmdc:omics_processing_alternate_identifiers](https://microbiomedata/meta/omics_processing_alternate_identifiers)
-
 
 ## Domain and Range
 

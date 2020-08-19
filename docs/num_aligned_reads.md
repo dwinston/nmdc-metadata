@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:num_aligned_reads
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: num_aligned_reads
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
-
 
 ## Domain and Range
 

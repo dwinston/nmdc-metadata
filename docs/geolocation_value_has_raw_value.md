@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:geolocation_value_has_raw_value
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: geolocation value_has raw value
+# Type: geolocation_value_has_raw_value
 
 
 The raw value for a  geolocation should follow {lat} {long}
 
 URI: [nmdc:geolocation_value_has_raw_value](https://microbiomedata/meta/geolocation_value_has_raw_value)
-
 
 ## Domain and Range
 

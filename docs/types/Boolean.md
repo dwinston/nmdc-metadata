@@ -1,10 +1,16 @@
+---
+parent: Types
+title: https://microbiomedata/meta/biolinkml:types/Boolean
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: boolean
+# Type: https://microbiomedata/meta/biolinkml:types/Boolean
 
 
 A binary (true or false) value
 
-URI: [metatype:Boolean](https://w3id.org/biolink/biolinkml/meta/types/Boolean)
+URI: [https://microbiomedata/meta/biolinkml:types/Boolean](https://microbiomedata/meta/biolinkml:types/Boolean)
 
 |  |  |  |
 | --- | --- | --- |

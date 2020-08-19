@@ -1,10 +1,16 @@
+---
+parent: Types
+title: https://microbiomedata/meta/biolinkml:types/Uriorcurie
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: uriorcurie
+# Type: https://microbiomedata/meta/biolinkml:types/Uriorcurie
 
 
 a URI or a CURIE
 
-URI: [metatype:Uriorcurie](https://w3id.org/biolink/biolinkml/meta/types/Uriorcurie)
+URI: [https://microbiomedata/meta/biolinkml:types/Uriorcurie](https://microbiomedata/meta/biolinkml:types/Uriorcurie)
 
 |  |  |  |
 | --- | --- | --- |

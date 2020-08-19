@@ -1,5 +1,11 @@
+---
+parent: Classes
+title: nmdc:TimestampValue
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: timestamp value
+# Type: TimestampValue
 
 
 A value that is a timestamp. The range should be ISO-8601
@@ -7,7 +13,12 @@ A value that is a timestamp. The range should be ISO-8601
 URI: [nmdc:TimestampValue](https://microbiomedata/meta/TimestampValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Biosample]++-%20collection_date%200..1>[TimestampValue&#124;has_raw_value(i):string%20%3F],[Biosample]++-%20extreme_event%200..1>[TimestampValue],[Biosample]++-%20fire%200..1>[TimestampValue],[Biosample]++-%20flooding%200..1>[TimestampValue],[AttributeValue]^-[TimestampValue],[Biosample],[AttributeValue],[Activity])
+---
+
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Biosample]++-%20collection_date%200..1%3E[TimestampValue%7Chas_raw_value(i):string%20%3F],[Biosample]++-%20extreme_event%200..1%3E[TimestampValue],[Biosample]++-%20fire%200..1%3E[TimestampValue],[Biosample]++-%20flooding%200..1%3E[TimestampValue],[AttributeValue]%5E-[TimestampValue],[Biosample],[AttributeValue],[Activity])
+
+---
+
 
 ## Parents
 

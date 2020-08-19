@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:omics_processing_name
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: omics processing_name
+# Type: omics_processing_name
 
 
 A human readable name or description of the omics processing.
 
 URI: [nmdc:omics_processing_name](https://microbiomedata/meta/omics_processing_name)
-
 
 ## Domain and Range
 

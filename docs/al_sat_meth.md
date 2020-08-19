@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:al_sat_meth
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: al_sat_meth
 
@@ -5,7 +11,6 @@
 Reference or method used in determining Al saturation
 
 URI: [nmdc:al_sat_meth](https://microbiomedata/meta/al_sat_meth)
-
 
 ## Domain and Range
 

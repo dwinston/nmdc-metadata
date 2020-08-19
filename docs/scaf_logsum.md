@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:scaf_logsum
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: scaf_logsum
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:scaf_logsum](https://microbiomedata/meta/scaf_logsum)
-
 
 ## Domain and Range
 

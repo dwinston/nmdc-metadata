@@ -1,19 +1,18 @@
+---
+parent: Types
+title: https://microbiomedata/meta/biolinkml:types/Objectidentifier
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: objectidentifier
+# Type: https://microbiomedata/meta/biolinkml:types/Objectidentifier
 
 
 A URI or CURIE that represents an object in the model.
 
-URI: [metatype:Objectidentifier](https://w3id.org/biolink/biolinkml/meta/types/Objectidentifier)
+URI: [https://microbiomedata/meta/biolinkml:types/Objectidentifier](https://microbiomedata/meta/biolinkml:types/Objectidentifier)
 
 |  |  |  |
 | --- | --- | --- |
 | Root (builtin) type | | **ElementIdentifier** |
 | Representation | | str |
-
-## Other properties
-
-|  |  |  |
-| --- | --- | --- |
-| **Comments:** | | Used for inheritence and type checking |
-

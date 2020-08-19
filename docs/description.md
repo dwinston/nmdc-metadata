@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:description
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: description
 
@@ -5,7 +11,6 @@
 a human-readable description of a thing
 
 URI: [nmdc:description](https://microbiomedata/meta/description)
-
 
 ## Domain and Range
 

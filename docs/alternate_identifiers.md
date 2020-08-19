@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:alternate_identifiers
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: alternate identifiers
+# Type: alternate_identifiers
 
 
 Non-primary identifiers
 
 URI: [nmdc:alternate_identifiers](https://microbiomedata/meta/alternate_identifiers)
-
 
 ## Domain and Range
 

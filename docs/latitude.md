@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:latitude
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: latitude
 
@@ -5,7 +11,6 @@
 latitude
 
 URI: [nmdc:latitude](https://microbiomedata/meta/latitude)
-
 
 ## Domain and Range
 

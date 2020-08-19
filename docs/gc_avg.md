@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:gc_avg
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: gc_avg
 
@@ -5,7 +11,6 @@
 
 
 URI: [nmdc:gc_avg](https://microbiomedata/meta/gc_avg)
-
 
 ## Domain and Range
 

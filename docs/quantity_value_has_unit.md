@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:quantity_value_has_unit
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: quantity value_has unit
+# Type: quantity_value_has_unit
 
 
 The unit of the quantity
 
 URI: [nmdc:quantity_value_has_unit](https://microbiomedata/meta/quantity_value_has_unit)
-
 
 ## Domain and Range
 

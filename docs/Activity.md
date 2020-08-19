@@ -1,13 +1,27 @@
+---
+parent: Classes
+title: nmdc:Activity
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: activity
+# Type: Activity
 
 
 a provence-generating activity
 
 URI: [nmdc:Activity](https://microbiomedata/meta/Activity)
 
+prov:Activity
+{: .mapping-label }
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[Database],[Agent],[Agent]<was%20associated%20with%200..1-++[Activity&#124;activity_id:string;started_at_time:string%20%3F;ended_at_time:string%20%3F;used:string%20%3F],[Activity]<was%20informed%20by%200..1-%20[Activity],[Database]++-%20activity%20set%200..*>[Activity],[DataObject]-%20was%20generated%20by(i)%200..1>[Activity],[AttributeValue]-%20was%20generated%20by%200..1>[Activity],[Activity]^-[WorkflowExecutionActivity],[DataObject],[AttributeValue])
+
+---
+
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[Database],[Agent],[Agent]%3Cwas%20associated%20with%200..1-++[Activity%7Cactivity_id:string;started_at_time:string%20%3F;ended_at_time:string%20%3F;used:string%20%3F],[Activity]%3Cwas%20informed%20by%200..1-%20[Activity],[Database]++-%20activity%20set%200..%2A%3E[Activity],[DataObject]-%20was%20generated%20by(i)%200..1%3E[Activity],[AttributeValue]-%20was%20generated%20by%200..1%3E[Activity],[Activity]%5E-[WorkflowExecutionActivity],[DataObject],[AttributeValue])
+
+---
+
 
 ## Children
 
@@ -34,8 +48,18 @@ URI: [nmdc:Activity](https://microbiomedata/meta/Activity)
     * range: [String](types/String.md)
  * [was associated with](was_associated_with.md)  <sub>OPT</sub>
     * range: [Agent](Agent.md)
+
+### Inherited from agent:
+
+ * [acted on behalf of](acted_on_behalf_of.md)  <sub>OPT</sub>
+    * range: [Agent](Agent.md)
  * [was informed by](was_informed_by.md)  <sub>OPT</sub>
     * range: [Activity](Activity.md)
+
+### Domain for slot:
+
+ * [used](used.md)  <sub>OPT</sub>
+    * range: [String](types/String.md)
 
 ## Other properties
 

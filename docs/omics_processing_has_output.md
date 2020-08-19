@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:omics_processing_has_output
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: omics processing_has output
+# Type: omics_processing_has_output
 
 
 
 
 URI: [nmdc:omics_processing_has_output](https://microbiomedata/meta/omics_processing_has_output)
-
 
 ## Domain and Range
 

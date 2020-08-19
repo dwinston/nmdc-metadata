@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:season_temp
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: season_temp
 
@@ -5,7 +11,6 @@
 Mean seasonal temperature
 
 URI: [nmdc:season_temp](https://microbiomedata/meta/season_temp)
-
 
 ## Domain and Range
 

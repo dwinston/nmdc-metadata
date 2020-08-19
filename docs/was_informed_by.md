@@ -1,11 +1,16 @@
+---
+parent: Slots
+title: nmdc:was_informed_by
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: was informed by
+# Type: was_informed_by
 
 
 
 
 URI: [nmdc:was_informed_by](https://microbiomedata/meta/was_informed_by)
-
 
 ## Domain and Range
 

@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:sieving
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: sieving
 
@@ -5,7 +11,6 @@
 Collection design of pooled samples and/or sieve size and amount of sample sieved
 
 URI: [nmdc:sieving](https://microbiomedata/meta/sieving)
-
 
 ## Domain and Range
 

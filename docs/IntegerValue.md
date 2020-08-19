@@ -1,5 +1,11 @@
+---
+parent: Classes
+title: nmdc:IntegerValue
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: integer value
+# Type: IntegerValue
 
 
 A value that is an integer
@@ -7,7 +13,12 @@ A value that is an integer
 URI: [nmdc:IntegerValue](https://microbiomedata/meta/IntegerValue)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[AttributeValue]^-[IntegerValue&#124;has_numeric_value:float%20%3F;has_raw_value(i):string%20%3F],[AttributeValue],[Activity])
+---
+
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[AttributeValue]%5E-[IntegerValue%7Chas_numeric_value:float%20%3F;has_raw_value(i):string%20%3F],[AttributeValue],[Activity])
+
+---
+
 
 ## Parents
 

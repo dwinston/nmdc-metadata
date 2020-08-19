@@ -1,3 +1,9 @@
+---
+parent: Slots
+title: nmdc:tot_org_carb
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
 # Type: tot_org_carb
 
@@ -5,7 +11,6 @@
 "Definition for soil: total organic carbon content of the soil, definition otherwise: total organic carbon content"
 
 URI: [nmdc:tot_org_carb](https://microbiomedata/meta/tot_org_carb)
-
 
 ## Domain and Range
 

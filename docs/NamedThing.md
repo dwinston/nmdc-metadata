@@ -1,5 +1,11 @@
+---
+parent: Classes
+title: nmdc:NamedThing
+grand_parent: Browse the NMDC Schema
+layout: default
+---
 
-# Type: named thing
+# Type: NamedThing
 
 
 a databased entity or concept/class
@@ -7,7 +13,12 @@ a databased entity or concept/class
 URI: [nmdc:NamedThing](https://microbiomedata/meta/NamedThing)
 
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Study],[Person],[OntologyClass],[NamedThing&#124;id:string;name:string%20%3F;description:string%20%3F;alternate_identifiers:string%20*]^-[Study],[NamedThing]^-[Person],[NamedThing]^-[OntologyClass],[NamedThing]^-[DataObject],[NamedThing]^-[BiosampleProcessing],[NamedThing]^-[Biosample],[DataObject],[BiosampleProcessing],[Biosample])
+---
+
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[Study],[Person],[OntologyClass],[NamedThing%7Cid:string;name:string%20%3F;description:string%20%3F;alternate_identifiers:string%20%2A]%5E-[Study],[NamedThing]%5E-[Person],[NamedThing]%5E-[OntologyClass],[NamedThing]%5E-[DataObject],[NamedThing]%5E-[BiosampleProcessing],[NamedThing]%5E-[Biosample],[DataObject],[BiosampleProcessing],[Biosample])
+
+---
+
 
 ## Children
 
