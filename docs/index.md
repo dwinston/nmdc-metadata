@@ -49,6 +49,7 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [acted on behalf of](acted_on_behalf_of.md)
  * [activity id](activity_id.md)
  * [activity set](activity_set.md) - This property links a database object to the set of prov activities.
+ * [add_date](add_date.md) - The date on which the information was added to the database.
  * [alternate identifiers](alternate_identifiers.md) - Non-primary identifiers
     * [biosample➞alternate identifiers](biosample_alternate_identifiers.md) - The same biosample may have distinct identifiers in different databases (e.g. GOLD and EMSL)
     * [omics processing➞alternate identifiers](omics_processing_alternate_identifiers.md) - The same omics processing may have distinct identifiers in different databases (e.g. GOLD and EMSL, as well as NCBI)
@@ -671,12 +672,19 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [window_vert_pos](window_vert_pos.md) - The vertical position of the window on the wall
     * [window_water_mold](window_water_mold.md) - Signs of the presence of mold or mildew on the window.
     * [xylene](xylene.md) - Concentration of xylene in the sample
+ * [biogas_retention_time](biogas_retention_time.md)
+ * [biogas_temperature](biogas_temperature.md)
  * [biosample set](biosample_set.md) - This property links a database object to the set of samples within it.
+ * [community](community.md)
+ * [completion_date](completion_date.md)
  * [compression type](compression_type.md) - If provided, specifies the compression type
  * [data object set](data_object_set.md) - This property links a database object to the set of data objects within it.
  * [data object type](data_object_type.md) - The type of data object
  * [description](description.md) - a human-readable description of a thing
+ * [ecosystem_path_id](ecosystem_path_id.md) - A unique id representing the GOLD classifers associated with a sample.
  * [ended at time](ended_at_time.md)
+ * [growth_temperature](growth_temperature.md)
+ * [habitat](habitat.md)
  * [has boolean value](has_boolean_value.md) - Links a quantity value to a boolean
  * [has input](has_input.md) - An input to a process.
     * [biosample processing➞has input](biosample_processing_has_input.md)
@@ -690,13 +698,16 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [quantity value➞has raw value](quantity_value_has_raw_value.md) - Unnormalized atomic string representation, should in syntax {number} {unit}
  * [has unit](has_unit.md) - Links a quantity value to a unit
     * [quantity value➞has unit](quantity_value_has_unit.md) - The unit of the quantity
+ * [host_name](host_name.md)
  * [id](id.md) - A unique identifier for a thing. Must be either a CURIE shorthand for a URI or a complete URI
     * [biosample➞id](biosample_id.md) - The primary identifier for the biosample. Example: GOLD:Gb0205609
     * [omics processing➞id](omics_processing_id.md) - The primary identifier for the omics processing. E.g. GOLD:GpNNNN
     * [person➞id](person_id.md) - Should be an ORCID. Specify in CURIE format. E.g ORCID:0000-1111-...
     * [study➞id](study_id.md) - The primary identifier for the study.
+ * [identifier](identifier.md)
  * [language](language.md) - Should use ISO 639-1 code e.g. "en", "fr"
  * [latitude](latitude.md) - latitude
+ * [location](location.md)
  * [longitude](longitude.md) - longitude
  * [metagenome assembly parameter](metagenome_assembly_parameter.md)
     * [asm_score](asm_score.md)
@@ -727,28 +738,43 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [scaf_pct_gt50K](scaf_pct_gt50K.md)
     * [scaf_powsum](scaf_powsum.md)
     * [scaffolds](scaffolds.md)
+ * [mod_date](mod_date.md) - The last date on which the database information was modified.
  * [name](name.md) - A human readable label for an entity
     * [biosample➞name](biosample_name.md) - A human readable name or description of the biosample
     * [omics processing➞name](omics_processing_name.md) - A human readable name or description of the omics processing.
     * [study➞name](study_name.md) - A human readable name or description of the study.
+ * [ncbi_project_name](ncbi_project_name.md)
+ * [ncbi_taxonomy_name](ncbi_taxonomy_name.md)
  * [omics processing set](omics_processing_set.md) - This property links a database object to the set of omics processings within it.
  * [omics type](omics_type.md) - The type of omics data
+ * [omics_type](omics_type.md)
  * [orcid](orcid.md)
  * [part of](part_of.md) - Links a resource to another resource that either logically or physically includes it.
     * [omics processing➞part of](omics_processing_part_of.md)
+ * [processing_institution](processing_institution.md)
+ * [proport_woa_temperature](proport_woa_temperature.md)
  * [read QC analysis statistic](read_QC_analysis_statistic.md)
     * [input base count](input_base_count.md)
     * [input read count](input_read_count.md)
     * [output base count](output_base_count.md)
     * [output read count](output_read_count.md)
+ * [sample_collection_day](sample_collection_day.md)
+ * [sample_collection_hour](sample_collection_hour.md)
+ * [sample_collection_minute](sample_collection_minute.md)
+ * [sample_collection_month](sample_collection_month.md)
+ * [sample_collection_site](sample_collection_site.md)
+ * [sample_collection_year](sample_collection_year.md)
+ * [soil_annual_season_temp](soil_annual_season_temp.md)
  * [started at time](started_at_time.md)
  * [study set](study_set.md) - This property links a database object to the set of studies within it.
+ * [subsurface_depth](subsurface_depth.md)
  * [term](term.md) - pointer to an ontology class
  * [used](used.md)
  * [was associated with](was_associated_with.md)
  * [was generated by](was_generated_by.md)
     * [data object➞was generated by](data_object_was_generated_by.md) - the activity that generated the file
  * [was informed by](was_informed_by.md)
+ * [water_samp_store_temp](water_samp_store_temp.md)
 
 ### Types
 

@@ -224,6 +224,7 @@ schema:QuantityValue
  *  **None** *[soluble_org_mat](soluble_org_mat.md)*  <sub>OPT</sub>  **[QuantityValue](QuantityValue.md)**
  *  **None** *[soluble_react_phosp](soluble_react_phosp.md)*  <sub>OPT</sub>  **[QuantityValue](QuantityValue.md)**
  *  **None** *[specific_humidity](specific_humidity.md)*  <sub>OPT</sub>  **[QuantityValue](QuantityValue.md)**
+ *  **None** *[subsurface_depth](subsurface_depth.md)*  <sub>OPT</sub>  **[QuantityValue](QuantityValue.md)**
  *  **None** *[sulfate](sulfate.md)*  <sub>OPT</sub>  **[QuantityValue](QuantityValue.md)**
  *  **None** *[sulfate_fw](sulfate_fw.md)*  <sub>OPT</sub>  **[QuantityValue](QuantityValue.md)**
  *  **None** *[sulfide](sulfide.md)*  <sub>OPT</sub>  **[QuantityValue](QuantityValue.md)**
