@@ -8,13 +8,13 @@ layout: default
 # Type: scaf_max
 
 
-
+Maximum scaffold length.
 
 URI: [nmdc:scaf_max](https://microbiomedata/meta/scaf_max)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

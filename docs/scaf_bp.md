@@ -8,13 +8,13 @@ layout: default
 # Type: scaf_bp
 
 
-
+Total size in bp of all scaffolds.
 
 URI: [nmdc:scaf_bp](https://microbiomedata/meta/scaf_bp)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

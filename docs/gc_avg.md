@@ -8,13 +8,13 @@ layout: default
 # Type: gc_avg
 
 
-
+Average of GC content of all contigs.
 
 URI: [nmdc:gc_avg](https://microbiomedata/meta/gc_avg)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

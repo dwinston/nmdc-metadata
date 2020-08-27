@@ -8,13 +8,13 @@ layout: default
 # Type: num_input_reads
 
 
-
+The sequence count number of input reads for assembly.
 
 URI: [nmdc:num_input_reads](https://microbiomedata/meta/num_input_reads)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

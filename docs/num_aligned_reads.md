@@ -8,13 +8,13 @@ layout: default
 # Type: num_aligned_reads
 
 
-
+The sequence count number of input reads aligned to assembled contigs.
 
 URI: [nmdc:num_aligned_reads](https://microbiomedata/meta/num_aligned_reads)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

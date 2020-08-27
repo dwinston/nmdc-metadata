@@ -15,7 +15,7 @@ URI: [nmdc:ReadQCAnalysisActivity](https://microbiomedata/meta/ReadQCAnalysisAct
 
 ---
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[WorkflowExecutionActivity]%5E-[ReadQCAnalysisActivity%7Cinput_read_count:string%20%3F;input_base_count:string%20%3F;output_read_count:string%20%3F;output_base_count:string%20%3F;execution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20%2A;has_output(i):string%20%2A;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],[Agent],[Activity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[WorkflowExecutionActivity]%5E-[ReadQCAnalysisActivity%7Cinput_read_count:float%20%3F;input_base_count:float%20%3F;output_read_count:float%20%3F;output_base_count:float%20%3F;execution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20%2A;has_output(i):string%20%2A;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],[Agent],[Activity])
 
 ---
 
@@ -30,13 +30,17 @@ URI: [nmdc:ReadQCAnalysisActivity](https://microbiomedata/meta/ReadQCAnalysisAct
 ### Own
 
  * [input base count](input_base_count.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: The nucleotide base count number of input reads for QC analysis.
+    * range: [Float](types/Float.md)
  * [input read count](input_read_count.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: The sequence count number of input reads for QC analysis.
+    * range: [Float](types/Float.md)
  * [output base count](output_base_count.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: After QC analysis nucleotide base count number.
+    * range: [Float](types/Float.md)
  * [output read count](output_read_count.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: After QC analysis sequence count number. 
+    * range: [Float](types/Float.md)
 
 ### Inherited from activity:
 

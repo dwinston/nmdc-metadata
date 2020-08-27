@@ -8,13 +8,13 @@ layout: default
 # Type: scaf_l_gt50K
 
 
-
+Total size in bp of all scaffolds greater than 50 KB.
 
 URI: [nmdc:scaf_l_gt50K](https://microbiomedata/meta/scaf_l_gt50K)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

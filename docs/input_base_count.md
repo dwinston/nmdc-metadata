@@ -8,13 +8,13 @@ layout: default
 # Type: input_base_count
 
 
-
+The nucleotide base count number of input reads for QC analysis.
 
 URI: [nmdc:input_base_count](https://microbiomedata/meta/input_base_count)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

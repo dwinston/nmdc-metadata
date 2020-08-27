@@ -15,7 +15,7 @@ URI: [nmdc:MetagenomeAssembly](https://microbiomedata/meta/MetagenomeAssembly)
 
 ---
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[WorkflowExecutionActivity]%5E-[MetagenomeAssembly%7Casm_score:string%20%3F;scaffolds:string%20%3F;scaf_logsum:string%20%3F;scaf_powsum:string%20%3F;scaf_max:string%20%3F;scaf_bp:string%20%3F;scaf_N50:string%20%3F;scaf_N90:string%20%3F;scaf_L50:string%20%3F;scaf_L90:string%20%3F;scaf_n_gt50K:string%20%3F;scaf_l_gt50K:string%20%3F;scaf_pct_gt50K:string%20%3F;contigs:string%20%3F;contig_bp:string%20%3F;ctg_N50:string%20%3F;ctg_L50:string%20%3F;ctg_N90:string%20%3F;ctg_L90:string%20%3F;ctg_logsum:string%20%3F;ctg_powsum:string%20%3F;ctg_max:string%20%3F;gap_pct:string%20%3F;gc_std:float%20%3F;gc_avg:string%20%3F;num_input_reads:string%20%3F;num_aligned_reads:string%20%3F;execution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20%2A;has_output(i):string%20%2A;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],[Agent],[Activity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[WorkflowExecutionActivity]%5E-[MetagenomeAssembly%7Casm_score:float%20%3F;scaffolds:float%20%3F;scaf_logsum:float%20%3F;scaf_powsum:float%20%3F;scaf_max:float%20%3F;scaf_bp:float%20%3F;scaf_N50:float%20%3F;scaf_N90:float%20%3F;scaf_L50:float%20%3F;scaf_L90:float%20%3F;scaf_n_gt50K:float%20%3F;scaf_l_gt50K:float%20%3F;scaf_pct_gt50K:float%20%3F;contigs:float%20%3F;contig_bp:float%20%3F;ctg_N50:float%20%3F;ctg_L50:float%20%3F;ctg_N90:float%20%3F;ctg_L90:float%20%3F;ctg_logsum:float%20%3F;ctg_powsum:float%20%3F;ctg_max:float%20%3F;gap_pct:float%20%3F;gc_std:float%20%3F;gc_avg:float%20%3F;num_input_reads:float%20%3F;num_aligned_reads:float%20%3F;execution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20%2A;has_output(i):string%20%2A;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],[Agent],[Activity])
 
 ---
 
@@ -30,60 +30,86 @@ URI: [nmdc:MetagenomeAssembly](https://microbiomedata/meta/MetagenomeAssembly)
 ### Own
 
  * [asm_score](asm_score.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: A score for comparing metagenomic assembly quality from same sample.
+    * range: [Float](types/Float.md)
  * [contig_bp](contig_bp.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Total size in bp of all contigs.
+    * range: [Float](types/Float.md)
  * [contigs](contigs.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: The sum of the (length*log(length)) of all contigs, times some constant.  Increase the contiguity, the score will increase
+    * range: [Float](types/Float.md)
  * [ctg_L50](ctg_L50.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Given a set of contigs, the N50 is defined as the sequence length of the shortest contig at 50% of the total genome length.
+    * range: [Float](types/Float.md)
  * [ctg_L90](ctg_L90.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: The L90 statistic is less than or equal to the L50 statistic; it is the length for which the collection of all contigs of that length or longer contains at least 90% of the sum of the lengths of all contigs.
+    * range: [Float](types/Float.md)
  * [ctg_N50](ctg_N50.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Given a set of contigs, each with its own length, the L50 count is defined as the smallest number of contigs whose length sum makes up half of genome size.
+    * range: [Float](types/Float.md)
  * [ctg_N90](ctg_N90.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Given a set of contigs, each with its own length, the L90 count is defined as the smallest number of contigs whose length sum makes up 90% of genome size.
+    * range: [Float](types/Float.md)
  * [ctg_logsum](ctg_logsum.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Maximum contig length.
+    * range: [Float](types/Float.md)
  * [ctg_max](ctg_max.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Maximum contig length.
+    * range: [Float](types/Float.md)
  * [ctg_powsum](ctg_powsum.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Powersum of all contigs is the same as logsum except that it uses the sum of (length*(length^P)) for some power P (default P=0.25).
+    * range: [Float](types/Float.md)
  * [gap_pct](gap_pct.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: The gap size percentage of all scaffolds.
+    * range: [Float](types/Float.md)
  * [gc_avg](gc_avg.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Average of GC content of all contigs.
+    * range: [Float](types/Float.md)
  * [gc_std](gc_std.md)  <sub>OPT</sub>
     * Description: Standard deviation of GC content of all contigs.
     * range: [Float](types/Float.md)
  * [num_aligned_reads](num_aligned_reads.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: The sequence count number of input reads aligned to assembled contigs.
+    * range: [Float](types/Float.md)
  * [num_input_reads](num_input_reads.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: The sequence count number of input reads for assembly.
+    * range: [Float](types/Float.md)
  * [scaf_L50](scaf_L50.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Given a set of scaffolds, the N50 is defined as the sequence length of the shortest scaffold at 50% of the total genome length.
+    * range: [Float](types/Float.md)
  * [scaf_L90](scaf_L90.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: The L90 statistic is less than or equal to the L50 statistic; it is the length for which the collection of all scaffolds of that length or longer contains at least 90% of the sum of the lengths of all scaffolds.
+    * range: [Float](types/Float.md)
  * [scaf_N50](scaf_N50.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Given a set of scaffolds, each with its own length, the L50 count is defined as the smallest number of scaffolds whose length sum makes up half of genome size.
+    * range: [Float](types/Float.md)
  * [scaf_N90](scaf_N90.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Given a set of scaffolds, each with its own length, the L90 count is defined as the smallest number of scaffolds whose length sum makes up 90% of genome size.
+    * range: [Float](types/Float.md)
  * [scaf_bp](scaf_bp.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Total size in bp of all scaffolds.
+    * range: [Float](types/Float.md)
  * [scaf_l_gt50K](scaf_l_gt50K.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Total size in bp of all scaffolds greater than 50 KB.
+    * range: [Float](types/Float.md)
  * [scaf_logsum](scaf_logsum.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: The sum of the (length*log(length)) of all scaffolds, times some constant.  Increase the contiguity, the score will increase
+    * range: [Float](types/Float.md)
  * [scaf_max](scaf_max.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Maximum scaffold length.
+    * range: [Float](types/Float.md)
  * [scaf_n_gt50K](scaf_n_gt50K.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Total sequence count of scaffolds greater than 50 KB.
+    * range: [Float](types/Float.md)
  * [scaf_pct_gt50K](scaf_pct_gt50K.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Total sequence size percentage of scaffolds greater than 50 KB.
+    * range: [Float](types/Float.md)
  * [scaf_powsum](scaf_powsum.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Powersum of all scaffolds is the same as logsum except that it uses the sum of (length*(length^P)) for some power P (default P=0.25).
+    * range: [Float](types/Float.md)
  * [scaffolds](scaffolds.md)  <sub>OPT</sub>
-    * range: [String](types/String.md)
+    * Description: Total sequence count of all scaffolds.
+    * range: [Float](types/Float.md)
 
 ### Inherited from activity:
 

@@ -8,13 +8,13 @@ layout: default
 # Type: ctg_logsum
 
 
-
+Maximum contig length.
 
 URI: [nmdc:ctg_logsum](https://microbiomedata/meta/ctg_logsum)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

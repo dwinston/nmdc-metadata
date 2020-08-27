@@ -8,13 +8,13 @@ layout: default
 # Type: contig_bp
 
 
-
+Total size in bp of all contigs.
 
 URI: [nmdc:contig_bp](https://microbiomedata/meta/contig_bp)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

@@ -8,13 +8,13 @@ layout: default
 # Type: output_read_count
 
 
-
+After QC analysis sequence count number.
 
 URI: [nmdc:output_read_count](https://microbiomedata/meta/output_read_count)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

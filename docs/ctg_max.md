@@ -8,13 +8,13 @@ layout: default
 # Type: ctg_max
 
 
-
+Maximum contig length.
 
 URI: [nmdc:ctg_max](https://microbiomedata/meta/ctg_max)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

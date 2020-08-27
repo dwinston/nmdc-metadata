@@ -8,13 +8,13 @@ layout: default
 # Type: scaffolds
 
 
-
+Total sequence count of all scaffolds.
 
 URI: [nmdc:scaffolds](https://microbiomedata/meta/scaffolds)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

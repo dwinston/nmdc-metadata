@@ -8,13 +8,13 @@ layout: default
 # Type: gap_pct
 
 
-
+The gap size percentage of all scaffolds.
 
 URI: [nmdc:gap_pct](https://microbiomedata/meta/gap_pct)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

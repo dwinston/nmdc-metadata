@@ -8,13 +8,13 @@ layout: default
 # Type: asm_score
 
 
-
+A score for comparing metagenomic assembly quality from same sample.
 
 URI: [nmdc:asm_score](https://microbiomedata/meta/asm_score)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

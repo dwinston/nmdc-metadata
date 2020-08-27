@@ -8,13 +8,13 @@ layout: default
 # Type: scaf_pct_gt50K
 
 
-
+Total sequence size percentage of scaffolds greater than 50 KB.
 
 URI: [nmdc:scaf_pct_gt50K](https://microbiomedata/meta/scaf_pct_gt50K)
 
 ## Domain and Range
 
-None ->  <sub>OPT</sub> [String](types/String.md)
+None ->  <sub>OPT</sub> [Float](types/Float.md)
 
 ## Parents
 

@@ -710,34 +710,33 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [location](location.md)
  * [longitude](longitude.md) - longitude
  * [metagenome assembly parameter](metagenome_assembly_parameter.md)
-    * [asm_score](asm_score.md)
-    * [contig_bp](contig_bp.md)
-    * [contigs](contigs.md)
-    * [ctg_L50](ctg_L50.md)
-    * [ctg_L90](ctg_L90.md)
-    * [ctg_N50](ctg_N50.md)
-    * [ctg_N90](ctg_N90.md)
-    * [ctg_logsum](ctg_logsum.md)
-    * [ctg_max](ctg_max.md)
-    * [ctg_powsum](ctg_powsum.md)
-    * [gap_pct](gap_pct.md)
-    * [gc_avg](gc_avg.md)
+    * [asm_score](asm_score.md) - A score for comparing metagenomic assembly quality from same sample.
+    * [contig_bp](contig_bp.md) - Total size in bp of all contigs.
+    * [contigs](contigs.md) - The sum of the (length*log(length)) of all contigs, times some constant.  Increase the contiguity, the score will increase
+    * [ctg_L50](ctg_L50.md) - Given a set of contigs, the N50 is defined as the sequence length of the shortest contig at 50% of the total genome length.
+    * [ctg_L90](ctg_L90.md) - The L90 statistic is less than or equal to the L50 statistic; it is the length for which the collection of all contigs of that length or longer contains at least 90% of the sum of the lengths of all contigs.
+    * [ctg_N50](ctg_N50.md) - Given a set of contigs, each with its own length, the L50 count is defined as the smallest number of contigs whose length sum makes up half of genome size.
+    * [ctg_N90](ctg_N90.md) - Given a set of contigs, each with its own length, the L90 count is defined as the smallest number of contigs whose length sum makes up 90% of genome size.
+    * [ctg_logsum](ctg_logsum.md) - Maximum contig length.
+    * [ctg_max](ctg_max.md) - Maximum contig length.
+    * [ctg_powsum](ctg_powsum.md) - Powersum of all contigs is the same as logsum except that it uses the sum of (length*(length^P)) for some power P (default P=0.25).
+    * [gap_pct](gap_pct.md) - The gap size percentage of all scaffolds.
+    * [gc_avg](gc_avg.md) - Average of GC content of all contigs.
     * [gc_std](gc_std.md) - Standard deviation of GC content of all contigs.
-    * [n_scaffolds](n_scaffolds.md)
-    * [num_aligned_reads](num_aligned_reads.md)
-    * [num_input_reads](num_input_reads.md)
-    * [scaf_L50](scaf_L50.md)
-    * [scaf_L90](scaf_L90.md)
-    * [scaf_N50](scaf_N50.md)
-    * [scaf_N90](scaf_N90.md)
-    * [scaf_bp](scaf_bp.md)
-    * [scaf_l_gt50K](scaf_l_gt50K.md)
-    * [scaf_logsum](scaf_logsum.md)
-    * [scaf_max](scaf_max.md)
-    * [scaf_n_gt50K](scaf_n_gt50K.md)
-    * [scaf_pct_gt50K](scaf_pct_gt50K.md)
-    * [scaf_powsum](scaf_powsum.md)
-    * [scaffolds](scaffolds.md)
+    * [num_aligned_reads](num_aligned_reads.md) - The sequence count number of input reads aligned to assembled contigs.
+    * [num_input_reads](num_input_reads.md) - The sequence count number of input reads for assembly.
+    * [scaf_L50](scaf_L50.md) - Given a set of scaffolds, the N50 is defined as the sequence length of the shortest scaffold at 50% of the total genome length.
+    * [scaf_L90](scaf_L90.md) - The L90 statistic is less than or equal to the L50 statistic; it is the length for which the collection of all scaffolds of that length or longer contains at least 90% of the sum of the lengths of all scaffolds.
+    * [scaf_N50](scaf_N50.md) - Given a set of scaffolds, each with its own length, the L50 count is defined as the smallest number of scaffolds whose length sum makes up half of genome size.
+    * [scaf_N90](scaf_N90.md) - Given a set of scaffolds, each with its own length, the L90 count is defined as the smallest number of scaffolds whose length sum makes up 90% of genome size.
+    * [scaf_bp](scaf_bp.md) - Total size in bp of all scaffolds.
+    * [scaf_l_gt50K](scaf_l_gt50K.md) - Total size in bp of all scaffolds greater than 50 KB.
+    * [scaf_logsum](scaf_logsum.md) - The sum of the (length*log(length)) of all scaffolds, times some constant.  Increase the contiguity, the score will increase
+    * [scaf_max](scaf_max.md) - Maximum scaffold length.
+    * [scaf_n_gt50K](scaf_n_gt50K.md) - Total sequence count of scaffolds greater than 50 KB.
+    * [scaf_pct_gt50K](scaf_pct_gt50K.md) - Total sequence size percentage of scaffolds greater than 50 KB.
+    * [scaf_powsum](scaf_powsum.md) - Powersum of all scaffolds is the same as logsum except that it uses the sum of (length*(length^P)) for some power P (default P=0.25).
+    * [scaffolds](scaffolds.md) - Total sequence count of all scaffolds.
  * [mod_date](mod_date.md) - The last date on which the database information was modified.
  * [name](name.md) - A human readable label for an entity
     * [biosample➞name](biosample_name.md) - A human readable name or description of the biosample
@@ -754,10 +753,10 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [processing_institution](processing_institution.md)
  * [proport_woa_temperature](proport_woa_temperature.md)
  * [read QC analysis statistic](read_QC_analysis_statistic.md)
-    * [input base count](input_base_count.md)
-    * [input read count](input_read_count.md)
-    * [output base count](output_base_count.md)
-    * [output read count](output_read_count.md)
+    * [input base count](input_base_count.md) - The nucleotide base count number of input reads for QC analysis.
+    * [input read count](input_read_count.md) - The sequence count number of input reads for QC analysis.
+    * [output base count](output_base_count.md) - After QC analysis nucleotide base count number.
+    * [output read count](output_read_count.md) - After QC analysis sequence count number. 
  * [sample_collection_day](sample_collection_day.md)
  * [sample_collection_hour](sample_collection_hour.md)
  * [sample_collection_minute](sample_collection_minute.md)
