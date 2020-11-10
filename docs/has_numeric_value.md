@@ -26,7 +26,6 @@ None ->  <sub>OPT</sub> [Float](types/Float.md)
 ## Used by
 
  * [IntegerValue](IntegerValue.md)
- * [QuantityValue](QuantityValue.md)
 
 ## Other properties
 

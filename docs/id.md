@@ -28,12 +28,8 @@ None ->  <sub>REQ</sub> [String](types/String.md)
 
 ## Used by
 
- * [Biosample](Biosample.md)
  * [BiosampleProcessing](BiosampleProcessing.md)
  * [DataObject](DataObject.md)
  * [EnvironmentalMaterialTerm](EnvironmentalMaterialTerm.md)
  * [NamedThing](NamedThing.md)
- * [OmicsProcessing](OmicsProcessing.md)
  * [OntologyClass](OntologyClass.md)
- * [Person](Person.md)
- * [Study](Study.md)

@@ -25,7 +25,6 @@ None ->  <sub>0..*</sub> [String](types/String.md)
 
 ## Used by
 
- * [BiosampleProcessing](BiosampleProcessing.md)
  * [MetabolomicsAnalysisActivity](MetabolomicsAnalysisActivity.md)
  * [MetagenomeAnnotationActivity](MetagenomeAnnotationActivity.md)
  * [MetagenomeAssembly](MetagenomeAssembly.md)
