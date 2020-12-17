@@ -16,6 +16,7 @@ None ->  <sub>OPT</sub> [String](types/String.md)
 
 ## Children
 
+ *  [genome feature➞type](genome_feature_type.md)
 
 ## Used by
 

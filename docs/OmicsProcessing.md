@@ -92,6 +92,8 @@ URI: [nmdc:OmicsProcessing](https://microbiomedata/meta/OmicsProcessing)
 
 |  |  |  |
 | --- | --- | --- |
+| **Aliases:** | | omics assay |
 | **Comments:** | | The IDs for objects coming from GOLD will have prefixes gold:GpNNNN |
 | **In Subsets:** | | sample subset |
+| **Broad Mappings:** | | OBI:0000070 |
 

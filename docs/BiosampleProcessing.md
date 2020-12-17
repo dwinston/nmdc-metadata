@@ -58,3 +58,11 @@ URI: [nmdc:BiosampleProcessing](https://microbiomedata/meta/BiosampleProcessing)
 
  * [biosample processing➞has input](biosample_processing_has_input.md)  <sub>0..*</sub>
     * range: [Biosample](Biosample.md)
+
+## Other properties
+
+|  |  |  |
+| --- | --- | --- |
+| **Aliases:** | | material processing |
+| **Broad Mappings:** | | OBI:0000094 |
+

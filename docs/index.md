@@ -23,6 +23,11 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [AttributeValue](AttributeValue.md) - The value for any value of a attribute for a sample. This object can hold both the un-normalized atomic value and the structured value
     * [BooleanValue](BooleanValue.md) - A value that is a boolean
     * [ControlledTermValue](ControlledTermValue.md) - A controlled term or class from an ontology
+       * [ChemicalEntity](ChemicalEntity.md) - An atom or molecule that can be represented with a chemical formula. Include lipids, glycans, natural products, drugs. There may be different terms for distinct acid-base forms, protonation states
+       * [FunctionalAnnotationTerm](FunctionalAnnotationTerm.md) - Abstract grouping class for any term/descriptor that can be applied to a functional unit of a genome (protein, ncRNA, complex).
+          * [OrthologyGroup](OrthologyGroup.md) - A set of genes or gene products in which all members are orthologous
+          * [Pathway](Pathway.md) - A pathway is a sequence of steps/reactions carried out by an organism or community of organisms
+          * [Reaction](Reaction.md) - An individual biochemical transformation carried out by a functional unit of an organism, in which a collection of substrates are transformed into a collection of products. Can also represent transporters
     * [GeolocationValue](GeolocationValue.md) - A normalized value for a location on the earth's surface
     * [IntegerValue](IntegerValue.md) - A value that is an integer
     * [PersonValue](PersonValue.md) - An attribute value representing a person
@@ -31,15 +36,22 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [TimestampValue](TimestampValue.md) - A value that is a timestamp. The range should be ISO-8601
     * [UrlValue](UrlValue.md) - A value that is a string that conforms to URL syntax
  * [Database](Database.md) - An abstract holder for any set of metadata and data. It does not need to correspond to an actual managed databse top level holder class. When translated to JSON-Schema this is the 'root' object. It should contain pointers to other objects of interest
+ * [FunctionalAnnotation](FunctionalAnnotation.md) - An assignment of a function term (e.g. reaction or pathway) that is executed by a gene product, or which the gene product plays an active role in. Functional annotations can be assigned manually by curators, or automatically in workflows. In the context of NMDC, all function annotation is performed automatically, typically using HMM or Blast type methods
+ * [GeneProduct](GeneProduct.md) - A molecule encoded by a gene that has an evolved function
+ * [GenomeFeature](GenomeFeature.md) - A feature localized to an interval along a genome
+ * [MetaboliteQuantification](MetaboliteQuantification.md) - This is used to link a metabolomics analysis workflow to a specific metabolite
  * [NamedThing](NamedThing.md) - a databased entity or concept/class
     * [Biosample](Biosample.md) - A material sample. It may be environmental (encompassing many organisms) or isolate or tissue.   An environmental sample containing genetic material from multiple individuals is commonly referred to as a biosample.
     * [BiosampleProcessing](BiosampleProcessing.md) - A process that takes one or more biosamples as inputs and generates one or as outputs. Examples of outputs include samples cultivated from another sample or data objects created by instruments runs.
        * [OmicsProcessing](OmicsProcessing.md) - The methods and processes used to generate omics data from a biosample or organism.
     * [DataObject](DataObject.md) - An object that primarily consists of symbols that represent information.   Files, records, and omics data are examples of data objects. 
+    * [Instrument](Instrument.md) - A material entity that is designed to perform a function in a scientific investigation, but is not a reagent[OBI].
     * [OntologyClass](OntologyClass.md)
        * [EnvironmentalMaterialTerm](EnvironmentalMaterialTerm.md)
     * [Person](Person.md) - represents a person, such as a researcher
     * [Study](Study.md) - A study summarizes the overall goal of a research initiative and outlines the key objective of its underlying projects.  
+ * [PeptideQuantification](PeptideQuantification.md) - This is used to link a metabolomics analysis workflow to a specific protein
+ * [ReactionParticipant](ReactionParticipant.md) - Instances of this link a reaction to a chemical entity participant
 
 ### Mixins
 
@@ -50,6 +62,8 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [activity id](activity_id.md)
  * [activity set](activity_set.md) - This property links a database object to the set of prov activities.
  * [add_date](add_date.md) - The date on which the information was added to the database.
+ * [all proteins](all_proteins.md) - the specific protein identifier
+    * [peptide quantification➞all proteins](peptide_quantification_all_proteins.md)
  * [alternate identifiers](alternate_identifiers.md) - Non-primary identifiers
     * [biosample➞alternate identifiers](biosample_alternate_identifiers.md) - The same biosample may have distinct identifiers in different databases (e.g. GOLD and EMSL)
     * [omics processing➞alternate identifiers](omics_processing_alternate_identifiers.md) - The same omics processing may have distinct identifiers in different databases (e.g. GOLD and EMSL, as well as NCBI)
@@ -672,32 +686,62 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [window_vert_pos](window_vert_pos.md) - The vertical position of the window on the wall
     * [window_water_mold](window_water_mold.md) - Signs of the presence of mold or mildew on the window.
     * [xylene](xylene.md) - Concentration of xylene in the sample
+ * [best protein](best_protein.md) - the specific protein identifier
+    * [peptide quantification➞best protein](peptide_quantification_best_protein.md)
  * [biogas_retention_time](biogas_retention_time.md)
  * [biogas_temperature](biogas_temperature.md)
  * [biosample set](biosample_set.md) - This property links a database object to the set of samples within it.
+ * [chemical](chemical.md)
+    * [reaction participant➞chemical](reaction_participant_chemical.md)
+ * [chemical formula](chemical_formula.md) - A generic grouping for miolecular formulae and empirican formulae
+    * [chemical entity➞chemical formula](chemical_entity_chemical_formula.md)
  * [community](community.md)
  * [completion_date](completion_date.md)
  * [compression type](compression_type.md) - If provided, specifies the compression type
  * [data object set](data_object_set.md) - This property links a database object to the set of data objects within it.
  * [data object type](data_object_type.md) - The type of data object
  * [description](description.md) - a human-readable description of a thing
+ * [direction](direction.md) - One of l->r, r->l, bidirectional, neutral
+    * [reaction➞direction](reaction_direction.md)
  * [ecosystem_path_id](ecosystem_path_id.md) - A unique id representing the GOLD classifers associated with a sample.
+ * [encodes](encodes.md) - The gene product encoded by this feature. Typically this is used for a CDS feature or gene feature which will encode a protein. It can also be used by a nc transcript ot gene feature that encoded a ncRNA
+    * [genome feature➞encodes](genome_feature_encodes.md)
  * [ended at time](ended_at_time.md)
+ * [gff coordinate](gff_coordinate.md) - A positive 1-based integer coordinate indicating start or end
+    * [end](end.md) - The end of the feature in positive 1-based integer coordinates
+    * [genome feature➞end](genome_feature_end.md) - The end of the feature in positive 1-based integer coordinates
+    * [genome feature➞start](genome_feature_start.md) - The start of the feature in positive 1-based integer coordinates
+    * [start](start.md) - The start of the feature in positive 1-based integer coordinates
  * [growth_temperature](growth_temperature.md)
  * [habitat](habitat.md)
  * [has boolean value](has_boolean_value.md) - Links a quantity value to a boolean
+ * [has function](has_function.md)
+    * [functional annotation➞has function](functional_annotation_has_function.md)
  * [has input](has_input.md) - An input to a process.
     * [biosample processing➞has input](biosample_processing_has_input.md)
+ * [has metabolite quantifications](has_metabolite_quantifications.md)
+    * [metabolomics analysis activity➞has metabolite quantifications](metabolomics_analysis_activity_has_metabolite_quantifications.md)
  * [has numeric value](has_numeric_value.md) - Links a quantity value to a number
     * [quantity value➞has numeric value](quantity_value_has_numeric_value.md) - The number part of the quantity
  * [has output](has_output.md) - An output biosample to a processing step
     * [omics processing➞has output](omics_processing_has_output.md)
+ * [has participants](has_participants.md)
+    * [left participants](left_participants.md)
+    * [reaction➞left participants](reaction_left_participants.md)
+    * [reaction➞right participants](reaction_right_participants.md)
+    * [right participants](right_participants.md)
+ * [has peptide quantifications](has_peptide_quantifications.md)
+    * [metaproteomics analysis activity➞has peptide quantifications](metaproteomics_analysis_activity_has_peptide_quantifications.md)
  * [has raw value](has_raw_value.md) - The value that was specified for an annotation in raw form, i.e. a string. E.g. "2 cm" or "2-4 cm"
     * [geolocation value➞has raw value](geolocation_value_has_raw_value.md) - The raw value for a  geolocation should follow {lat} {long}
     * [person value➞has raw value](person_value_has_raw_value.md) - the full name of the Investgator in format FIRST LAST
     * [quantity value➞has raw value](quantity_value_has_raw_value.md) - Unnormalized atomic string representation, should in syntax {number} {unit}
  * [has unit](has_unit.md) - Links a quantity value to a unit
     * [quantity value➞has unit](quantity_value_has_unit.md) - The unit of the quantity
+ * [has_part](has_part.md) - A pathway can be broken down to a series of reaction step
+    * [pathway➞has_part](pathway_has_part.md)
+ * [highest similarity score](highest_similarity_score.md) - TODO: Yuri to fill in
+    * [metabolite quantification➞highest similarity score](metabolite_quantification_highest_similarity_score.md)
  * [host_name](host_name.md)
  * [id](id.md) - A unique identifier for a thing. Must be either a CURIE shorthand for a URI or a complete URI
     * [biosample➞id](biosample_id.md) - The primary identifier for the biosample. Example: GOLD:Gb0205609
@@ -705,10 +749,26 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [person➞id](person_id.md) - Should be an ORCID. Specify in CURIE format. E.g ORCID:0000-1111-...
     * [study➞id](study_id.md) - The primary identifier for the study.
  * [identifier](identifier.md)
+ * [inchi](inchi.md)
+    * [chemical entity➞inchi](chemical_entity_inchi.md)
+ * [inchi key](inchi_key.md)
+    * [chemical entity➞inchi key](chemical_entity_inchi_key.md)
+ * [is balanced](is_balanced.md)
+    * [reaction➞is balanced](reaction_is_balanced.md)
+ * [is diastereoselective](is_diastereoselective.md)
+    * [reaction➞is diastereoselective](reaction_is_diastereoselective.md)
+ * [is fully characterized](is_fully_characterized.md) - False if includes R-groups
+    * [reaction➞is fully characterized](reaction_is_fully_characterized.md)
+ * [is stereo](is_stereo.md)
+    * [reaction➞is stereo](reaction_is_stereo.md)
+ * [is transport](is_transport.md)
+    * [reaction➞is transport](reaction_is_transport.md)
  * [language](language.md) - Should use ISO 639-1 code e.g. "en", "fr"
  * [latitude](latitude.md) - latitude
  * [location](location.md)
  * [longitude](longitude.md) - longitude
+ * [metabolite quantified](metabolite_quantified.md) - the specific metabolite identifier
+    * [metabolite quantification➞metabolite quantified](metabolite_quantification_metabolite_quantified.md)
  * [metagenome assembly parameter](metagenome_assembly_parameter.md)
     * [asm_score](asm_score.md) - A score for comparing metagenomic assembly quality from same sample.
     * [contig_bp](contig_bp.md) - Total size in bp of all contigs.
@@ -737,6 +797,8 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [scaf_pct_gt50K](scaf_pct_gt50K.md) - Total sequence size percentage of scaffolds greater than 50 KB.
     * [scaf_powsum](scaf_powsum.md) - Powersum of all scaffolds is the same as logsum except that it uses the sum of (length*(length^P)) for some power P (default P=0.25).
     * [scaffolds](scaffolds.md) - Total sequence count of all scaffolds.
+ * [min_q_value](min_q_value.md) - TODO: Sam to fill in
+    * [peptide quantification➞min_q_value](peptide_quantification_min_q_value.md)
  * [mod_date](mod_date.md) - The last date on which the database information was modified.
  * [name](name.md) - A human readable label for an entity
     * [biosample➞name](biosample_name.md) - A human readable name or description of the biosample
@@ -750,6 +812,10 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [orcid](orcid.md)
  * [part of](part_of.md) - Links a resource to another resource that either logically or physically includes it.
     * [omics processing➞part of](omics_processing_part_of.md)
+ * [peptide sequence](peptide_sequence.md)
+    * [peptide quantification➞peptide sequence](peptide_quantification_peptide_sequence.md)
+ * [phase](phase.md) - The phase for a coding sequence entity. For example, phase of a CDS as represented in a GFF3 with a value of 0, 1 or 2.
+    * [genome feature➞phase](genome_feature_phase.md)
  * [processing_institution](processing_institution.md)
  * [proport_woa_temperature](proport_woa_temperature.md)
  * [read QC analysis statistic](read_QC_analysis_statistic.md)
@@ -763,16 +829,36 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [sample_collection_month](sample_collection_month.md)
  * [sample_collection_site](sample_collection_site.md)
  * [sample_collection_year](sample_collection_year.md)
+ * [seqid](seqid.md) - The ID of the landmark used to establish the coordinate system for the current feature.
+    * [genome feature➞seqid](genome_feature_seqid.md)
+ * [smarts string](smarts_string.md)
+    * [reaction➞smarts string](reaction_smarts_string.md)
+ * [smiles](smiles.md) - A string encoding of a molecular graph, no chiral or isotopic information. There are usually a large number of valid SMILES which represent a given structure. For example, CCO, OCC and C(O)C all specify the structure of ethanol.
+    * [chemical entity➞smiles](chemical_entity_smiles.md)
  * [soil_annual_season_temp](soil_annual_season_temp.md)
+ * [spectral_count](spectral_count.md) - TODO: Sam to fill in
+    * [peptide quantification➞spectral_count](peptide_quantification_spectral_count.md)
  * [started at time](started_at_time.md)
+ * [stoichiometry](stoichiometry.md)
+    * [reaction participant➞stoichiometry](reaction_participant_stoichiometry.md)
+ * [strand](strand.md) - The strand on which a feature is located. Has a value of '+' (sense strand or forward strand) or '-' (anti-sense strand or reverse strand).
+    * [genome feature➞strand](genome_feature_strand.md)
  * [study set](study_set.md) - This property links a database object to the set of studies within it.
+ * [subject](subject.md)
+    * [functional annotation➞subject](functional_annotation_subject.md)
  * [subsurface_depth](subsurface_depth.md)
+ * [sum_masic_abundance](sum_masic_abundance.md) - TODO: Sam to fill in
+    * [peptide quantification➞sum_masic_abundance](peptide_quantification_sum_masic_abundance.md)
  * [term](term.md) - pointer to an ontology class
  * [type](type.md) - The type of entity that the json object represents.  This is used to allow for searches for different kinds of objects.
+    * [genome feature➞type](genome_feature_type.md) - A type from the sequence ontology
  * [used](used.md)
+    * [metabolomics analysis activity➞used](metabolomics_analysis_activity_used.md) - The instrument used to collect the data used in the analysis
+    * [metaproteomics analysis activity➞used](metaproteomics_analysis_activity_used.md) - The instrument used to collect the data used in the analysis
  * [was associated with](was_associated_with.md)
  * [was generated by](was_generated_by.md)
     * [data object➞was generated by](data_object_was_generated_by.md) - the activity that generated the file
+    * [functional annotation➞was generated by](functional_annotation_was_generated_by.md) - provenance for the annotation. Note to be consistent with the rest of the NMDC schema we use the PROV annotation model, rather than GPAD
  * [was informed by](was_informed_by.md)
  * [water_samp_store_temp](water_samp_store_temp.md)
 

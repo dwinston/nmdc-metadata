@@ -330,5 +330,9 @@ URI: [nmdc:Biosample](https://microbiomedata/meta/Biosample)
 | --- | --- | --- |
 | **Aliases:** | | sample |
 |  | | material sample |
+|  | | specimen |
+|  | | biospecimen |
 | **In Subsets:** | | sample subset |
+| **Exact Mappings:** | | OBI:0000747 |
+|  | | NCIT:C43412 |
 

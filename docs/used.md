@@ -21,14 +21,14 @@ URI: [nmdc:used](https://microbiomedata/meta/used)
 
 ## Children
 
+ *  [metabolomics analysis activity➞used](metabolomics_analysis_activity_used.md)
+ *  [metaproteomics analysis activity➞used](metaproteomics_analysis_activity_used.md)
 
 ## Used by
 
  * [Activity](Activity.md)
- * [MetabolomicsAnalysisActivity](MetabolomicsAnalysisActivity.md)
  * [MetagenomeAnnotationActivity](MetagenomeAnnotationActivity.md)
  * [MetagenomeAssembly](MetagenomeAssembly.md)
- * [MetaproteomicsAnalysisActivity](MetaproteomicsAnalysisActivity.md)
  * [ReadQCAnalysisActivity](ReadQCAnalysisActivity.md)
  * [WorkflowExecutionActivity](WorkflowExecutionActivity.md)
 

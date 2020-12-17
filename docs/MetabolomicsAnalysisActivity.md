@@ -15,7 +15,7 @@ URI: [nmdc:MetabolomicsAnalysisActivity](https://microbiomedata/meta/Metabolomic
 
 ---
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[WorkflowExecutionActivity]%5E-[MetabolomicsAnalysisActivity%7Cexecution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20%2A;has_output(i):string%20%2A;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],[Agent],[Activity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[MetaboliteQuantification]%3Chas%20metabolite%20quantifications%200..%2A-++[MetabolomicsAnalysisActivity%7Cexecution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20%2A;has_output(i):string%20%2A;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F],[Instrument]%3Cused%200..1-%20[MetabolomicsAnalysisActivity],[WorkflowExecutionActivity]%5E-[MetabolomicsAnalysisActivity],[MetaboliteQuantification],[Instrument],[Agent],[Activity])
 
 ---
 
@@ -24,8 +24,19 @@ URI: [nmdc:MetabolomicsAnalysisActivity](https://microbiomedata/meta/Metabolomic
 
  *  is_a: [WorkflowExecutionActivity](WorkflowExecutionActivity.md) - Represents an instance of an execution of a particular workflow
 
+## Referenced by class
+
+
 ## Attributes
 
+
+### Own
+
+ * [metabolomics analysis activity➞has metabolite quantifications](metabolomics_analysis_activity_has_metabolite_quantifications.md)  <sub>0..*</sub>
+    * range: [MetaboliteQuantification](MetaboliteQuantification.md)
+ * [metabolomics analysis activity➞used](metabolomics_analysis_activity_used.md)  <sub>OPT</sub>
+    * Description: The instrument used to collect the data used in the analysis
+    * range: [Instrument](Instrument.md)
 
 ### Inherited from activity:
 
@@ -81,6 +92,14 @@ URI: [nmdc:MetabolomicsAnalysisActivity](https://microbiomedata/meta/Metabolomic
  * [git url](git_url.md)  <sub>OPT</sub>
     * Description: Example: https://github.com/microbiomedata/mg_annotation/releases/tag/0.1
     * range: [String](types/String.md)
+
+### Domain for slot:
+
+ * [metabolomics analysis activity➞has metabolite quantifications](metabolomics_analysis_activity_has_metabolite_quantifications.md)  <sub>0..*</sub>
+    * range: [MetaboliteQuantification](MetaboliteQuantification.md)
+ * [metabolomics analysis activity➞used](metabolomics_analysis_activity_used.md)  <sub>OPT</sub>
+    * Description: The instrument used to collect the data used in the analysis
+    * range: [Instrument](Instrument.md)
 
 ## Other properties
 

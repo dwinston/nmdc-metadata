@@ -15,7 +15,7 @@ URI: [nmdc:MetaproteomicsAnalysisActivity](https://microbiomedata/meta/Metaprote
 
 ---
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[WorkflowExecutionActivity]%5E-[MetaproteomicsAnalysisActivity%7Cexecution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20%2A;has_output(i):string%20%2A;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F;used(i):string%20%3F],[Agent],[Activity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[WorkflowExecutionActivity],[PeptideQuantification],[PeptideQuantification]%3Chas%20peptide%20quantifications%200..%2A-++[MetaproteomicsAnalysisActivity%7Cexecution_resource(i):string%20%3F;git_url(i):string%20%3F;has_input(i):string%20%2A;has_output(i):string%20%2A;activity_id(i):string;started_at_time(i):string%20%3F;ended_at_time(i):string%20%3F],[Instrument]%3Cused%200..1-%20[MetaproteomicsAnalysisActivity],[WorkflowExecutionActivity]%5E-[MetaproteomicsAnalysisActivity],[Instrument],[Agent],[Activity])
 
 ---
 
@@ -24,8 +24,19 @@ URI: [nmdc:MetaproteomicsAnalysisActivity](https://microbiomedata/meta/Metaprote
 
  *  is_a: [WorkflowExecutionActivity](WorkflowExecutionActivity.md) - Represents an instance of an execution of a particular workflow
 
+## Referenced by class
+
+
 ## Attributes
 
+
+### Own
+
+ * [metaproteomics analysis activity➞has peptide quantifications](metaproteomics_analysis_activity_has_peptide_quantifications.md)  <sub>0..*</sub>
+    * range: [PeptideQuantification](PeptideQuantification.md)
+ * [metaproteomics analysis activity➞used](metaproteomics_analysis_activity_used.md)  <sub>OPT</sub>
+    * Description: The instrument used to collect the data used in the analysis
+    * range: [Instrument](Instrument.md)
 
 ### Inherited from activity:
 
@@ -81,6 +92,14 @@ URI: [nmdc:MetaproteomicsAnalysisActivity](https://microbiomedata/meta/Metaprote
  * [git url](git_url.md)  <sub>OPT</sub>
     * Description: Example: https://github.com/microbiomedata/mg_annotation/releases/tag/0.1
     * range: [String](types/String.md)
+
+### Domain for slot:
+
+ * [metaproteomics analysis activity➞has peptide quantifications](metaproteomics_analysis_activity_has_peptide_quantifications.md)  <sub>0..*</sub>
+    * range: [PeptideQuantification](PeptideQuantification.md)
+ * [metaproteomics analysis activity➞used](metaproteomics_analysis_activity_used.md)  <sub>OPT</sub>
+    * Description: The instrument used to collect the data used in the analysis
+    * range: [Instrument](Instrument.md)
 
 ## Other properties
 
