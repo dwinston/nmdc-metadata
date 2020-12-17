@@ -21,6 +21,8 @@ prefixes:
   qud: http://qudt.org/1.1/schema/qudt#
   dcterms: http://purl.org/dc/terms/
   biolinkml: https://w3id.org/biolink/biolinkml/
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  NCIT: http://purl.obolibrary.org/obo/NCIT_
   
 default_prefix: nmdc
 default_range: string
@@ -43,6 +45,7 @@ imports:
   - mixs
   - core
   - prov
+  - annotation
 
 subsets:
   workflow subset:
@@ -162,17 +165,35 @@ classes:
     is_a: workflow execution activity
     in_subset: 
       - workflow subset
-
+    slot_usage:
+      used:
+        range: instrument
+        multivalued: false
+        description: >-
+          The instrument used to collect the data used in the analysis
+      has metabolite quantifications:
+        range: metabolite quantification
+        multivalued: true
+      
   metaproteomics analysis activity:
     is_a: workflow execution activity
     in_subset: 
       - workflow subset
+    slot_usage:
+      used:
+        range: instrument
+        multivalued: false
+        description: >-
+          The instrument used to collect the data used in the analysis
+      has peptide quantifications:
+        range: peptide quantification
+        multivalued: true
       
   biosample:
     is_a: named thing
     in_subset: 
       - sample subset
-    aliases: ['sample', 'material sample']
+    aliases: ['sample', 'material sample', 'specimen', 'biospecimen']
     description: >-
       A material sample. It may be environmental (encompassing many organisms) or isolate or tissue.  
       An environmental sample containing genetic material from multiple individuals is commonly referred to as a biosample.
@@ -279,7 +300,9 @@ classes:
           formerly known as 'material'
     id_prefixes:
       - GOLD
-
+    exact_mappings:
+      - OBI:0000747
+      - NCIT:C43412
         
   study:
     is_a: named thing
@@ -317,6 +340,8 @@ classes:
           The same study may have distinct identifiers in different databases (e.g. GOLD and EMSL)
 
   biosample processing:
+    aliases:
+      - material processing
     is_a: named thing
     description: >-
       A process that takes one or more biosamples as inputs and generates one or as outputs.
@@ -326,8 +351,12 @@ classes:
     slot_usage:
       has input:
         range: biosample
+    broad_mappings:
+      - OBI:0000094 ## material processing: https://github.com/microbiomedata/nmdc-metadata/issues/171
 
   omics processing:
+    aliases:
+      - omics assay
     is_a: biosample processing
     in_subset: 
       - sample subset
@@ -353,7 +382,59 @@ classes:
         range: study
       has output:
         range: data object
+    broad_mappings:
+      - OBI:0000070 ## assay: https://github.com/microbiomedata/nmdc-metadata/issues/171
 
+  instrument:
+    is_a: named thing
+    aliases:
+      - device
+    description: >-
+      A material entity that is designed to perform a function in a scientific investigation, but is not a reagent[OBI].
+    exact_mappings:
+      - OBI:0000485
+
+  metabolite quantification:
+    description: >-
+      This is used to link a metabolomics analysis workflow to a specific metabolite
+    slot_usage:
+      metabolite quantified:
+        description: >-
+          the specific metabolite identifier
+        range: chemical entity
+      highest similarity score:
+        description: >-
+          TODO: Yuri to fill in
+        range: float
+
+  peptide quantification:
+    description: >-
+      This is used to link a metabolomics analysis workflow to a specific protein
+    slot_usage:
+      peptide sequence:
+        range: string
+      best protein:
+        description: >-
+          the specific protein identifier
+        range: gene product
+      all proteins:
+        description: >-
+          the specific protein identifier
+        range: gene product
+        multivalued: true
+      min_q_value:
+        description: >-
+          TODO: Sam to fill in
+        range: integer
+      spectral_count:
+        description: >-
+          TODO: Sam to fill in
+        range: integer
+      sum_masic_abundance:
+        description: >-
+          TODO: Sam to fill in
+        range: integer
+        
   person:
     is_a: named thing
     description: >-
