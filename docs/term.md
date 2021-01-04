@@ -24,12 +24,7 @@ URI: [nmdc:term](https://microbiomedata/meta/term)
 
 ## Used by
 
- * [ChemicalEntity](ChemicalEntity.md)
  * [ControlledTermValue](ControlledTermValue.md)
- * [FunctionalAnnotationTerm](FunctionalAnnotationTerm.md)
- * [OrthologyGroup](OrthologyGroup.md)
- * [Pathway](Pathway.md)
- * [Reaction](Reaction.md)
 
 ## Other properties
 

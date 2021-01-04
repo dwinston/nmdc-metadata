@@ -14,7 +14,7 @@ URI: [nmdc:genome_feature_type](https://microbiomedata/meta/genome_feature_type)
 
 ## Domain and Range
 
-[GenomeFeature](GenomeFeature.md) ->  <sub>OPT</sub> [ControlledTermValue](ControlledTermValue.md)
+[GenomeFeature](GenomeFeature.md) ->  <sub>OPT</sub> [OntologyClass](OntologyClass.md)
 
 ## Parents
 

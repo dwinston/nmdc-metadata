@@ -15,7 +15,7 @@ URI: [nmdc:ControlledTermValue](https://microbiomedata/meta/ControlledTermValue)
 
 ---
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[OntologyClass],[GenomeFeature],[FunctionalAnnotationTerm],[OntologyClass]%3Cterm%200..1-++[ControlledTermValue%7Chas_raw_value(i):string%20%3F],[Biosample]++-%20env_broad_scale%201..1%3E[ControlledTermValue],[Biosample]++-%20env_local_scale%201..1%3E[ControlledTermValue],[Biosample]++-%20env_medium%201..1%3E[ControlledTermValue],[DataObject]++-%20data%20object%20type%200..1%3E[ControlledTermValue],[Biosample]++-%20env_broad_scale(i)%200..1%3E[ControlledTermValue],[Biosample]++-%20env_local_scale(i)%200..1%3E[ControlledTermValue],[Biosample]++-%20env_medium(i)%200..1%3E[ControlledTermValue],[GenomeFeature]++-%20type%200..1%3E[ControlledTermValue],[OmicsProcessing]++-%20omics%20type%200..1%3E[ControlledTermValue],[ControlledTermValue]%5E-[FunctionalAnnotationTerm],[ControlledTermValue]%5E-[ChemicalEntity],[AttributeValue]%5E-[ControlledTermValue],[OmicsProcessing],[DataObject],[ChemicalEntity],[Biosample],[AttributeValue],[Activity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[OntologyClass],[OntologyClass]%3Cterm%200..1-++[ControlledTermValue%7Chas_raw_value(i):string%20%3F],[Biosample]++-%20env_broad_scale%201..1%3E[ControlledTermValue],[Biosample]++-%20env_local_scale%201..1%3E[ControlledTermValue],[Biosample]++-%20env_medium%201..1%3E[ControlledTermValue],[DataObject]++-%20data%20object%20type%200..1%3E[ControlledTermValue],[Biosample]++-%20env_broad_scale(i)%200..1%3E[ControlledTermValue],[Biosample]++-%20env_local_scale(i)%200..1%3E[ControlledTermValue],[Biosample]++-%20env_medium(i)%200..1%3E[ControlledTermValue],[OmicsProcessing]++-%20omics%20type%200..1%3E[ControlledTermValue],[AttributeValue]%5E-[ControlledTermValue],[OmicsProcessing],[DataObject],[Biosample],[AttributeValue],[Activity])
 
 ---
 
@@ -23,11 +23,6 @@ URI: [nmdc:ControlledTermValue](https://microbiomedata/meta/ControlledTermValue)
 ## Parents
 
  *  is_a: [AttributeValue](AttributeValue.md) - The value for any value of a attribute for a sample. This object can hold both the un-normalized atomic value and the structured value
-
-## Children
-
- * [ChemicalEntity](ChemicalEntity.md) - An atom or molecule that can be represented with a chemical formula. Include lipids, glycans, natural products, drugs. There may be different terms for distinct acid-base forms, protonation states
- * [FunctionalAnnotationTerm](FunctionalAnnotationTerm.md) - Abstract grouping class for any term/descriptor that can be applied to a functional unit of a genome (protein, ncRNA, complex).
 
 ## Referenced by class
 
@@ -40,7 +35,6 @@ URI: [nmdc:ControlledTermValue](https://microbiomedata/meta/ControlledTermValue)
  *  **None** *[env_local_scale](env_local_scale.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[env_medium](env_medium.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[experimental_factor](experimental_factor.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
- *  **[GenomeFeature](GenomeFeature.md)** *[genome feature➞type](genome_feature_type.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[growth_facil](growth_facil.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[host_body_product](host_body_product.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**
  *  **None** *[host_body_site](host_body_site.md)*  <sub>OPT</sub>  **[ControlledTermValue](ControlledTermValue.md)**

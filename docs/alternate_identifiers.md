@@ -28,12 +28,17 @@ None ->  <sub>0..*</sub> [String](types/String.md)
 ## Used by
 
  * [BiosampleProcessing](BiosampleProcessing.md)
+ * [ChemicalEntity](ChemicalEntity.md)
  * [DataObject](DataObject.md)
  * [EnvironmentalMaterialTerm](EnvironmentalMaterialTerm.md)
+ * [FunctionalAnnotationTerm](FunctionalAnnotationTerm.md)
  * [Instrument](Instrument.md)
  * [NamedThing](NamedThing.md)
  * [OntologyClass](OntologyClass.md)
+ * [OrthologyGroup](OrthologyGroup.md)
+ * [Pathway](Pathway.md)
  * [Person](Person.md)
+ * [Reaction](Reaction.md)
 
 ## Other properties
 

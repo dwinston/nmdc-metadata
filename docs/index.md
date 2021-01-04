@@ -23,11 +23,6 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
  * [AttributeValue](AttributeValue.md) - The value for any value of a attribute for a sample. This object can hold both the un-normalized atomic value and the structured value
     * [BooleanValue](BooleanValue.md) - A value that is a boolean
     * [ControlledTermValue](ControlledTermValue.md) - A controlled term or class from an ontology
-       * [ChemicalEntity](ChemicalEntity.md) - An atom or molecule that can be represented with a chemical formula. Include lipids, glycans, natural products, drugs. There may be different terms for distinct acid-base forms, protonation states
-       * [FunctionalAnnotationTerm](FunctionalAnnotationTerm.md) - Abstract grouping class for any term/descriptor that can be applied to a functional unit of a genome (protein, ncRNA, complex).
-          * [OrthologyGroup](OrthologyGroup.md) - A set of genes or gene products in which all members are orthologous
-          * [Pathway](Pathway.md) - A pathway is a sequence of steps/reactions carried out by an organism or community of organisms
-          * [Reaction](Reaction.md) - An individual biochemical transformation carried out by a functional unit of an organism, in which a collection of substrates are transformed into a collection of products. Can also represent transporters
     * [GeolocationValue](GeolocationValue.md) - A normalized value for a location on the earth's surface
     * [IntegerValue](IntegerValue.md) - A value that is an integer
     * [PersonValue](PersonValue.md) - An attribute value representing a person
@@ -47,7 +42,12 @@ Schema for National Microbiome Data Collaborative (NMDC). This schem is organize
     * [DataObject](DataObject.md) - An object that primarily consists of symbols that represent information.   Files, records, and omics data are examples of data objects. 
     * [Instrument](Instrument.md) - A material entity that is designed to perform a function in a scientific investigation, but is not a reagent[OBI].
     * [OntologyClass](OntologyClass.md)
+       * [ChemicalEntity](ChemicalEntity.md) - An atom or molecule that can be represented with a chemical formula. Include lipids, glycans, natural products, drugs. There may be different terms for distinct acid-base forms, protonation states
        * [EnvironmentalMaterialTerm](EnvironmentalMaterialTerm.md)
+       * [FunctionalAnnotationTerm](FunctionalAnnotationTerm.md) - Abstract grouping class for any term/descriptor that can be applied to a functional unit of a genome (protein, ncRNA, complex).
+          * [OrthologyGroup](OrthologyGroup.md) - A set of genes or gene products in which all members are orthologous
+          * [Pathway](Pathway.md) - A pathway is a sequence of steps/reactions carried out by an organism or community of organisms
+          * [Reaction](Reaction.md) - An individual biochemical transformation carried out by a functional unit of an organism, in which a collection of substrates are transformed into a collection of products. Can also represent transporters
     * [Person](Person.md) - represents a person, such as a researcher
     * [Study](Study.md) - A study summarizes the overall goal of a research initiative and outlines the key objective of its underlying projects.  
  * [PeptideQuantification](PeptideQuantification.md) - This is used to link a metabolomics analysis workflow to a specific protein

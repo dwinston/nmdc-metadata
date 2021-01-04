@@ -15,7 +15,7 @@ URI: [nmdc:FunctionalAnnotation](https://microbiomedata/meta/FunctionalAnnotatio
 
 ---
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[GeneProduct],[FunctionalAnnotationTerm],[FunctionalAnnotationTerm]%3Chas%20function%200..1-++[FunctionalAnnotation],[GeneProduct]%3Csubject%200..1-++[FunctionalAnnotation],[Activity]%3Cwas%20generated%20by%200..1-%20[FunctionalAnnotation],[Activity])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[GeneProduct],[FunctionalAnnotationTerm],[FunctionalAnnotationTerm]%3Chas%20function%200..1-%20[FunctionalAnnotation],[GeneProduct]%3Csubject%200..1-++[FunctionalAnnotation],[Activity]%3Cwas%20generated%20by%200..1-%20[FunctionalAnnotation],[Activity])
 
 ---
 

@@ -26,13 +26,18 @@ None ->  <sub>OPT</sub> [String](types/String.md)
 
  * [Biosample](Biosample.md)
  * [BiosampleProcessing](BiosampleProcessing.md)
+ * [ChemicalEntity](ChemicalEntity.md)
  * [DataObject](DataObject.md)
  * [EnvironmentalMaterialTerm](EnvironmentalMaterialTerm.md)
+ * [FunctionalAnnotationTerm](FunctionalAnnotationTerm.md)
  * [Instrument](Instrument.md)
  * [NamedThing](NamedThing.md)
  * [OmicsProcessing](OmicsProcessing.md)
  * [OntologyClass](OntologyClass.md)
+ * [OrthologyGroup](OrthologyGroup.md)
+ * [Pathway](Pathway.md)
  * [Person](Person.md)
+ * [Reaction](Reaction.md)
  * [Study](Study.md)
 
 ## Other properties

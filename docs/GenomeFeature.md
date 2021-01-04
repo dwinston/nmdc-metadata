@@ -15,7 +15,7 @@ URI: [nmdc:GenomeFeature](https://microbiomedata/meta/GenomeFeature)
 
 ---
 
-![img](http://yuml.me/diagram/nofunky;dir:TB/class/[GeneProduct]%3Cencodes%200..1-++[GenomeFeature%7Cseqid:string;start:integer;end:integer;strand:string%20%3F;phase:integer%20%3F],[ControlledTermValue]%3Ctype%200..1-++[GenomeFeature],[GeneProduct],[ControlledTermValue])
+![img](http://yuml.me/diagram/nofunky;dir:TB/class/[OntologyClass],[GeneProduct]%3Cencodes%200..1-++[GenomeFeature%7Cseqid:string;start:integer;end:integer;strand:string%20%3F;phase:integer%20%3F],[OntologyClass]%3Ctype%200..1-%20[GenomeFeature],[GeneProduct])
 
 ---
 
@@ -48,7 +48,7 @@ URI: [nmdc:GenomeFeature](https://microbiomedata/meta/GenomeFeature)
     * range: [String](types/String.md)
  * [genome feature➞type](genome_feature_type.md)  <sub>OPT</sub>
     * Description: A type from the sequence ontology
-    * range: [ControlledTermValue](ControlledTermValue.md)
+    * range: [OntologyClass](OntologyClass.md)
 
 ### Domain for slot:
 
@@ -72,7 +72,7 @@ URI: [nmdc:GenomeFeature](https://microbiomedata/meta/GenomeFeature)
     * range: [String](types/String.md)
  * [genome feature➞type](genome_feature_type.md)  <sub>OPT</sub>
     * Description: A type from the sequence ontology
-    * range: [ControlledTermValue](ControlledTermValue.md)
+    * range: [OntologyClass](OntologyClass.md)
 
 ## Other properties
 
