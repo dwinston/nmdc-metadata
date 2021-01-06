@@ -13,7 +13,7 @@ Tasks managed by the repository are:
 * Deploying the [documentation](https://microbiomedata.github.io/nmdc-metadata/) 
 * [Integrating](./metadata-translation/notebooks) metadata from multiple environmental data repositories
 
-## Background FOO BAR
+## Background 
 
 The NMDC [Introduction to metadata and ontologies](https://microbiomedata.org/introduction-to-metadata-and-ontologies/) primer describes the context for this project.
 
