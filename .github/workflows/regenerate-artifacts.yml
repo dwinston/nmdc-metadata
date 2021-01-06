@@ -1,13 +1,13 @@
 name: Regenerate Artifacts
 
-# Controls when the action will run. Triggers the workflow on push event
-# but only for the master branch, and specifically when a YAML file in 'schema' folder is modified
+# Controls when the action will run. Triggers the workflow on push or pull request event
 on:
   push:
     branches:
-    - master
-    paths:
-    - 'schema/*.yaml'
+      - master
+  pull_request:
+    branches:
+      - master
   repository_dispatch:
     types: trigger-build-artifacts
 
@@ -47,17 +47,3 @@ jobs:
       run: |
         export PATH=$PATH:`pwd`/jsonschema2pojo-1.0.2/bin
         make all
-        cd schema && python generate_uml.py nmdc.yaml nmdc_schema_uml.png && cd ..
-        # if [ $? -eq 0 ]; then
-        #  git config --global user.name "$GITHUB_NAME"
-        #  git config --global user.email "$GITHUB_EMAIL"
-        #  git add schema/nmdc.*
-        #  git add schema/nmdc_schema_uml.png
-        #  git commit -m "Regenerate artifacts from nmdc.yaml"
-        #  git push
-        # else
-        #  echo "'make' failed to finish successfully"
-        # fi
-      # env:
-      #   GITHUB_NAME: ${{ secrets.WORKFLOW_USERNAME }}
-      #   GITHUB_EMAIL: ${{ secrets.WORKFLOW_EMAIL }}
