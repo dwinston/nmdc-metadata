@@ -6,8 +6,6 @@
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/microbiomedata/nmdc-metadata?branch=master&kill_cache=1)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/microbiomedata/nmdc-metadata?branch=master&kill_cache=1)
 
-# FOO BAR
-
 The purpose of this repository is to manage metadata for the [National Microbiome Data Collaborative (NMDC)](https://microbiomedata.org/). The [NMDC](https://microbiomedata.org/) is a multi-organizational effort to enable integrated microbiome data across diverse areas in medicine, agriculture, bioenergy, and the environment. This integrated platform facilitates comprehensive discovery of and access to multidisciplinary microbiome data in order to unlock new possibilities with microbiome data science. 
 
 Tasks managed by the repository are:
